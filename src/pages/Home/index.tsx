@@ -8,14 +8,14 @@ export function Home() {
         <Header />
         <SectionContainer>
             <div>
-            <NavLink to={"/"}>Sofá Retro</NavLink>
-            <div>Sofá Retrátil</div>
-            <div>Sofás Populares</div>
-            <div>Poltronas</div>
-            <div>Camas</div>
-            <div>Produtos em Vine</div>
-            <div>Móveis</div>
-            <div>Utilidades</div>
+            <NavLink to={"/sofaretro"}>Sofá Retro</NavLink>
+            <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
+            <NavLink to={"/sofapopulares"}>Sofás Populares</NavLink>
+            <NavLink  to={"/poltronas"}>Poltronas</NavLink>
+            <NavLink  to={"/camas"}>Camas</NavLink>
+            <NavLink  to={"/produtosvine"}>Produtos em Vine</NavLink>
+            <NavLink  to={"/moveis"}>Móveis</NavLink>
+            <NavLink  to={"/utilidades"}>Utilidades</NavLink>
             </div>
         </SectionContainer>
         </>
