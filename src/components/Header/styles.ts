@@ -7,6 +7,12 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["beige-400"]};
   padding: 3rem;
   max-height: 10rem;
+  max-width: 100%;
+
+  /* position: sticky;
+  top: 0;
+  position: 0; */
+
 `;
 
 export const HeaderContent = styled.div`

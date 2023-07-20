@@ -5,6 +5,7 @@ export const SectionContainer = styled.section`
   padding: 2rem;
   max-width: 100%;
 
+
   @media screen and (max-width: 768px) {
     display: flex;
     align-items: center;

@@ -5,10 +5,15 @@ export const CardContainer = styled.div`
   align-items: center;
   gap: 2rem;
  
-
   img {
     width: 13rem;
     border-radius: 9px;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 100%;
+    }
   }
 `;
 
@@ -18,10 +23,16 @@ export const CardContent = styled.div`
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  margin: 2rem 1rem 1rem 2rem;
+  max-width: 100%;
 
   background: ${(props) => props.theme["base-card"]};
   border-radius: 6px;
   padding: 2rem 2rem 1rem 2rem;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 ;
 `;
 
