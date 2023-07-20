@@ -5,7 +5,7 @@ export function SectionLink() {
     return (
         <SectionContainer>
         <SectionContent>
-          <NavLink to={"/sofaretro"}> Sofá Retrô</NavLink>
+          <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
           <p>{"•"}</p> 
           <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
           <p>{"•"}</p>

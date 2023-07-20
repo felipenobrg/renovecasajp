@@ -1,15 +1,20 @@
 import { Header } from "../../components/Header";
+import { ProductCard } from "../../components/ProductCard";
 import { AboutDelivery } from "../Home/Components/AboutDelivery";
-import { SectionLink } from "../Home/Components/SectionLink";
 
+import { SectionLink } from "../Home/Components/SectionLink";
 
 export function SofaRetro() {
   return (
     <>
       <Header />
       <AboutDelivery />
-
       <SectionLink />
+
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+     
     </>
   );
 }

@@ -10,4 +10,6 @@ export const defaultTheme = {
     'purple-400': '#7D14AF',
 
     'beige-400': '#FAF2E7',
+
+    'base-card': '#F3F2F2',
   } as const
