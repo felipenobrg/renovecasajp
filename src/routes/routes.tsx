@@ -19,7 +19,6 @@ export function Router() {
             <Route path="/camas" element={<Camas />} />
             <Route path="/produtosvine" element={<ProdutosEmVine />} />
             <Route path="/utilidades" element={<Utilidades />} />
-
         </Routes>
     )
 }
