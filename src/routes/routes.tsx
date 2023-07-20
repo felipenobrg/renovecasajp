@@ -5,7 +5,7 @@ import { SofaRetro } from "../pages/Sofa-retro"
 import { SofasPopulares } from "../pages/Sofas-populares"
 import { Poltronas } from "../pages/Poltronas"
 import { Camas } from "../pages/Camas"
-import { ProdutosEmVine } from "../pages/Produtos-em-vine"
+import { ProdutosEmVime } from "../pages/Produtos-em-vime"
 import { Utilidades } from "../pages/Utilidades"
 import { Moveis } from "../pages/Moveis"
 
@@ -19,7 +19,7 @@ export function Router() {
             <Route path="/poltronas" element={<Poltronas />} />
             <Route path="/moveis" element={<Moveis />} />
             <Route path="/camas" element={<Camas />} />
-            <Route path="/produtosvine" element={<ProdutosEmVine />} />
+            <Route path="/produtosvime" element={<ProdutosEmVime />} />
             <Route path="/utilidades" element={<Utilidades />} />
         </Routes>
     )

@@ -15,7 +15,7 @@ export function SectionLink() {
           <p>{"•"}</p>
           <NavLink to={"/camas"}>Camas</NavLink>
           <p>{"•"}</p>
-          <NavLink to={"/produtosvine"}>Produtos em Vime</NavLink>
+          <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
           <p>{"•"}</p>
           <NavLink to={"/moveis"}>Móveis</NavLink>
           <p>{"•"}</p>

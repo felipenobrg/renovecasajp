@@ -1,15 +1,13 @@
-import { Truck } from "phosphor-react";
 import { Header } from "../../components/Header";
+import { AboutDelivery } from "../Home/Components/AboutDelivery";
 import { SectionLink } from "../Home/Components/SectionLink";
-import { DeliveryContent } from "../Home/styles";
+
 
 export function SofaRetro() {
   return (
     <>
       <Header />
-      <DeliveryContent>
-        <Truck size={24} /> Oferecemos frete em toda João Pessoa e Região*
-      </DeliveryContent>
+      <AboutDelivery />
 
       <SectionLink />
     </>

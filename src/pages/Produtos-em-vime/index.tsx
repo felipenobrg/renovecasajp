@@ -1,8 +1,8 @@
 import { Header } from "../../components/Header";
-import { AboutDelivery } from "../Home/Components/AboutDelivery";
 import { SectionLink } from "../Home/Components/SectionLink";
+import { AboutDelivery } from "../Home/Components/AboutDelivery";
 
-export function SofasPopulares() {
+export function ProdutosEmVime() {
   return (
     <>
       <Header />
