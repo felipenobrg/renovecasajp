@@ -16,9 +16,9 @@ export function SofaRetro() {
       <SectionLink />
  
       <ProductCard imgSrc={SofaRetroCinza} title="Sofá Retrô Cinza Chumbo 1.90x90cm" price="949,99" oldPrice="1099,99" />
-      <ProductCard imgSrc={SofaRetroPreto} title="Sofá Retrô Preto Chumbo 1.90x90cm" price="949,99" oldPrice="1099,99" />
-      <ProductCard imgSrc={SofaRetroAzul} title="Sofá Retrô Azul Royal Chumbo 1.90x90cm" price="949,99" oldPrice="1099,99" />
-      <ProductCard imgSrc={SofaRetroVermelho} title="Sofá Retrô Vermelho Chumbo 1.90x90cm" price="949,99" oldPrice="1099,99" />
+      <ProductCard imgSrc={SofaRetroPreto} title="Sofá Retrô Preto 1.90x90cm" price="949,99" oldPrice="1099,99" />
+      <ProductCard imgSrc={SofaRetroAzul} title="Sofá Retrô Azul Royal 1.90x90cm" price="949,99" oldPrice="1099,99" />
+      <ProductCard imgSrc={SofaRetroVermelho} title="Sofá Retrô Vermelho 1.90x90cm" price="949,99" oldPrice="1099,99" />
       <ProductCard imgSrc={SofaRetroTerraCota} title="Sofá Retrô Terra Cota 1.90x90cm" price="1049,99" oldPrice="1199,99" />
      
     </>
