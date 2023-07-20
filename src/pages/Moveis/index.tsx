@@ -1,6 +1,7 @@
+import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
-import { SectionLink } from "../Home/Components/SectionLink";
-import { AboutDelivery } from "../Home/Components/AboutDelivery";
+import { SectionLink } from "../../components/SectionLink";
+
 
 
 export function Moveis() {

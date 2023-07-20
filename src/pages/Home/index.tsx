@@ -1,7 +1,8 @@
+import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
+import { SectionLink } from "../../components/SectionLink";
 import { Carousel } from "./Components/Carousel";
-import { SectionLink } from "./Components/SectionLink";
-import { AboutDelivery } from "./Components/AboutDelivery";
+
 
 export function Home() {
   return (

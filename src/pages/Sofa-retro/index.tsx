@@ -1,8 +1,8 @@
+import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
-import { AboutDelivery } from "../Home/Components/AboutDelivery";
+import { SectionLink } from "../../components/SectionLink";
 
-import { SectionLink } from "../Home/Components/SectionLink";
 
 export function SofaRetro() {
   return (

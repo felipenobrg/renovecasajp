@@ -1,6 +1,6 @@
+import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
-import { AboutDelivery } from "../Home/Components/AboutDelivery";
-import { SectionLink } from "../Home/Components/SectionLink";
+import { SectionLink } from "../../components/SectionLink";
 
 export function Poltronas() {
   return (
