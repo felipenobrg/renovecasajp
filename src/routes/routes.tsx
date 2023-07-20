@@ -7,6 +7,7 @@ import { Poltronas } from "../pages/Poltronas"
 import { Camas } from "../pages/Camas"
 import { ProdutosEmVine } from "../pages/Produtos-em-vine"
 import { Utilidades } from "../pages/Utilidades"
+import { Moveis } from "../pages/Moveis"
 
 export function Router() {
     return (
@@ -16,6 +17,7 @@ export function Router() {
             <Route path="/sofaretratil" element={<SofaRetratil />} />
             <Route path="/sofaspopulares" element={<SofasPopulares />} />
             <Route path="/poltronas" element={<Poltronas />} />
+            <Route path="/moveis" element={<Moveis />} />
             <Route path="/camas" element={<Camas />} />
             <Route path="/produtosvine" element={<ProdutosEmVine />} />
             <Route path="/utilidades" element={<Utilidades />} />

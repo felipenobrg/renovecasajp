@@ -9,7 +9,7 @@ export function SectionLink() {
           <p>{"•"}</p> 
           <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
           <p>{"•"}</p>
-          <NavLink to={"/sofapopulares"}>Sofás Populares</NavLink>
+          <NavLink to={"/sofaspopulares"}>Sofás Populares</NavLink>
           <p>{"•"}</p>
           <NavLink to={"/poltronas"}>Poltronas</NavLink>
           <p>{"•"}</p>
