@@ -6,13 +6,15 @@ export const CardContainer = styled.div`
   gap: 2rem;
  
   img {
-    width: 13rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 9px;
   }
 
   @media (max-width: 768px) {
     img {
       width: 100%;
+      height: 100%;
     }
   }
 `;

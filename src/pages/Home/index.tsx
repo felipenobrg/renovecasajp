@@ -8,11 +8,8 @@ export function Home() {
   return (
     <>
       <Header />
-      
       <AboutDelivery />
-
       <SectionLink />
-
       <Carousel />
     </>
   );
