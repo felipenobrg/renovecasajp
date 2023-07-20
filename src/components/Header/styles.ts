@@ -21,5 +21,6 @@ export const HeaderContent = styled.div`
     margin-top: 1rem;
     width: 18rem;
     height: 18rem;
+    cursor: pointer;
   }
 `;
