@@ -39,6 +39,7 @@ export const CardContent = styled.div`
 export const TitleCard = styled.p`
   font-family: 'Baloo 2', sans-serif;
   font-size: 1.4rem;
+  text-align: center;
 `;
 
 
