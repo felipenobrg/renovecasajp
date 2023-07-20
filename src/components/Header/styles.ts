@@ -4,7 +4,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${(props) => props.theme["purple-300"]};
+  background: ${(props) => props.theme["beige-400"]};
   padding: 3rem;
   max-height: 10rem;
 `;
