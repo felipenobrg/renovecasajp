@@ -1,22 +1,30 @@
 import { WhatsappLogo } from "phosphor-react";
 import { CardContainer, CardContent, TitleCard, Price, MoneySign, OldPrice, ButtonCard } from "./styles";
+import queryString from 'query-string';
 
 interface ProductCardProps {
   imgSrc: string;
   title: string;
   price: string;
   oldPrice: string;
+  textForWhatsApp: string;
 }
 
-export function ProductCard({ imgSrc, title, price, oldPrice}: ProductCardProps) {
-  
+export function ProductCard({ imgSrc, title, price, oldPrice, textForWhatsApp }: ProductCardProps) {
+  const handleWhatsAppClick = () => {
+    const url = `https://api.whatsapp.com/send?${queryString.stringify({
+      phone: '5583987663399',
+      text: textForWhatsApp,
+    })}`;
+    window.open(url, '_blank');
+  };
     return (
         <CardContainer>
         <CardContent>
           <img src={imgSrc} alt="" />
           <TitleCard>{title}</TitleCard>
           <Price><MoneySign>R$</MoneySign> {price} <OldPrice>R$ {oldPrice}</OldPrice></Price>
-          <ButtonCard><WhatsappLogo size={20} weight="fill" />COMPRAR</ButtonCard>
+          <ButtonCard onClick={handleWhatsAppClick} ><WhatsappLogo size={20} weight="fill" />COMPRAR</ButtonCard>
         </CardContent>
         </CardContainer>
     )
