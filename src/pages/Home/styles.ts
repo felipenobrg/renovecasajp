@@ -19,7 +19,6 @@ export const DeliveryContent = styled.div`
 export const SectionContainer = styled.section`
   background: ${(props) => props.theme["purple-400"]};
   padding: 2rem;
-
   max-width: 100%;
 
   @media screen and (max-width: 768px) {
@@ -33,17 +32,29 @@ export const SectionContainer = styled.section`
 
 export const SectionContent = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 1rem;
   overflow-x: auto;
 
   padding-right: 1rem;
+
+  p {
+    color: ${(props) => props.theme["gray-100"]};
+  }
 
   a {
     text-decoration: none;
     font-weight: bold;
     color: ${(props) => props.theme["gray-100"]};
     margin-right: 0.5rem;
+    border-bottom: 2px solid transparent;
+
+
+    &:hover {
+      transition: 0.4s ease;
+      border-bottom: 2px solid white;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -51,10 +62,3 @@ export const SectionContent = styled.div`
   }
 `;
 
-export const CarouselContainer = styled.div`
-  margin-top: 0.5rem;
-  img {
-    width: 100%;
-    height: 30rem;
-  }
-`;
