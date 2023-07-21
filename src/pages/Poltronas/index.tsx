@@ -3,6 +3,9 @@ import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
 import { SectionLink } from "../../components/SectionLink";
+
+import PoltronaCapitoneCinza from '../../assets/Poltronas/PoltronaCapitoneCinza.jpg'
+import PoltronaCapitoneAzul from '../../assets/Poltronas/PoltronaCapitoneAzul.jpg'
 import PoltronaCapitoneMarrom from '../../assets/Poltronas/PoltronaCapitoneMarrom.jpg'
 import PoltronaCapitoneRosa from '../../assets/Poltronas/PoltronaCapitoneRosa.jpg'
 import PoltronaAlmofadaCinza from '../../assets/Poltronas/PoltronaAlmodadaCinza.jpg'
@@ -21,8 +24,21 @@ export function Poltronas() {
       <SectionLink />
 
       <ScrollUp />
-
       <ProductCard
+        imgSrc={PoltronaCapitoneCinza}
+        title="Poltrona Capitonê Cinza"
+        price="219,99"
+        oldPrice="249,99"
+        textForWhatsApp="Olá. Gostaria de comprar Poltrona Capitonê Cinza"
+      />
+       <ProductCard
+        imgSrc={PoltronaCapitoneAzul}
+        title="Poltrona Capitonê Azul"
+        price="219,99"
+        oldPrice="249,99"
+        textForWhatsApp="Olá. Gostaria de comprar Poltrona Capitonê Azul"
+      />
+         <ProductCard
         imgSrc={PoltronaCapitoneMarrom}
         title="Poltrona Capitonê Marrom"
         price="219,99"
@@ -38,14 +54,14 @@ export function Poltronas() {
       />
       <ProductCard
         imgSrc={PoltronaAlmofadaCinza}
-        title="Poltrona Poltrona Almofadada Cinza"
+        title="Poltrona Almofadada Cinza"
         price="219,99"
         oldPrice="249,99"
         textForWhatsApp="Olá. Gostaria de comprar Poltrona Almofadada Cinza"
       />
       <ProductCard
         imgSrc={PoltronaAlmofadaBege}
-        title="Poltrona Poltrona Almofadada Cinza"
+        title="Poltrona Almofadada Cinza"
         price="219,99"
         oldPrice="249,99"
         textForWhatsApp="Olá. Gostaria de comprar Poltrona Almofadada Cinza"

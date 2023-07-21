@@ -20,21 +20,20 @@ export const SectionContent = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  margin-left: -1rem;
-  padding-right: 1rem;
+  text-align: center;
 
   p {
-    color: ${(props) => props.theme["gray-100"]};
+    color: ${(props) => props.theme["white"]};
   }
 
   a {
     text-decoration: none;
     font-weight: bold;
-    color: ${(props) => props.theme["gray-100"]};
+    color: ${(props) => props.theme["white"]};
     position: relative;
     font-size: 1rem;
   }
-  
+
   a.active::after {
     content: "";
     position: absolute;
@@ -47,5 +46,6 @@ export const SectionContent = styled.div`
 
   @media screen and (max-width: 768px) {
     gap: 1rem;
+    margin-left: -1rem;
   }
 `;
