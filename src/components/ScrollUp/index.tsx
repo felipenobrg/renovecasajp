@@ -3,8 +3,7 @@ import { useState, useEffect } from "react";
 import { ScrollDownContainer } from "./styles";
 
 export function ScrollUp() {
-    const [showArrow, setShowArrow] = useState(false);
-    console.log(showArrow)
+    const [, setShowArrow] = useState(false);
 
     useEffect(() => {
       const handleScroll = () => {
