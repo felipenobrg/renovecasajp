@@ -1,7 +1,11 @@
 import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
+import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
 import { SectionLink } from "../../components/SectionLink";
+
+import Baus from '../../assets/Utilidades/Baus.jpg'
+import CadeiraDeBalancoDeFio from '../../assets/Utilidades/CadeiraDeBalanco.jpg'
 
 
 export function Utilidades() {
@@ -12,7 +16,23 @@ export function Utilidades() {
 
       <SectionLink />
 
+      <ProductCard
+        imgSrc={Baus}
+        title="Báu 90x40"
+        price="99,99"
+        oldPrice="119,99"
+        textForWhatsApp="Olá. Gostaria de comprar Baú"
+      />
+     <ProductCard
+        imgSrc={CadeiraDeBalancoDeFio}
+        title="Cadeira de Balanço de Fio"
+        price="189,99"
+        oldPrice="199,99"
+        textForWhatsApp="Olá. Gostaria de comprar Cadeira de Balanço de Fio"
+      />
       <ScrollUp />
+
+      
     </>
   );
 }

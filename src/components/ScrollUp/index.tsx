@@ -1,32 +1,47 @@
-import { ArrowCircleUp } from "phosphor-react";
+import { ArrowCircleUp, WhatsappLogo } from "phosphor-react";
 import { useState, useEffect } from "react";
 import { ScrollDownContainer } from "./styles";
+import queryString from "query-string";
 
 export function ScrollUp() {
-    const [, setShowArrow] = useState(false);
+  const [, setShowArrow] = useState(false);
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const shouldShowArrow = window.scrollY > 200;
-        setShowArrow(shouldShowArrow);
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
-  
-    const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth', 
-      });
+  useEffect(() => {
+    const handleScroll = () => {
+      const shouldShowArrow = window.scrollY > 200;
+      setShowArrow(shouldShowArrow);
     };
-    return (
-        <ScrollDownContainer onClick={scrollToTop}>
-        <ArrowCircleUp size={35} color="#7D14AF" weight="fill" />
-        </ScrollDownContainer>
-    )
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
+  function handleWhatsAppClick() {
+    const url = `https://api.whatsapp.com/send?${queryString.stringify({
+      phone: "5583987663399",
+      text: "Olá. Me interessei pelos produtos",
+    })}`;
+    window.open(url, "_blank");
+  }
+  return (
+    <ScrollDownContainer>
+      <ArrowCircleUp
+        onClick={scrollToTop}
+        size={35}
+        color="#7D14AF"
+        weight="fill"
+      />
+      <WhatsappLogo onClick={handleWhatsAppClick} size={40} color="#48C758" />
+    </ScrollDownContainer>
+  );
 }
