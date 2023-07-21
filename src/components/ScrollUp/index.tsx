@@ -2,7 +2,7 @@ import { ArrowCircleUp } from "phosphor-react";
 import { useState, useEffect } from "react";
 import { ScrollDownContainer } from "./styles";
 
-export function ScrollDown() {
+export function ScrollUp() {
     const [showArrow, setShowArrow] = useState(false);
     console.log(showArrow)
 

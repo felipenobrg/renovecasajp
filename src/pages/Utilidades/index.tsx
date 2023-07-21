@@ -1,6 +1,6 @@
 import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
-import { ScrollDown } from "../../components/ScrollDown";
+import { ScrollUp } from "../../components/ScrollUp";
 import { SectionLink } from "../../components/SectionLink";
 
 
@@ -12,7 +12,7 @@ export function Utilidades() {
 
       <SectionLink />
 
-      <ScrollDown />
+      <ScrollUp />
     </>
   );
 }
