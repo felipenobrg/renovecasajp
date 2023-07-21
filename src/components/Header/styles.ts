@@ -9,9 +9,14 @@ export const HeaderContainer = styled.header`
   max-height: 10rem;
   max-width: 100%;
 
-  /* position: sticky;
+  position: sticky;
   top: 0;
-  position: 0; */
+  position: 0;
+
+  @media screen and (max-width: 768px) {
+    max-height: 5rem;
+    padding: 4rem;
+  }
 
 `;
 
@@ -28,5 +33,12 @@ export const HeaderContent = styled.div`
     width: 18rem;
     height: 18rem;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      height: 16rem;
+      width: 17rem;
+    }
   }
 `;

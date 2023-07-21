@@ -10,7 +10,7 @@ export function Header() {
       <HeaderContainer>
         <HeaderContent>
           <NavLink to={"/"}>
-          <img src={LogoRenoveCasa} alt="" />
+            <img src={LogoRenoveCasa} alt="" />
           </NavLink>
         </HeaderContent>
       </HeaderContainer>
