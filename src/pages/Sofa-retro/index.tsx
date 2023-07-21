@@ -7,6 +7,12 @@ import SofaRetroPreto from "../../assets/SofaRetro/RetroPreto.jpg";
 import SofaRetroAzul from "../../assets/SofaRetro/RetroAzul.jpg";
 import SofaRetroVermelho from "../../assets/SofaRetro/RetroVermelho.jpg";
 import SofaRetroTerraCota from "../../assets/SofaRetro/RetroTerraCota.jpg";
+import RetroLinhoMarrom from "../../assets/SofaRetro/RetroLinhoMarrom.jpg";
+import RetroLinhoMarromEscuro from "../../assets/SofaRetro/RetroLinhoMarromEscuro.jpg";
+import RetroLinhoMarromClaroAlmofadaLisa from "../../assets/SofaRetro/RetroLinhoMarromClaro.jpg";
+
+
+
 import { ScrollUp } from "../../components/ScrollUp";
 
 export function SofaRetro() {
@@ -47,9 +53,30 @@ export function SofaRetro() {
       <ProductCard
         imgSrc={SofaRetroTerraCota}
         title="Sofá Retrô Terra Cota 1.90x90cm"
-        price="1049,99"
+        price="949,99"
         oldPrice="1199,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Retrô Terra Cota"
+      />
+       <ProductCard
+        imgSrc={RetroLinhoMarrom}
+        title="Sofá Retrô Linho Marrom 1.90x90cm"
+        price="999,99"
+        oldPrice="1299,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Retrô Linho Marrom"
+      />
+       <ProductCard
+        imgSrc={RetroLinhoMarromEscuro}
+        title="Sofá Linho Marrom Escuro 1.90x90cm"
+        price="999,99"
+        oldPrice="1299,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Linho Marrom Escuro"
+      />
+       <ProductCard
+        imgSrc={RetroLinhoMarromClaroAlmofadaLisa}
+        title="Sofá Linho Marrom Claro c/ Almofada Lisa 1.90x90cm"
+        price="999,99"
+        oldPrice="1299,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Linho Marrom Claro c/ Almofada"
       />
       <ScrollUp />
     </>
