@@ -6,6 +6,7 @@ import { SectionLink } from "../../components/SectionLink";
 import SofaCinza from "../../assets/SofaRetratil/sofaCinza.jpg";
 import SofaMarrom from "../../assets/SofaRetratil/sofaMarrom.jpg";
 import SofaVermelho from "../../assets/SofaRetratil/sofaVermelho.jpg";
+import { ScrollDown } from "../../components/ScrollDown";
 
 export function SofaRetratil() {
   return (
@@ -35,6 +36,7 @@ export function SofaRetratil() {
         oldPrice="1199,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Retrátil Vermelho"
       />
+      <ScrollDown />
     </>
   );
 }

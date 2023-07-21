@@ -5,6 +5,7 @@ import BanquetaPreta from "../../assets/ProdutosEmVime/banquetaPreta.jpg";
 import BanquetaMarrom from "../../assets/ProdutosEmVime/banquetaMarrom.jpg";
 import BanquetaBege from "../../assets/ProdutosEmVime/banquetaBege.jpg";
 import { ProductCard } from "../../components/ProductCard";
+import { ScrollDown } from "../../components/ScrollDown";
 
 export function ProdutosEmVime() {
   return (
@@ -34,6 +35,8 @@ export function ProdutosEmVime() {
         oldPrice="119,99"
         textForWhatsApp="Olá. Gostaria de comprar Banqueta Bege em Vime"
       />
+
+<ScrollDown />
     </>
   );
 }

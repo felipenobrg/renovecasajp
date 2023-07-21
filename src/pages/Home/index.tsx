@@ -10,8 +10,6 @@ export function Home() {
       <AboutDelivery />
       <SectionLink />
       <Carousel />
-
-      
     </>
   );
 }
