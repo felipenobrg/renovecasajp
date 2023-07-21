@@ -4,6 +4,7 @@ import { ScrollDownContainer } from "./styles";
 
 export function ScrollDown() {
     const [showArrow, setShowArrow] = useState(false);
+    console.log(showArrow)
 
     useEffect(() => {
       const handleScroll = () => {
