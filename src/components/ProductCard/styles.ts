@@ -76,4 +76,9 @@ export const ButtonCard = styled.button`
     width: 100%;
     cursor: pointer;
     font-weight: bold;
+
+    &:hover {
+      transition: 0.5s background-color;
+      background: ${(props) => props.theme["green-400"]};
+    }
 `
