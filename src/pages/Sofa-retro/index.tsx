@@ -7,8 +7,11 @@ import SofaRetroPreto from "../../assets/SofaRetro/RetroPreto.jpg";
 import SofaRetroAzul from "../../assets/SofaRetro/RetroAzul.jpg";
 import SofaRetroVermelho from "../../assets/SofaRetro/RetroVermelho.jpg";
 import SofaRetroTerraCota from "../../assets/SofaRetro/RetroTerraCota.jpg";
+import { ScrollDown } from "../../components/ScrollDown";
 
 export function SofaRetro() {
+
+  
   return (
     <>
       <Header />
@@ -50,6 +53,7 @@ export function SofaRetro() {
         oldPrice="1199,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Retrô Terra Cota"
       />
+  <ScrollDown />
     </>
   );
 }

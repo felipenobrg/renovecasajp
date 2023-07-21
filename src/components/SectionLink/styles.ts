@@ -10,7 +10,7 @@ export const SectionContainer = styled.section`
     display: flex;
     align-items: center;
     
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     text-align: center;
     overflow-x: auto;
   }

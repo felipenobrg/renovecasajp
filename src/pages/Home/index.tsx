@@ -3,7 +3,6 @@ import { Header } from "../../components/Header";
 import { SectionLink } from "../../components/SectionLink";
 import { Carousel } from "./Components/Carousel";
 
-
 export function Home() {
   return (
     <>
@@ -11,6 +10,8 @@ export function Home() {
       <AboutDelivery />
       <SectionLink />
       <Carousel />
+
+      
     </>
   );
 }
