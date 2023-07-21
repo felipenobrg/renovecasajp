@@ -21,7 +21,7 @@ export function ProductCard({ imgSrc, title, price, oldPrice, textForWhatsApp }:
     return (
         <CardContainer>
         <CardContent>
-          <img src={imgSrc} alt="" />
+          <img loading="lazy" src={imgSrc} alt="" />
           <TitleCard>{title}</TitleCard>
           <Price><MoneySign>R$</MoneySign> {price} <OldPrice>R$ {oldPrice}</OldPrice></Price>
           <ButtonCard onClick={handleWhatsAppClick} ><WhatsappLogo size={20} weight="fill" />COMPRAR</ButtonCard>
