@@ -14,6 +14,7 @@ import PoltronaAlmofadaAzul from '../../assets/Poltronas/PoltronaAlmofadadaAzul.
 import PoltronaAlmofadaBege from '../../assets/Poltronas/PoltronaAlmofadadaBege.jpg'
 import PoltronaBobBege from '../../assets/Poltronas/PoltronaBobBege.jpg'
 import PoltronaBobTerraCota from '../../assets/Poltronas/PoltronaBobTerraCota.jpg'
+import PoltronaBobCinzaLinho from '../../assets/Poltronas/PoltronaBobCinzaLinho.jpg'
 
 export function Poltronas() {
   return (
@@ -93,6 +94,13 @@ export function Poltronas() {
         price="219,99"
         oldPrice="249,99"
         textForWhatsApp="Olá. Gostaria de comprar Poltrona Bob Terra Cota"
+      />
+       <ProductCard
+        imgSrc={PoltronaBobCinzaLinho}
+        title="Poltrona Bob Cinza Linho"
+        price="224,99"
+        oldPrice="289,99"
+        textForWhatsApp="Olá. Gostaria de comprar PPoltrona Bob Cinza Linho"
       />
     </>
   );

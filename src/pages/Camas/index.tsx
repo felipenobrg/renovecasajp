@@ -3,11 +3,11 @@ import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
 import { SectionLink } from "../../components/SectionLink";
-import CamaDeCasalSimples from "../../assets/Camas/CamaDeCasalSimples.jpg"
-import CamaDeSolteiroSimples from "../../assets/Camas/CamaDeSolteiro.jpg"
-import CamaMolasEnsacadas from "../../assets/Camas/CamaDeCasalMolas.jpg"
-
-
+import CamaDeCasalSimples from "../../assets/Camas/CamaDeCasalSimples.jpg";
+import CamaDeSolteiroSimples from "../../assets/Camas/CamaDeSolteiro.jpg";
+import CamaMolasEnsacadas from "../../assets/Camas/CamaDeCasalMolas.jpg";
+import ColchaoDeMolas from "../../assets/Camas/ColchaoDeMolas.jpg";
+import ColchaoMaisBaseCasal from "../../assets/Camas/ColchaoComBaseCasal.jpg";
 
 export function Camas() {
   return (
@@ -24,19 +24,33 @@ export function Camas() {
         oldPrice="699,99"
         textForWhatsApp="Olá. Gostaria de comprar Cama Box de Casal Topázio"
       />
-        <ProductCard
+      <ProductCard
         imgSrc={CamaDeSolteiroSimples}
         title="Cama Box de Solteiro Topázio"
         price="449,99"
         oldPrice="599,99"
         textForWhatsApp="Olá. Gostaria de comprar Cama Box de Solteiro Topázio"
       />
-        <ProductCard
+      <ProductCard
         imgSrc={CamaMolasEnsacadas}
         title="Cama Box de Casal Molas Ensacadas Topázio"
         price="899,99"
         oldPrice="999,99"
         textForWhatsApp="Olá. Gostaria de comprar Cama Box de Casal Molas Ensacadas Topázi"
+      />
+      <ProductCard
+        imgSrc={ColchaoDeMolas}
+        title="Colchão Molas Ensacadas Topázio"
+        price="849,99"
+        oldPrice="899,99"
+        textForWhatsApp="Olá. Gostaria de comprar Colchão Molas Ensacadas"
+      />
+      <ProductCard
+        imgSrc={ColchaoMaisBaseCasal}
+        title="Colchão + Base de Casal Topázio"
+        price="799,99"
+        oldPrice="899,99"
+        textForWhatsApp="Olá. Gostaria de comprar Colchão + Base de Casal Topázio"
       />
 
       <ScrollUp />

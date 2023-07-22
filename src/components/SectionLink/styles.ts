@@ -31,15 +31,14 @@ export const SectionContent = styled.div`
     font-weight: bold;
     color: ${(props) => props.theme["white"]};
     position: relative;
-    font-size: 1rem;
   }
 
   a.active::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
-    height: 1.4px;
+    height: 2px;
     width: 100%;
     background: ${(props) => props.theme["white"]};
   }
