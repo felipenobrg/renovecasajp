@@ -62,10 +62,10 @@ export function SofasPopulares() {
       />
       <ProductCard
         imgSrc={SofaTresLugaresMarrom}
-        title="Conjunto de Sofá Três Lugares Marrom"
+        title="Sofá Três Lugares Marrom"
         price="449,99"
         oldPrice="549,99"
-        textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Três Lugares Marrom"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Três Lugares Marrom"
       />
        
       <ProductCard
