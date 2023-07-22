@@ -44,14 +44,14 @@ export function Moveis() {
        <ProductCard
         imgSrc={PainelDeTv46Polegadas}
         title="Painel de TV 46 Polegadas"
-        price="449,99"
+        price="399,99"
         oldPrice="599,99"
         textForWhatsApp="Olá. Gostaria de comprar Painel de TV 46 Polegadas"
       />
        <ProductCard
         imgSrc={PainelDeTv55Polegadas}
         title="Painel de TV 55 Polegadas"
-        price="549,99"
+        price="749,99"
         oldPrice="699,99"
         textForWhatsApp="Olá. Gostaria de comprar Painel de TV 55 Polegadas"
       />
