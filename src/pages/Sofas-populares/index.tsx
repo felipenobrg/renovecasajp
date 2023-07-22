@@ -56,8 +56,8 @@ export function SofasPopulares() {
       <ProductCard
         imgSrc={ConjuntoDeSofaCinzaSemAlmofada}
         title="Conjunto de Sofá Cinza Sem Almofada"
-        price="699,99"
-        oldPrice="899,99"
+        price="599,99"
+        oldPrice="699,99"
         textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Cinza Sem Almofada"
       />
       <ProductCard
@@ -78,7 +78,7 @@ export function SofasPopulares() {
       <ProductCard
         imgSrc={DubaiDoisLugaresBege}
         title="Sofá Dubai Dois Lugares Bege"
-        price="399,99"
+        price="449,99"
         oldPrice="499,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Dubai Dois Lugares Bege"
       />
