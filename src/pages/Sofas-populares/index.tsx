@@ -86,14 +86,14 @@ export function SofasPopulares() {
       <ProductCard
         imgSrc={DubaiCinza}
         title="Sofá Dubai Cinza Três Lugares"
-        price="449,99"
+        price="549,99"
         oldPrice="599,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Dubai Cinza Três Lugares"
       />
       <ProductCard
         imgSrc={DubaiMarrom}
         title="Sofá Dubai Marrom Três Lugares"
-        price="449,99"
+        price="549,99"
         oldPrice="599,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Dubai Marrpm Três Lugares"
       />
