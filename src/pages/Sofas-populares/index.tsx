@@ -16,6 +16,7 @@ import DubaiDoisLugaresBege from "../../assets/SofasPopulares/SofaDoisLugaresBeg
 import DubaiCinza from "../../assets/SofasPopulares/SofaDubaiCinza.jpg";
 import DubaiMarrom from "../../assets/SofasPopulares/SofaDubaiMarrom.jpg";
 import { ScrollUp } from "../../components/ScrollUp";
+import { Footer } from "../../components/Footer";
 
 export function SofasPopulares() {
   return (
@@ -100,6 +101,8 @@ export function SofasPopulares() {
       />
 
       <ScrollUp />
+
+      <Footer />
     </>
   );
 }

@@ -16,6 +16,7 @@ import SofaParisMarfim from "../../assets/SofaRetratil/SofaParisBege.jpg";
 import SofaLuxoAzul from "../../assets/SofaRetratil/SofaLuxoAzul.jpg";
 import SofaLuxoOffWhite from "../../assets/SofaRetratil/SofaLuxoBrancoGelo.jpg";
 import SofaLuxoCinza from "../../assets/SofaRetratil/SofaLuxoCinza.jpg";
+import { Footer } from "../../components/Footer";
 
 export function SofaRetratil() {
   return (
@@ -95,6 +96,8 @@ export function SofaRetratil() {
         textForWhatsApp="Olá. Gostaria de comprar Sofá Luxo Cinza"
       />
       <ScrollUp />
+
+      <Footer />
     </>
   );
 }

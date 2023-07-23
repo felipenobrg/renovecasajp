@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { Footer } from "../../../../components/Footer";
 
 export function Carousel() {
   const isSmallScreen = window.innerWidth < 768;
@@ -17,6 +18,7 @@ export function Carousel() {
     window.location.href = '/sofaretro';
   }
   return (
+    <>
     <CarouselContainer>
       {isSmallScreen && (
         <Swiper
@@ -42,5 +44,7 @@ export function Carousel() {
         </Swiper>
       )}
     </CarouselContainer>
+    <Footer />
+    </>
   );
 }

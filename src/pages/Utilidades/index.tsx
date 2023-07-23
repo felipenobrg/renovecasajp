@@ -7,6 +7,7 @@ import { SectionLink } from "../../components/SectionLink";
 import Baus from '../../assets/Utilidades/Baus.jpg'
 import CadeiraDeBalancoDeFio from '../../assets/Utilidades/CadeiraDeBalanco.jpg'
 import CantinhoDeCafe from '../../assets/Utilidades/CatinhoDeCafe.jpg'
+import { Footer } from "../../components/Footer";
 
 
 export function Utilidades() {
@@ -40,7 +41,7 @@ export function Utilidades() {
       />
       <ScrollUp />
 
-      
+      <Footer />
     </>
   );
 }

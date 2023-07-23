@@ -6,6 +6,7 @@ import BanquetaMarrom from "../../assets/ProdutosEmVime/banquetaMarrom.jpg";
 import BanquetaBege from "../../assets/ProdutosEmVime/banquetaBege.jpg";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
+import { Footer } from "../../components/Footer";
 
 export function ProdutosEmVime() {
   return (
@@ -37,6 +38,8 @@ export function ProdutosEmVime() {
       />
 
 <ScrollUp />
+
+<Footer />
     </>
   );
 }

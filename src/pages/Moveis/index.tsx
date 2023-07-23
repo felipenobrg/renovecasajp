@@ -9,9 +9,7 @@ import ArmarioBranco from '../../assets/Moveis/ArmarioDeCozinhaBranco.jpg'
 import ArmarioMarrom from '../../assets/Moveis/ArmarioDeCozinhaMarrom.jpg'
 import PainelDeTv46Polegadas from '../../assets/Moveis/PainelParaTv.jpg'
 import PainelDeTv55Polegadas from '../../assets/Moveis/PainelParaTv55.jpg'
-
-
-
+import { Footer } from "../../components/Footer";
 
 export function Moveis() {
   return (
@@ -56,6 +54,7 @@ export function Moveis() {
         textForWhatsApp="Olá. Gostaria de comprar Painel de TV 55 Polegadas"
       />
       <ScrollUp />
+   <Footer />
     </>
   );
 }

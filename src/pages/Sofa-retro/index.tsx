@@ -14,6 +14,7 @@ import RetroLinhoMarromClaroAlmofadaLisa from "../../assets/SofaRetro/RetroLinho
 
 
 import { ScrollUp } from "../../components/ScrollUp";
+import { Footer } from "../../components/Footer";
 
 export function SofaRetro() {
   return (
@@ -79,6 +80,8 @@ export function SofaRetro() {
         textForWhatsApp="Olá. Gostaria de comprar Sofá Linho Marrom Claro c/ Almofada"
       />
       <ScrollUp />
+
+      <Footer />
     </>
   );
 }

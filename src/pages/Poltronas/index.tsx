@@ -15,6 +15,7 @@ import PoltronaAlmofadaBege from '../../assets/Poltronas/PoltronaAlmofadadaBege.
 import PoltronaBobBege from '../../assets/Poltronas/PoltronaBobBege.jpg'
 import PoltronaBobTerraCota from '../../assets/Poltronas/PoltronaBobTerraCota.jpg'
 import PoltronaBobCinzaLinho from '../../assets/Poltronas/PoltronaBobCinzaLinho.jpg'
+import { Footer } from "../../components/Footer";
 
 export function Poltronas() {
   return (
@@ -102,6 +103,7 @@ export function Poltronas() {
         oldPrice="289,99"
         textForWhatsApp="Olá. Gostaria de comprar PPoltrona Bob Cinza Linho"
       />
+      <Footer />
     </>
   );
 }
