@@ -59,7 +59,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  position: fixed;
   top: 130px;
   right: 0;
   width: 100vw;
