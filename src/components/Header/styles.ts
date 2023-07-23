@@ -60,7 +60,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   align-items: center;
 
   position: absolute;
-  top: 100%;
+  top: 130px;
   right: 0;
   width: 100vw;
   background-color: ${(props) => props.theme["purple-400"]};
