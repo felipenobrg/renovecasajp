@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
 
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100;
 
   @media screen and (max-width: 768px) {
     max-height: 5rem;
@@ -66,7 +66,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme["purple-400"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
-  z-index: 3;
+  z-index: 200;
 `;
 
 export const DropdownList = styled.div`
@@ -93,6 +93,7 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
   cursor: pointer;
   margin-top: -1rem;
   background: none;
+  z-index: 200;
 
   .icon {
     width: 24px;

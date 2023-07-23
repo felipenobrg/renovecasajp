@@ -16,15 +16,20 @@ export function Header() {
   const handleDropdownToggle = () => {
     setDropdownOpen(!isDropdownOpen);
   };
+
+  const isSmallScreen = window.innerWidth < 768;
+
   return (
     <>
       <GlobalStyle />
       <HeaderContainer>
         <HeaderContent>
           <div>
+          {isSmallScreen && (
             <DropdownButton open={isDropdownOpen} onClick={handleDropdownToggle}>
                <div className="icon"/>
             </DropdownButton>
+            )}
             {isDropdownOpen && (
               <DropdownMenu open={isDropdownOpen}>
                 <DropdownList>
