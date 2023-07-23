@@ -55,7 +55,8 @@ export function SofasPopulares() {
       />
       <ProductCard
         imgSrc={ConjuntoDeSofaCinzaSemAlmofada}
-        title="Conjunto de Sofá Cinza Sem Almofada"
+        title="C
+        onjunto de Sofá Cinza Sem Almofada"
         price="599,99"
         oldPrice="699,99"
         textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Cinza Sem Almofada"

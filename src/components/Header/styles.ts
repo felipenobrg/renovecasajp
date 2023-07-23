@@ -1,4 +1,5 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
+import { keyframes, css } from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -11,20 +12,19 @@ export const HeaderContainer = styled.header`
 
   position: sticky;
   top: 0;
-  position: 0;
+  z-index: 1;
 
   @media screen and (max-width: 768px) {
     max-height: 5rem;
     padding: 4rem;
   }
-
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  gap: 1rem;
   width: 100%;
   max-width: 1120px;
 
@@ -40,5 +40,77 @@ export const HeaderContent = styled.div`
       height: 16rem;
       width: 17rem;
     }
+  }
+`;
+
+const slideIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+export const DropdownMenu = styled.div<{ open: boolean }>`
+  display: ${(props) => (props.open ? "flex" : "none")};
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100vw;
+  background-color: ${(props) => props.theme["purple-400"]};
+  border-radius: 4px;
+  animation: ${slideIn} 0.3s ease-in-out;
+`;
+
+export const DropdownList = styled.div`
+   a {
+    text-decoration: none;
+    color: ${(props) => props.theme["white"]};
+    display: block;
+    padding: 10px 18px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+`;
+
+export const DropdownButton = styled.button`
+  position: fixed;
+  border: 0;
+  padding: 15px 15px;
+  cursor: pointer;
+  z-index: 3;
+  margin-top: -1rem;
+ 
+  .icon {
+    width: 24px;
+    height: 2px;
+    background: ${(props) => props.theme["black"]};
+    position: relative;
+    display: flex;
+  }
+
+  .icon:before,
+  .icon:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: ${(props) => props.theme["black"]};
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .icon:before {
+    top: -6px;
+  }
+
+  .icon:after {
+    top: 6px
   }
 `;
