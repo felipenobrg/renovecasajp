@@ -66,6 +66,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme["purple-400"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
+  z-index: 10;
 `;
 
 export const DropdownList = styled.div`
@@ -90,8 +91,9 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
   border: 0;
   padding: 15px 15px;
   cursor: pointer;
-  z-index: 3;
+  z-index: -1rem;
   margin-top: -1rem;
+  background: none;
 
   .icon {
     width: 24px;
