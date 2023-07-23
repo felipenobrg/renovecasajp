@@ -27,6 +27,7 @@ export const HeaderContent = styled.div`
   gap: 1rem;
   width: 100%;
   max-width: 1120px;
+  z-index: 100;
 
   img {
     margin-top: 1rem;
@@ -59,6 +60,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   justify-content: center;
   align-items: center;
 
+  z-index: 100;
   position: fixed;
   top: 130px;
   right: 0;
@@ -87,6 +89,7 @@ interface DropdownButtonProps {
 
 export const DropdownButton = styled.button<DropdownButtonProps>`
   position: absolute;
+  z-index: 100;
   border: 0;
   padding: 15px 15px;
   cursor: pointer;
