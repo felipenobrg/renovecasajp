@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
   padding: 3rem;
   max-height: 10rem;
   max-width: 100%;
+  z-index: 100;
 
   position: sticky;
   top: 0;
@@ -27,7 +28,7 @@ export const HeaderContent = styled.div`
   gap: 1rem;
   width: 100%;
   max-width: 1120px;
-  z-index: 100;
+ 
 
   img {
     margin-top: 1rem;
