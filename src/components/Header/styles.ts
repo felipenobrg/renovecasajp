@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { keyframes, css } from "styled-components";
+import { keyframes } from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -69,7 +69,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
 `;
 
 export const DropdownList = styled.div`
-   a {
+  a {
     text-decoration: none;
     color: ${(props) => props.theme["white"]};
     display: block;
@@ -80,14 +80,19 @@ export const DropdownList = styled.div`
   }
 `;
 
-export const DropdownButton = styled.button`
+interface DropdownButtonProps {
+  open: boolean;
+  onClick: () => void;
+}
+
+export const DropdownButton = styled.button<DropdownButtonProps>`
   position: fixed;
   border: 0;
   padding: 15px 15px;
   cursor: pointer;
   z-index: 3;
   margin-top: -1rem;
- 
+
   .icon {
     width: 24px;
     height: 2px;
@@ -111,6 +116,6 @@ export const DropdownButton = styled.button`
   }
 
   .icon:after {
-    top: 6px
+    top: 6px;
   }
 `;
