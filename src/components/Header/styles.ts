@@ -86,7 +86,7 @@ interface DropdownButtonProps {
 }
 
 export const DropdownButton = styled.button<DropdownButtonProps>`
-  
+  position: absolute;
   border: 0;
   padding: 15px 15px;
   cursor: pointer;
