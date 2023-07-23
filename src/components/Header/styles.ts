@@ -66,7 +66,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme["purple-400"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
-  z-index: 10;
+  z-index: 3;
 `;
 
 export const DropdownList = styled.div`
@@ -74,7 +74,7 @@ export const DropdownList = styled.div`
     text-decoration: none;
     color: ${(props) => props.theme["white"]};
     display: block;
-    padding: 10px 18px;
+    padding: 17px 18px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
@@ -91,7 +91,6 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
   border: 0;
   padding: 15px 15px;
   cursor: pointer;
-  z-index: -1rem;
   margin-top: -1rem;
   background: none;
 
