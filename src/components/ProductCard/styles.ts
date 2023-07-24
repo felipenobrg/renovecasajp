@@ -18,7 +18,11 @@ export const CardContainer = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     margin-bottom: 2rem;
-    width: 100%;
+    max-width: 100%;
+    
+    img {
+      width: 22rem;
+    }
   }
 `;
 
