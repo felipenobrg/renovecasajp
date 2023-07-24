@@ -6,6 +6,10 @@ export const CarouselContainer = styled.div`
   z-index: 0;
   img {
     width: 100%;
-    height: 35rem;
+    height: 40rem; 
+  }
+
+  @media (max-width: 768px) {
+    height: 20rem; 
   }
 `;
