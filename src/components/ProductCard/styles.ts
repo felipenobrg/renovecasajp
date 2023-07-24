@@ -10,8 +10,8 @@ export const CardContainer = styled.div`
   flex: 1;
  
   img {
-    width: 18rem;
-    height: 18rem;
+    width: 24rem;
+    height: 24rem;
     border-radius: 9px;
   }
 
@@ -19,11 +19,6 @@ export const CardContainer = styled.div`
     margin: 0 auto;
     margin-bottom: 2rem;
     width: 100%;
-  
-    img {
-       width: 20rem;
-      height: 20rem;
-    }
   }
 `;
 
@@ -45,7 +40,8 @@ export const CardContent = styled.div`
 
   @media (max-width: 768px) {
     margin: 0 auto;
-    padding: 5rem;
+    padding: 2rem;
+    gap: 0.5rem;
   }
 `;
 
