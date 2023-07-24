@@ -82,7 +82,7 @@ export function SofaRetro() {
       />
         <ProductCard
         imgSrc={RetroDeltaMarfim}
-        title="Sofá Retrô Delta Marfim Linho 2.0x90cm (Acompanha o centro)"
+        title="Sofá Retrô Delta Marfim Linho + Centro 2.0x90cm"
         price="1199,99"
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Páris Marfim"
