@@ -10,6 +10,7 @@ import SofaRetroTerraCota from "../../assets/SofaRetro/RetroTerraCota.jpg";
 import RetroLinhoMarrom from "../../assets/SofaRetro/RetroLinhoMarrom.jpg";
 import RetroLinhoMarromEscuro from "../../assets/SofaRetro/RetroLinhoMarromEscuro.jpg";
 import RetroLinhoMarromClaroAlmofadaLisa from "../../assets/SofaRetro/RetroLinhoMarromClaro.jpg";
+import RetroDeltaMarfim from "../../assets/SofaRetro/SofaDelta.jpg";
 
 
 
@@ -67,17 +68,24 @@ export function SofaRetro() {
       />
        <ProductCard
         imgSrc={RetroLinhoMarromEscuro}
-        title="Sofá Linho Marrom Escuro 1.90x90cm"
+        title="Sofá Retrô Linho Marrom Escuro 1.90x90cm"
         price="999,99"
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Linho Marrom Escuro"
       />
        <ProductCard
         imgSrc={RetroLinhoMarromClaroAlmofadaLisa}
-        title="Sofá Linho Marrom Claro c/ Almofada Lisa 1.90x90cm"
+        title="Sofá Retrô Linho Marrom Claro c/ Almofada Lisa 1.90x90cm"
         price="999,99"
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Linho Marrom Claro c/ Almofada"
+      />
+        <ProductCard
+        imgSrc={RetroDeltaMarfim}
+        title="Sofá Retrô Delta Marfim Linho 2.0x90cm (Acompanha o centro)"
+        price="1199,99"
+        oldPrice="1299,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Páris Marfim"
       />
       <ScrollUp />
 

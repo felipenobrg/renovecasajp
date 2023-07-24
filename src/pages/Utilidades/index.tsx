@@ -7,6 +7,10 @@ import { SectionLink } from "../../components/SectionLink";
 import Baus from '../../assets/Utilidades/Baus.jpg'
 import CadeiraDeBalancoDeFio from '../../assets/Utilidades/CadeiraDeBalanco.jpg'
 import CantinhoDeCafe from '../../assets/Utilidades/CatinhoDeCafe.jpg'
+import PuffRetro from '../../assets/Utilidades/PuffsRetro.jpg'
+import QuadroLeao from '../../assets/Utilidades/QuadroLeao.jpg'
+import QuadroLeaoLaranja from '../../assets/Utilidades/QuadroLeaoLaranja.jpg'
+import QuadroLeaoELeoa from '../../assets/Utilidades/QuadroLeaoELeoa.jpg'
 import { Footer } from "../../components/Footer";
 
 
@@ -18,6 +22,13 @@ export function Utilidades() {
 
       <SectionLink />
 
+      <ProductCard
+        imgSrc={PuffRetro}
+        title="Puff Retrô"
+        price="89,99"
+        oldPrice="109,99"
+        textForWhatsApp="Olá. Gostaria de comprar Puff Retrô"
+      />
       <ProductCard
         imgSrc={Baus}
         title="Báu 90x40"
@@ -38,6 +49,27 @@ export function Utilidades() {
         price="299,99"
         oldPrice="329,99"
         textForWhatsApp="Olá. Gostaria de comprar Cantinho de Chá"
+      />
+      <ProductCard
+        imgSrc={QuadroLeaoLaranja}
+        title="Quadro Decorativo Leão Laranja 1.20x60"
+        price="129,99"
+        oldPrice="159,99"
+        textForWhatsApp="Olá. Quadro Decorativo Leão Laranja"
+      />
+       <ProductCard
+        imgSrc={QuadroLeao}
+        title="Quadro Decorativo Leão 1.20x60"
+        price="129,99"
+        oldPrice="159,99"
+        textForWhatsApp="Olá. Gostaria de comprar Quadro Decorativo Leão"
+      />
+       <ProductCard
+        imgSrc={QuadroLeaoELeoa}
+        title="Quadro Decorativo Leão e Leoa 1.20x60"
+        price="129,99"
+        oldPrice="159,99"
+        textForWhatsApp="Olá. Quadro Decorativo Leão e Leoa"
       />
       <ScrollUp />
 
