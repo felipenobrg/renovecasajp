@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Footer } from "../../../../components/Footer";
-import { useEffect } from "react";
 
 export function Carousel() {
 
