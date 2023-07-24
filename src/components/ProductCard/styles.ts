@@ -54,7 +54,8 @@ export const TitleCard = styled.p`
   white-space: nowrap; 
 
   @media (max-width: 768px) {
-    white-space: wrap; 
+    text-overflow: normal;
+    white-space: normal; 
     font-size: 1.4rem;
   }
 `;
