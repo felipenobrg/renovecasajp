@@ -34,7 +34,6 @@ export const HeaderContent = styled.div`
     margin-top: 1rem;
     width: 18rem;
     height: 18rem;
-    cursor: pointer;
   }
 
   @media screen and (max-width: 768px) {
@@ -93,7 +92,6 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
   z-index: 100;
   border: 0;
   padding: 15px 15px;
-  cursor: pointer;
   margin-top: -1rem;
   background: none;
 

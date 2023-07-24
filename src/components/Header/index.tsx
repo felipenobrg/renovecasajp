@@ -18,6 +18,7 @@ export function Header() {
   };
 
   const isSmallScreen = window.innerWidth < 768;
+  
 
   return (
     <>
@@ -25,11 +26,11 @@ export function Header() {
       <HeaderContainer>
         <HeaderContent>
           <div>
-          {isSmallScreen && (
+          {isSmallScreen ? (
             <DropdownButton open={isDropdownOpen} onClick={handleDropdownToggle}>
                <div className="icon"/>
             </DropdownButton>
-            )}
+            ) : null}
             {isDropdownOpen && (
               <DropdownMenu open={isDropdownOpen}>
                 <DropdownList>

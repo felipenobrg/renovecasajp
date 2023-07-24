@@ -5,7 +5,7 @@ export function Footer() {
         <FooterContainer>
             <FooterContent>
                 <p>
-                    Feito por Felipe Nóbrega
+                    Desenvolvido por Felipe Nóbrega
                     <br />
                     Contato: 83 98766-3399
                 </p>

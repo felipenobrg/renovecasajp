@@ -3,18 +3,26 @@ import { styled } from "styled-components";
 export const CardContainer = styled.div`
   display: inline-flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  width: 35rem; 
+  max-height: 100%;
+  margin: 2rem 2rem 1rem 2rem;
+  flex: 1;
  
   img {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 9px;
   }
 
   @media (max-width: 768px) {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 100%;
+  
     img {
-      width: 100%;
-      height: 100%;
+       width: 20rem;
+      height: 20rem;
     }
   }
 `;
@@ -25,30 +33,39 @@ export const CardContent = styled.div`
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  margin: 2rem 1rem 1rem 2rem;
+  padding: 2rem;
   max-width: 100%;
+  height: 100%; 
+  overflow: hidden; 
+  flex: 1;
 
   background: ${(props) => props.theme["base-card"]};
   border-radius: 6px;
-  padding: 2rem 2rem 1rem 2rem;
+
 
   @media (max-width: 768px) {
-    margin: 0;
+    margin: 0 auto;
+    padding: 5rem;
   }
-;
 `;
 
 export const TitleCard = styled.p`
   font-family: 'Baloo 2', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
-`;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
 
+  @media (max-width: 768px) {
+    white-space: wrap; 
+  }
+`;
 
 export const Price = styled.p`
   margin-right: auto;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 `;
 
 export const MoneySign = styled.span`
@@ -57,7 +74,7 @@ export const MoneySign = styled.span`
 `
  
 export const OldPrice = styled.span`
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-decoration: line-through;
   color: ${(props) => props.theme["gray-500"]};;
 `
