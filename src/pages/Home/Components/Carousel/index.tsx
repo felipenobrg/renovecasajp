@@ -13,14 +13,9 @@ import "swiper/css/scrollbar";
 import { Footer } from "../../../../components/Footer";
 
 export function Carousel() {
-  const isSmallScreen = window.innerWidth < 768;
-  if (!isSmallScreen) {
-    window.location.href = '/sofaretro';
-  }
   return (
     <>
     <CarouselContainer>
-      {isSmallScreen && (
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={40}
@@ -42,7 +37,6 @@ export function Carousel() {
             <img src={CarouselImage4} alt="" />
           </SwiperSlide>
         </Swiper>
-      )}
     </CarouselContainer>
     <Footer />
     </>
