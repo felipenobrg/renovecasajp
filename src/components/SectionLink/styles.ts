@@ -31,6 +31,11 @@ export const SectionContent = styled.div`
     font-weight: bold;
     color: ${(props) => props.theme["white"]};
     position: relative;
+
+    &:hover {
+      transition: 0.3 ease;
+      color: ${(props) => props.theme["gray-100"]};
+    }
   }
 
   a.active::after {

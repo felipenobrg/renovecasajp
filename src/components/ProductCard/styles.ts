@@ -55,13 +55,14 @@ export const TitleCard = styled.p`
 
   @media (max-width: 768px) {
     white-space: wrap; 
+    font-size: 1.4rem;
   }
 `;
 
 export const Price = styled.p`
   margin-right: auto;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 `;
 
 export const MoneySign = styled.span`
@@ -70,7 +71,7 @@ export const MoneySign = styled.span`
 `
  
 export const OldPrice = styled.span`
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-decoration: line-through;
   color: ${(props) => props.theme["gray-500"]};;
 `
