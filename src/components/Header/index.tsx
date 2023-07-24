@@ -18,7 +18,6 @@ export function Header() {
   };
 
   const isSmallScreen = window.innerWidth < 768;
-  
 
   return (
     <>

@@ -27,10 +27,10 @@ export function Moveis() {
       />
        <ProductCard
         imgSrc={ArmarioBranco}
-        title="Armário de Cozinha Preto"
+        title="Armário de Cozinha Preto e Branco"
         price="749,99"
         oldPrice="899,99"
-        textForWhatsApp="Olá. Gostaria de comprar Armário de Cozinha Preto"
+        textForWhatsApp="Olá. Gostaria de comprar Armário de Cozinha Preto e Branco"
       />
        <ProductCard
         imgSrc={ArmarioMarrom}

@@ -97,7 +97,7 @@ export function SofasPopulares() {
         title="Sofá Dubai Marrom Três Lugares"
         price="549,99"
         oldPrice="599,99"
-        textForWhatsApp="Olá. Gostaria de comprar Sofá Dubai Marrpm Três Lugares"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Dubai Marrom Três Lugares"
       />
 
       <ScrollUp />

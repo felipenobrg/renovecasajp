@@ -7,6 +7,7 @@ import BanquetaBege from "../../assets/ProdutosEmVime/banquetaBege.jpg";
 import ConjuntoDeTerracoPreto from "../../assets/ProdutosEmVime/ConjuntoDeTerracoPreto.jpg";
 import ConjuntoDeTerracoMarrom from "../../assets/ProdutosEmVime/ConjuntoDeTerracoMarrom.jpg";
 import ConjuntodeTerracoMesclado from "../../assets/ProdutosEmVime/ConjuntodeTerracoMesclado.jpg";
+import CadeiraDeBalanco from "../../assets/ProdutosEmVime/CadeiraDeBalanco.jpg";
 
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
@@ -39,6 +40,13 @@ export function ProdutosEmVime() {
         price="99,99"
         oldPrice="119,99"
         textForWhatsApp="Olá. Gostaria de comprar Banqueta Bege em Vime"
+      />
+       <ProductCard
+        imgSrc={CadeiraDeBalanco}
+        title="Cadeira de Balanço"
+        price="199,99"
+        oldPrice="219,99"
+        textForWhatsApp="Olá. Gostaria de comprar Cadeira de Balanço"
       />
        <ProductCard
         imgSrc={ConjuntoDeTerracoPreto}

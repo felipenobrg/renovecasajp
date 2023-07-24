@@ -63,10 +63,10 @@ export function Poltronas() {
       />
       <ProductCard
         imgSrc={PoltronaAlmofadaBege}
-        title="Poltrona Almofadada Cinza"
+        title="Poltrona Almofadada Bege"
         price="219,99"
         oldPrice="249,99"
-        textForWhatsApp="Olá. Gostaria de comprar Poltrona Almofadada Cinza"
+        textForWhatsApp="Olá. Gostaria de comprar Poltrona Almofadada Bege"
       />
       <ProductCard
         imgSrc={PoltronaAlmofadaVerde}
@@ -101,7 +101,7 @@ export function Poltronas() {
         title="Poltrona Bob Cinza Linho"
         price="224,99"
         oldPrice="289,99"
-        textForWhatsApp="Olá. Gostaria de comprar PPoltrona Bob Cinza Linho"
+        textForWhatsApp="Olá. Gostaria de comprar Proltrona Bob Cinza Linho"
       />
       <Footer />
     </>
