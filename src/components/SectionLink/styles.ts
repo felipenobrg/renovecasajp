@@ -4,6 +4,7 @@ export const SectionContainer = styled.section`
   background: ${(props) => props.theme["purple-400"]};
   padding: 2rem;
   max-width: 100%;
+  overflow: auto;
 
   @media screen and (max-width: 768px) {
     display: flex;
@@ -19,7 +20,6 @@ export const SectionContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   text-align: center;
 
   p {
@@ -51,5 +51,6 @@ export const SectionContent = styled.div`
   @media screen and (max-width: 768px) {
     gap: 1rem;
     margin-left: -1rem;
+    overflow: auto;
   }
 `;
