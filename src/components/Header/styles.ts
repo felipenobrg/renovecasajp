@@ -68,6 +68,10 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme["purple-400"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
+
+  max-width: 100vw; 
+  height: calc(100vh - 120px); 
+  overflow-y: auto; 
 `;
 
 export const DropdownList = styled.div`
