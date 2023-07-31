@@ -1,3 +1,4 @@
+import { FacebookLogo, InstagramLogo } from "phosphor-react";
 import { WhoWeAreContainer } from "./styles";
 
 export function WhoWeAre() {
@@ -16,6 +17,11 @@ export function WhoWeAre() {
           fabricantes, garantindo que os produtos cheguem diretamente da fábrica
           para a sua casa, sem intermediários.
         </p>
+        <p>
+        <a href="https://www.instagram.com/renovecasajp/" ><InstagramLogo size={30} color="#929292" /></a> 
+        <a><FacebookLogo size={30}/></a>
+        </p>
+
       </WhoWeAreContainer>
     )
 }
