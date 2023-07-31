@@ -13,8 +13,8 @@ export const WhoWeAreContainer = styled.div`
 
    p {
     width: 100%;
- 
     font-size: 1.1rem;
     margin-top: 1rem;
+    color: ${(props => props.theme["gray-500"])};
    }
 ` 
