@@ -10,7 +10,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Footer } from "../../../../components/Footer";
 
 export function Carousel() {
   return (
@@ -38,7 +37,6 @@ export function Carousel() {
           </SwiperSlide>
         </Swiper>
     </CarouselContainer>
-    <Footer />
     </>
   );
 }

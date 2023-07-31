@@ -45,7 +45,9 @@ export function Header() {
               </DropdownMenu>
             )}
           </div>
+          <NavLink to={"/"}>
           <img src={LogoRenoveCasa} alt="" />
+          </NavLink>
         </HeaderContent>
       </HeaderContainer>
     </>
