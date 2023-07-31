@@ -21,7 +21,7 @@ export const CardContainer = styled.div`
     max-width: 100%;
 
     img {
-      width: 22rem;
+      width: 100vw;
     }
   }
 `;
@@ -103,7 +103,7 @@ export const ButtonCard = styled.button`
 
 export const WornOut = styled.div`
   position: absolute;
-  width: 24rem;
+  width: 10rem;
   text-align: center;
   z-index: 1;
   color: ${(props) => props.theme["white"]};

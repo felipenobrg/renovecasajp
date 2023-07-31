@@ -13,21 +13,6 @@ import "swiper/css/scrollbar";
 import { Footer } from "../../../../components/Footer";
 
 export function Carousel() {
-  // const [isMobile, setIsMobile] = useState(false);
-
-  // const checkIsMobile = () => {
-  //   setIsMobile(window.innerWidth <= 768);
-  // };
-
-  // useEffect(() => {
-  //   checkIsMobile();
-  //   window.addEventListener("resize", checkIsMobile);
-
-  //   return () => {
-  //     window.removeEventListener("resize", checkIsMobile);
-  //   };
-  // }, []);
-
   return (
     <>
     <CarouselContainer>
