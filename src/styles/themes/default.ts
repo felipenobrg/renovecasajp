@@ -8,6 +8,8 @@ export const defaultTheme = {
   
     'green-300': '#00B37E',
     'green-400': '#087A3F',
+  
+    'red': '#F70000',
 
     'purple-400': '#7D14AF',
 

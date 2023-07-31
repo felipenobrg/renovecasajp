@@ -25,6 +25,7 @@ export function Moveis() {
         oldPrice="899,99"
         textForWhatsApp="Olá. Gostaria de comprar Armário de Cozinha Preto e Branco"
       />
+      
        <ProductCard
         imgSrc={ArmarioBranco}
         title="Armário de Cozinha Preto e Branco"
@@ -41,6 +42,7 @@ export function Moveis() {
       />
        <ProductCard
         imgSrc={PainelDeTv46Polegadas}
+        wornOut="ESGOTADO"
         title="Painel de TV 46 Polegadas"
         price="399,99"
         oldPrice="599,99"
