@@ -10,9 +10,9 @@ export function SectionLink() {
       setShowSection(window.innerWidth >= 768);
     };
     handleResize();
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   if (!showSection) {
@@ -22,6 +22,8 @@ export function SectionLink() {
   return (
     <SectionContainer>
       <SectionContent>
+        <NavLink to={"/"}>Início</NavLink>
+        <p>{"•"}</p>
         <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
         <p>{"•"}</p>
         <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>

@@ -25,14 +25,18 @@ export function Header() {
       <HeaderContainer>
         <HeaderContent>
           <div>
-          {isSmallScreen ? (
-            <DropdownButton open={isDropdownOpen} onClick={handleDropdownToggle}>
-               <div className="icon"/>
-            </DropdownButton>
+            {isSmallScreen ? (
+              <DropdownButton
+                open={isDropdownOpen}
+                onClick={handleDropdownToggle}
+              >
+                <div className="icon" />
+              </DropdownButton>
             ) : null}
             {isDropdownOpen && (
               <DropdownMenu open={isDropdownOpen}>
                 <DropdownList>
+                  <NavLink to={"/"}>Início</NavLink>
                   <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
                   <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
                   <NavLink to={"/sofaspopulares"}>Sofás Populares</NavLink>
@@ -46,7 +50,7 @@ export function Header() {
             )}
           </div>
           <NavLink to={"/"}>
-          <img src={LogoRenoveCasa} alt="" />
+            <img src={LogoRenoveCasa} alt="" />
           </NavLink>
         </HeaderContent>
       </HeaderContainer>
