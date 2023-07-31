@@ -1,32 +1,31 @@
 import { styled } from "styled-components";
 
-export const SectionAbout = styled.div`
+export const CardPhotos = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
-  padding: 3rem;
+  margin: 1rem 1rem 0 1rem;
 
-  div {
-    h2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      gap: 0.5rem;
+  a {
+    width: 24%;
+    display: block; 
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+
+    &:hover {
+      transition: 0.3s ease;
+      transform: scale(1.1);
     }
   }
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 1rem;
-    div {
-      svg {
-        width: 3rem;
-      }
-
-      h2 {
-        font-size: 1.2rem;
-      }
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap; 
+    a {
+      width: 48%; 
+      margin-bottom: 1rem;
     }
   }
 `;
