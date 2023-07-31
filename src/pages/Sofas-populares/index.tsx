@@ -9,6 +9,8 @@ import ConjuntoDeSofaMarrom from "../../assets/SofasPopulares/ConjuntoDeSofaMarr
 import ConjuntoDeSofaCinzaSemAlmofada from "../../assets/SofasPopulares/ConjuntoSofaCinza.jpeg";
 import ConjuntoDeSofaVermelho from "../../assets/SofasPopulares/ConjuntoDeSofaVermelho.jpg";
 
+import ConjuntoSemAlmofadaMarrom from "../../assets/SofasPopulares/ConjuntoDeSofaSemAlmofadaMarrom.jpg";
+
 import SofaTresLugaresMarrom from "../../assets/SofasPopulares/SofaTresLugaresMarrom.jpg";
 import SofaTresLugaresPretoComPuffs from "../../assets/SofasPopulares/SofaTresLugaresPretoComPuffs.jpg";
 
@@ -56,11 +58,18 @@ export function SofasPopulares() {
       />
       <ProductCard
         imgSrc={ConjuntoDeSofaCinzaSemAlmofada}
-        title="C
-        onjunto de Sofá Cinza Sem Almofada"
+        title="Conjunto de Sofá Cinza Sem Almofada"
         price="599,99"
         oldPrice="699,99"
         textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Cinza Sem Almofada"
+      />
+       <ProductCard
+        imgSrc={ConjuntoSemAlmofadaMarrom}
+        wornOut="ESGOTADO"
+        title="Conjunto de Sofá Marrom Sem Almofada"
+        price="599,99"
+        oldPrice="699,99"
+        textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Marrom Sem Almofada"
       />
       <ProductCard
         imgSrc={SofaTresLugaresMarrom}

@@ -70,8 +70,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   animation: ${slideIn} 0.3s ease-in-out;
 
   max-width: 100vw; 
-  height: calc(100vh - 120px); 
-  overflow-y: auto; 
+  overflow-y: auto;
 `;
 
 export const DropdownList = styled.div`
