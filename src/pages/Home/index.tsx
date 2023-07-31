@@ -5,6 +5,7 @@ import { SectionLink } from "../../components/SectionLink";
 import { CardPhotos } from "./Components/CardPhotos";
 import { Carousel } from "./Components/Carousel";
 import { SectionAbout } from "./Components/SectionAbout";
+import { WhoWeAre } from "./Components/WhoWeAre";
 
 export function Home() {
   return (
@@ -14,6 +15,8 @@ export function Home() {
       <SectionLink />
       <Carousel />
       <CardPhotos />
+
+     <WhoWeAre />
       <SectionAbout />
       <Footer />
     </>
