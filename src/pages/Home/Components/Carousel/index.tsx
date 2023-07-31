@@ -11,23 +11,22 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Footer } from "../../../../components/Footer";
-import { useEffect, useState } from "react";
 
 export function Carousel() {
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  const checkIsMobile = () => {
-    setIsMobile(window.innerWidth <= 768);
-  };
+  // const checkIsMobile = () => {
+  //   setIsMobile(window.innerWidth <= 768);
+  // };
 
-  useEffect(() => {
-    checkIsMobile();
-    window.addEventListener("resize", checkIsMobile);
+  // useEffect(() => {
+  //   checkIsMobile();
+  //   window.addEventListener("resize", checkIsMobile);
 
-    return () => {
-      window.removeEventListener("resize", checkIsMobile);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("resize", checkIsMobile);
+  //   };
+  // }, []);
 
   return (
     <>
