@@ -9,6 +9,7 @@ export const WhoWeAreContainer = styled.div`
    h1 {
     font-family: 'Baloo 2', sans-serif;
     font-size: 2.2rem;
+    
    }
 
    p {
@@ -17,10 +18,4 @@ export const WhoWeAreContainer = styled.div`
     font-size: 1rem;
     color: ${(props => props.theme["gray-500"])};
    }
-
-   @media screen and (max-width: 768px) {
-    p {
-        font-size: 0.9rem;
-    }
-  }
 ` 
