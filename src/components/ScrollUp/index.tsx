@@ -43,7 +43,7 @@ export function ScrollUp() {
       />
       <WhatsappLogo
         onClick={handleWhatsAppClick}
-        size={60}
+        size={55}
         weight="fill"
         color="#48C758"
       />
