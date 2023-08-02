@@ -72,6 +72,7 @@ export function SofaRetratil() {
       <ProductCard
         imgSrc={SofaParisCinza}
         title="Sofá Paris Cinza Linho 2.0x90cm"
+        wornOut="ESGOTADO"
         price="1199,99"
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Cinza Linho"
@@ -79,6 +80,7 @@ export function SofaRetratil() {
       <ProductCard
         imgSrc={SofaParisMarfim}
         title="Sofá Paris Marfim Linho 2.0x90cm"
+        wornOut="ESGOTADO"
         price="1199,99"
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Páris Marfim"
