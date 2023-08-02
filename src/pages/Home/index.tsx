@@ -1,6 +1,8 @@
 import { AboutDelivery } from "../../components/AboutDelivery";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { ScrollUp } from "../../components/ScrollUp";
+import { ScrollDownContainer } from "../../components/ScrollUp/styles";
 import { SectionLink } from "../../components/SectionLink";
 import { CardPhotos } from "./Components/CardPhotos";
 import { Carousel } from "./Components/Carousel";
@@ -17,6 +19,7 @@ export function Home() {
       <CardPhotos />
       <SectionAbout />
       <WhoWeAre />
+      <ScrollUp />
       <Footer />
     </>
   );

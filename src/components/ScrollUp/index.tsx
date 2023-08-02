@@ -37,11 +37,16 @@ export function ScrollUp() {
     <ScrollDownContainer>
       <ArrowCircleUp
         onClick={scrollToTop}
-        size={35}
+        size={50}
         color="#7D14AF"
         weight="fill"
       />
-      <WhatsappLogo onClick={handleWhatsAppClick} size={40} weight="fill" color="#48C758" />
+      <WhatsappLogo
+        onClick={handleWhatsAppClick}
+        size={60}
+        weight="fill"
+        color="#48C758"
+      />
     </ScrollDownContainer>
   );
 }
