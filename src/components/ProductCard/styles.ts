@@ -10,8 +10,8 @@ export const CardContainer = styled.div`
   flex: 1;
 
   img {
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
+    height: 32rem;
     border-radius: 9px;
   }
 

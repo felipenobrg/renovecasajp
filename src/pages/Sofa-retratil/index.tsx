@@ -7,7 +7,7 @@ import { ScrollUp } from "../../components/ScrollUp";
 import SofaCinza from "../../assets/SofaRetratil/sofaCinza.jpg";
 import SofaMarrom from "../../assets/SofaRetratil/sofaMarrom.jpg";
 import SofaVermelho from "../../assets/SofaRetratil/sofaVermelho.jpg";
-import SofaBege from "../../assets/SofaRetratil/SofaMonacoBege.jpg";
+import SofaOffWhite from "../../assets/SofaRetratil/MonacoOffWhite.jpg";
 
 import SofaBrancoGeloLinho from "../../assets/SofaRetratil/MonacoLinhoBrancoGelo.jpg";
 import SofaMarromLinho from "../../assets/SofaRetratil/MonacoLinhoMarrom.jpg";
@@ -42,11 +42,11 @@ export function SofaRetratil() {
         textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Marrom"
       />
        <ProductCard
-        imgSrc={SofaBege}
-        title="Sofá Monaco Bege 2.0x90cm"
+        imgSrc={SofaOffWhite}
+        title="Sofá Monaco Off White 2.0x90cm"
         price="1049,99"
         oldPrice="1199,99"
-        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Bege"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Off White"
       />
       <ProductCard
         imgSrc={SofaVermelho}
