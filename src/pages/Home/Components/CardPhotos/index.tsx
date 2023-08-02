@@ -18,7 +18,7 @@ export function CardPhotos() {
         <NavLink to={"/sofaspopulares"}>
         <img src={SofasPopulares} alt="" />
         </NavLink>
-        <NavLink to={"/produtosemvime"}>
+        <NavLink to={"/produtosvime"}>
         <img src={ProdutosEmVime} alt="" />
         </NavLink>
       </CardPhotosContainer>
