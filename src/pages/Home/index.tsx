@@ -15,9 +15,8 @@ export function Home() {
       <SectionLink />
       <Carousel />
       <CardPhotos />
-
-     <WhoWeAre />
       <SectionAbout />
+      <WhoWeAre />
       <Footer />
     </>
   );
