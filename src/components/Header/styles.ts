@@ -47,24 +47,25 @@ export const HeaderContent = styled.div`
 const slideIn = keyframes`
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateX(-20px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 `;
 
 export const DropdownMenu = styled.div<{ open: boolean }>`
   display: ${(props) => (props.open ? "flex" : "none")};
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
   z-index: 100;
   position: fixed;
-  top: 120px;
-  right: 0;
-  width: 100vw;
+  top: 125px;
+  left: 0px;
+  height: 100%;
+  width: 60vw;
   background-color: ${(props) => props.theme["purple-400"]};
   border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
@@ -74,6 +75,10 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
 `;
 
 export const DropdownList = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  align-items: flex-start;
   a {
     text-decoration: none;
     color: ${(props) => props.theme["white"]};
@@ -81,6 +86,20 @@ export const DropdownList = styled.div`
     padding: 17px 18px;
     text-align: center;
     font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 9px;
+    margin-left: 1rem;
+    background: ${(props) => props.theme["green-300"]};
+    color: ${(props) => props.theme["white"]};
     font-weight: bold;
   }
 `;

@@ -9,6 +9,7 @@ import {
 import LogoRenoveCasa from "../../assets/logoRenoveCasa.png";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { WhatsappLogo } from "phosphor-react";
 
 export function Header() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -36,15 +37,16 @@ export function Header() {
             {isDropdownOpen && (
               <DropdownMenu open={isDropdownOpen}>
                 <DropdownList>
-                  <NavLink to={"/"}>Início</NavLink>
-                  <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
-                  <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
-                  <NavLink to={"/sofaspopulares"}>Sofás Populares</NavLink>
-                  <NavLink to={"/poltronas"}>Poltronas</NavLink>
-                  <NavLink to={"/camas"}>Camas</NavLink>
-                  <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
-                  <NavLink to={"/moveis"}>Móveis</NavLink>
-                  <NavLink to={"/utilidades"}>Utilidades</NavLink>
+                  <NavLink to={"/"}>+ Início</NavLink>
+                  <NavLink to={"/sofaretro"}>+ Sofá Retrô</NavLink>
+                  <NavLink to={"/sofaretratil"}>+ Sofá Retrátil</NavLink>
+                  <NavLink to={"/sofaspopulares"}>+ Sofás Populares</NavLink>
+                  <NavLink to={"/poltronas"}>+ Poltronas</NavLink>
+                  <NavLink to={"/camas"}>+ Camas</NavLink>
+                  <NavLink to={"/produtosvime"}>+ Produtos em Vime</NavLink>
+                  <NavLink to={"/moveis"}>+ Móveis</NavLink>
+                  <NavLink to={"/utilidades"}>+ Utilidades</NavLink>
+                  <button><WhatsappLogo size={20} />Fale no WhatsApp</button>
                 </DropdownList>
               </DropdownMenu>
             )}
