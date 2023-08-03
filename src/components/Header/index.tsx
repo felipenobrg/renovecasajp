@@ -10,6 +10,7 @@ import LogoRenoveCasa from "../../assets/logoRenoveCasa.png";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { WhatsappLogo } from "phosphor-react";
+import queryString from "query-string";
 
 export function Header() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -19,6 +20,14 @@ export function Header() {
   };
 
   const isSmallScreen = window.innerWidth < 768;
+
+  function handleWhatsAppClick() {
+    const url = `https://api.whatsapp.com/send?${queryString.stringify({
+      phone: "5583987663399",
+      text: "Olá. Me interessei pelos produtos",
+    })}`;
+    window.open(url, "_blank");
+  }
 
   return (
     <>
@@ -46,7 +55,7 @@ export function Header() {
                   <NavLink to={"/produtosvime"}>+ Produtos em Vime</NavLink>
                   <NavLink to={"/moveis"}>+ Móveis</NavLink>
                   <NavLink to={"/utilidades"}>+ Utilidades</NavLink>
-                  <button><WhatsappLogo size={20} />Fale no WhatsApp</button>
+                  <button onClick={handleWhatsAppClick}><WhatsappLogo size={20} />Compre Via WhatsApp</button>
                 </DropdownList>
               </DropdownMenu>
             )}

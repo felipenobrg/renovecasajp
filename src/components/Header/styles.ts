@@ -65,9 +65,8 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   top: 125px;
   left: 0px;
   height: 100%;
-  width: 60vw;
+  width: 85vw;
   background-color: ${(props) => props.theme["purple-400"]};
-  border-radius: 4px;
   animation: ${slideIn} 0.3s ease-in-out;
 
   max-width: 100vw; 
@@ -85,7 +84,6 @@ export const DropdownList = styled.div`
     display: block;
     padding: 17px 18px;
     text-align: center;
-    font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -97,10 +95,16 @@ export const DropdownList = styled.div`
     padding: 0.8rem;
     border: 0;
     border-radius: 9px;
-    margin-left: 1rem;
+    margin: 1rem 0 0 1rem;
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
     font-weight: bold;
+    width: 100%;
+
+    &:hover {
+      transition: 0.3s ease;
+      background: ${(props) => props.theme["green-400"]};
+    }
   }
 `;
 
