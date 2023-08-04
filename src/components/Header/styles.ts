@@ -88,7 +88,6 @@ export const DropdownList = styled.div`
     text-transform: uppercase;
     font-weight: bold;
 
-    width: 20rem;
   }
 
 
