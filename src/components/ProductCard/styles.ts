@@ -16,6 +16,10 @@ export const CardContainer = styled.div`
 
     .image-loading {
       background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
     }
   }
 
