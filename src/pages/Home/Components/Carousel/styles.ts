@@ -15,4 +15,10 @@ export const CarouselContainer = styled.div`
       height: 24rem;
     }
   }
+
+  @media screen and (min-width: 768px) {
+
+    display: none;
+
+}
 `;
