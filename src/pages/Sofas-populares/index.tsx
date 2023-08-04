@@ -6,7 +6,6 @@ import { SectionLink } from "../../components/SectionLink";
 import ConjuntoDeSofaCinza from "../../assets/SofasPopulares/ConjuntoDeSofaCinza.jpg";
 import ConjuntoDeSofaCinzaEscuro from "../../assets/SofasPopulares/ConjuntoDeSofaCinzaEscuro.jpg";
 import ConjuntoDeSofaMarrom from "../../assets/SofasPopulares/ConjuntoDeSofaMarrom.jpg";
-import ConjuntoDeSofaCinzaSemAlmofada from "../../assets/SofasPopulares/ConjuntoSofaCinza.jpeg";
 import ConjuntoDeSofaVermelho from "../../assets/SofasPopulares/ConjuntoDeSofaVermelho.jpg";
 
 import ConjuntoSemAlmofadaBege from "../../assets/SofasPopulares/ConjuntoDeSofaSemAlmofadaMarrom.jpg";
@@ -55,13 +54,6 @@ export function SofasPopulares() {
         price="749,99"
         oldPrice="899,99"
         textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Vermelho"
-      />
-      <ProductCard
-        imgSrc={ConjuntoDeSofaCinzaSemAlmofada}
-        title="Conjunto de Sofá Cinza Sem Almofada"
-        price="599,99"
-        oldPrice="699,99"
-        textForWhatsApp="Olá. Gostaria de comprar Conjunto de Sofá Cinza Sem Almofada"
       />
        <ProductCard
         imgSrc={ConjuntoSemAlmofadaBege}
