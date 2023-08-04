@@ -3,6 +3,8 @@ import { styled } from "styled-components";
 export const CarouselContainer = styled.div`
   margin-top: 0.2rem;
   z-index: 0;
+  width: 100%; 
+  overflow: hidden;
 
   @media (max-width: 768px) {
     img {
