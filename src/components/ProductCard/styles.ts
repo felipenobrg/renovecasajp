@@ -13,6 +13,10 @@ export const CardContainer = styled.div`
     width: 100%;
     height: 32rem;
     border-radius: 9px;
+
+    .image-loading {
+      background-color: red;
+    }
   }
 
   @media (max-width: 768px) {

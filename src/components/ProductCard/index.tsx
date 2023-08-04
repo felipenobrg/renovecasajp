@@ -22,7 +22,7 @@ export function ProductCard({ imgSrc, title, price, oldPrice, textForWhatsApp, w
     return (
         <CardContainer>
         <CardContent>
-          <img loading="lazy" src={imgSrc} alt="" />
+        <img loading="lazy" src={imgSrc} alt="" className="image-loading" />
           {wornOut && <WornOut>{wornOut}</WornOut>}
           <TitleCard>{title}</TitleCard>
           <Price><MoneySign>R$</MoneySign> {price} <OldPrice>R$ {oldPrice}</OldPrice></Price>
