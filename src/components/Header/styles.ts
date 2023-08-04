@@ -88,6 +88,11 @@ export const DropdownList = styled.div`
     text-transform: uppercase;
     font-weight: bold;
 
+
+    &:hover {
+      transition: 0.3s ease;
+      transform: scale(1.1);
+    }
   }
 
 
