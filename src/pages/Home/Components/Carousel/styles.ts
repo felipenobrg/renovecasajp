@@ -11,7 +11,7 @@ export const CarouselContainer = styled.div`
       align-items: center;
       width: 100%;
       height: 25rem;
-  
+  display: none;
     }
   }
 
