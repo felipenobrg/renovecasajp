@@ -6,6 +6,7 @@ import { ScrollUp } from "../../components/ScrollUp";
 
 import SofaMarrom from "../../assets/SofaRetratil/sofaMarrom.jpg";
 import SofaOffWhite from "../../assets/SofaRetratil/MonacoOffWhite.jpg";
+import MonacoCinza from "../../assets/SofaRetratil/MonacoCinza.jpg"
 
 import SofaBrancoGeloLinho from "../../assets/SofaRetratil/MonacoLinhoBrancoGelo.jpg";
 
@@ -24,6 +25,14 @@ export function SofaRetratil() {
       <Header />
       <AboutDelivery />
       <SectionLink />
+
+      <ProductCard
+        imgSrc={MonacoCinza}
+        title="Sofá Monaco Marrom 2.0x90cm"
+        price="1049,99"
+        oldPrice="1199,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Marrom"
+      />
 
       <ProductCard
         imgSrc={SofaMarrom}
