@@ -32,14 +32,13 @@ export const HeaderContent = styled.div`
 
   img {
     margin-top: 1rem;
-    width: 18rem;
-    height: 18rem;
+    width: 24rem;
   }
 
   @media screen and (max-width: 768px) {
     img {
-      height: 16rem;
-      width: 17rem;
+      height: 10rem;
+      width: 15rem;
     }
   }
 `;
@@ -78,13 +77,20 @@ export const DropdownList = styled.div`
   flex-direction: column;
   margin-right: auto;
   align-items: flex-start;
+
   a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: ${(props) => props.theme["white"]};
-    display: block;
+    color: ${(props) => props.theme["gray-300"]};
     padding: 17px 18px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    width: 20rem;
   }
+
 
   button {
     display: flex;
