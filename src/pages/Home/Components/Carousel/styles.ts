@@ -5,14 +5,11 @@ export const CarouselContainer = styled.div`
   position: relative;
   z-index: 0;
 
-  img {
-    width: 100%;
-    height: auto;
-    max-height: 38rem;
-  }
-
   @media (max-width: 768px) {
     img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
       max-height: 24rem; 
     }
   }
