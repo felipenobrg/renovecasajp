@@ -6,10 +6,11 @@ import { ScrollUp } from "../../components/ScrollUp";
 
 import SofaMarrom from "../../assets/SofaRetratil/sofaMarrom.jpg";
 import SofaOffWhite from "../../assets/SofaRetratil/MonacoOffWhite.jpg";
-import MonacoCinza from "../../assets/SofaRetratil/MonacoCinza.jpg"
+import MonacoMarromEscuro from "../../assets/SofaRetratil/MonacoMarromEscuro.jpg";
+import MonacoBege from "../../assets/SofaRetratil/MonacoBege.jpg";
+import MonacoCinza from "../../assets/SofaRetratil/MonacoCinza.jpg";
 
 import SofaBrancoGeloLinho from "../../assets/SofaRetratil/MonacoLinhoBrancoGelo.jpg";
-
 
 import SofaParisCinza from "../../assets/SofaRetratil/SofaParisCinza.jpg";
 import SofaParisMarfim from "../../assets/SofaRetratil/SofaParisBege.jpg";
@@ -27,11 +28,27 @@ export function SofaRetratil() {
       <SectionLink />
 
       <ProductCard
-        imgSrc={MonacoCinza}
-        title="Sofá Monaco Marrom 2.0x90cm"
+        imgSrc={MonacoBege}
+        title="Sofá Monaco Bege 2.0x90cm"
         price="1049,99"
         oldPrice="1199,99"
-        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Marrom"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Bege"
+      />
+
+      <ProductCard
+        imgSrc={MonacoMarromEscuro}
+        title="Sofá Monaco Marrom Escuro 2.0x90cm"
+        price="1049,99"
+        oldPrice="1199,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Marrom Escuro"
+      />
+
+      <ProductCard
+        imgSrc={MonacoCinza}
+        title="Sofá Monaco Cinza Chumbo 2.0x90cm"
+        price="1049,99"
+        oldPrice="1199,99"
+        textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Cinza Chumbo"
       />
 
       <ProductCard
@@ -41,7 +58,7 @@ export function SofaRetratil() {
         oldPrice="1199,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Marrom"
       />
-       <ProductCard
+      <ProductCard
         imgSrc={SofaOffWhite}
         title="Sofá Monaco Off White 2.0x90cm"
         price="1049,99"
@@ -56,7 +73,7 @@ export function SofaRetratil() {
         oldPrice="1299,99"
         textForWhatsApp="Olá. Gostaria de comprar Sofá Monaco Branco Gelo Linho "
       />
-      
+
       <ProductCard
         imgSrc={SofaParisCinza}
         title="Sofá Paris Cinza Linho 2.0x90cm"
