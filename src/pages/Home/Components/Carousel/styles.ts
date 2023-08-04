@@ -9,7 +9,7 @@ export const CarouselContainer = styled.div`
     img {
       display: block;
       max-width: 100%;
-      max-height: 24rem; 
+  
     }
   }
 
