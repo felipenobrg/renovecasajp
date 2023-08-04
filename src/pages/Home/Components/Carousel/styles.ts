@@ -7,18 +7,17 @@ export const CarouselContainer = styled.div`
 
   img {
     width: 100%;
-    height: 38rem; 
+    height: auto;
+    max-height: 38rem;
   }
 
   @media (max-width: 768px) {
     img {
-      height: 24rem;
+      max-height: 24rem; 
     }
   }
 
   @media screen and (min-width: 768px) {
-
     display: none;
-
-}
+  }
 `;
