@@ -55,14 +55,16 @@ export function Header() {
                   <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
                   <NavLink to={"/moveis"}>Móveis</NavLink>
                   <NavLink to={"/utilidades"}>Utilidades</NavLink>
-                  <button onClick={handleWhatsAppClick}><WhatsappLogo size={20} />Compre Via WhatsApp</button>
+                  <button onClick={handleWhatsAppClick}>
+                    <WhatsappLogo size={20} />
+                    Compre Via WhatsApp
+                  </button>
                 </DropdownList>
               </DropdownMenu>
             )}
           </div>
-          <NavLink to={"/"}>
-            <img src={LogoRenoveCasa} alt="" />
-          </NavLink>
+
+          <img src={LogoRenoveCasa} alt="" />
         </HeaderContent>
       </HeaderContainer>
     </>
