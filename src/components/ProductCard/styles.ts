@@ -13,15 +13,8 @@ export const CardContainer = styled.div`
     width: 100%;
     height: 32rem;
     border-radius: 9px;
-
-    .image-loading {
-      background-color: red;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 200px;
-    }
   }
+  
 
   @media (max-width: 768px) {
     margin: 0 auto;
@@ -30,6 +23,7 @@ export const CardContainer = styled.div`
 
     img {
       width: 100vw;
+      border-radius: 0;
     }
   }
 `;
