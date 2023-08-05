@@ -8,6 +8,8 @@ export const CardContainer = styled.div`
   max-height: 100%;
   margin: 2rem 2rem 1rem 2rem;
   flex: 1;
+  text-decoration: none;
+  
   img {
     width: 100%;
     height: 32rem;
@@ -16,7 +18,7 @@ export const CardContainer = styled.div`
 
   a {
     color: ${(props) => props.theme["black"]};
-    text-decoration: 0;
+    text-decoration: none;
   }
   
 
