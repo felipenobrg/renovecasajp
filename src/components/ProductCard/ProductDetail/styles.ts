@@ -19,7 +19,7 @@ export const ProductDetailContainer = styled.div`
   }
 
   button {
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.3rem;
@@ -33,6 +33,7 @@ export const ProductDetailContainer = styled.div`
 
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
+    font-weight: bold;
 
     &:hover {
         transition: 0.3s ease;

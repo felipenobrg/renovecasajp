@@ -52,7 +52,7 @@ export function ProductDetail({ products }: Props) {
         <Price>R${product.price}</Price>
         <OldPrice>R${product.oldPrice}</OldPrice>
         </div>
-        <button onClick={handleWhatsAppClick}><WhatsappLogo />Fale Conosco</button>
+        <button onClick={handleWhatsAppClick}><WhatsappLogo size={20} weight="fill" />COMPRAR</button>
       </ProductDetailContainer>
     </>
   );
