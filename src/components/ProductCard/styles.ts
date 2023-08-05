@@ -8,11 +8,15 @@ export const CardContainer = styled.div`
   max-height: 100%;
   margin: 2rem 2rem 1rem 2rem;
   flex: 1;
-
   img {
     width: 100%;
     height: 32rem;
     border-radius: 9px;
+  }
+
+  a {
+    color: ${(props) => props.theme["black"]};
+    text-decoration: 0;
   }
   
 

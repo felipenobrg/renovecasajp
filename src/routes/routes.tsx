@@ -8,6 +8,15 @@ import { Camas } from "../pages/Camas"
 import { ProdutosEmVime } from "../pages/Produtos-em-vime"
 import { Utilidades } from "../pages/Utilidades"
 import { Moveis } from "../pages/Moveis"
+import { ProductDetail } from "../components/ProductCard/ProductDetail"
+import {  sofaRetroData } from "../data/Sofa-retro"
+import { sofaRetratilData } from "../data/Sofa-retratil"
+import { sofasPopularesData } from "../data/Sofas-populares"
+import { poltronasData } from "../data/Poltronas"
+import { camaData } from "../data/Cama"
+import { produtosEmVimeData } from "../data/Produtos-em-vime"
+import { moveisData } from "../data/Moveis"
+import { utilidadesData } from "../data/Utilidades"
 
 export function Router() {
     return (
@@ -21,6 +30,15 @@ export function Router() {
             <Route path="/camas" element={<Camas />} />
             <Route path="/produtosvime" element={<ProdutosEmVime />} />
             <Route path="/utilidades" element={<Utilidades />} />
+            <Route path="/product/:productId" element={<ProductDetail products={sofaRetroData} />} /> 
+            <Route path="/product2/:productId" element={<ProductDetail products={sofaRetratilData} />} /> 
+            <Route path="/product3/:productId" element={<ProductDetail products={sofasPopularesData} />} /> 
+            <Route path="/product4/:productId" element={<ProductDetail products={poltronasData} />} /> 
+            <Route path="/product5/:productId" element={<ProductDetail products={camaData} />} /> 
+            <Route path="/product6/:productId" element={<ProductDetail products={produtosEmVimeData} />} /> 
+            <Route path="/product7/:productId" element={<ProductDetail products={moveisData} />} /> 
+            <Route path="/product8/:productId" element={<ProductDetail products={utilidadesData} />} /> 
+
         </Routes>
     )
 }
