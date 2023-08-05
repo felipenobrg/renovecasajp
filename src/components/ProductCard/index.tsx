@@ -71,8 +71,7 @@ export function ProductCard({
       linkDestination = `/product/${productId}`;
   }
 
-  return (
-    
+  return ( 
     <CardContainer>
       <CardContent>
         <NavLink to={linkDestination}>
@@ -91,23 +90,3 @@ export function ProductCard({
     </CardContainer>
   );
 }
-
-
-  // const handleShare = async () => {
-  //   try {
-
-  //     if (navigator.share) {
-
-  //       await navigator.share({
-  //         title: 'Furniture Store',
-  //         text: 'Check out this amazing furniture!',
-  //         url: 'https://www.yourfurniturestore.com/product123'
-  //       });
-  //     } else {
-
-  //       alert('Web Share API is not supported in this browser.');
-  //     }
-  //   } catch (error) {
-  //     console.error('Error sharing:', error);
-  //   }
-  // }

@@ -4,6 +4,7 @@ import { AboutDelivery } from "../../AboutDelivery";
 import { SectionLink } from "../../SectionLink";
 
 import { ProductDetailContainer } from "./styles";
+import { OldPrice, Price } from "../styles";
 
 type ProductType = {
   id: number;
@@ -38,9 +39,12 @@ export function ProductDetail({ products }: Props) {
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
+       
         <h1>{product.title}</h1>
-        <p>{product.price}</p>
-        <p>{product.oldPrice}</p>
+        <div>
+        <Price>R${product.price}</Price>
+        <OldPrice>R${product.oldPrice}</OldPrice>
+        </div>
       </ProductDetailContainer>
     </>
   );
