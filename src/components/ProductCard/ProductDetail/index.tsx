@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
-import { AboutDelivery } from "../../AboutDelivery";
 import { SectionLink } from "../../SectionLink";
 
 import { ProductDetailContainer } from "./styles";
@@ -43,7 +42,6 @@ export function ProductDetail({ products }: Props) {
   return (
     <>
       <Header />
-      <AboutDelivery />
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />

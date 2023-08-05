@@ -49,6 +49,7 @@ export const ProductDetailContainer = styled.div`
 
   img {
     width: 80%;
+    border-radius: 6px;
   }
 
   @media (max-width: 768px) {
