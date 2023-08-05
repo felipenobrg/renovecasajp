@@ -26,6 +26,7 @@ export function SofasPopulares() {
       <AboutDelivery />
 
       <SectionLink />
+      
 
       <ProductCard
         imgSrc={ConjuntoDeSofaCinza}

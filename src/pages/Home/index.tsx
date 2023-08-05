@@ -9,9 +9,11 @@ import { SectionAbout } from "./Components/SectionAbout";
 import { WhoWeAre } from "./Components/WhoWeAre";
 
 export function Home() {
+
   return (
     <>
       <Header />
+
       <AboutDelivery />
       <SectionLink />
       <Carousel />
@@ -23,3 +25,4 @@ export function Home() {
     </>
   );
 }
+

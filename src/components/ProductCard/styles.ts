@@ -65,6 +65,10 @@ export const TitleCard = styled.p`
   }
 `;
 
+export const ButtonShare = styled.button`
+  border: 0;
+`
+
 export const Price = styled.p`
   margin-right: auto;
   font-weight: bold;
