@@ -7,15 +7,18 @@ import { ProductDetailContainer } from "./styles";
 
 type ProductType = {
   id: number;
-  title: string;
-  imgSrc: string;
-  price: number;
-  oldPrice: number;
   productId: number;
+  imgSrc: string;
+  title: string;
+  price: string;
+  oldPrice: string;
+  textForWhatsApp: string;
 };
 
+type PartialProductType = Omit<ProductType, 'id'> & Partial<Pick<ProductType, 'id'>>;
+
 interface Props {
-  products: ProductType[];
+  products: PartialProductType[];
 }
 
 export function ProductDetail({ products }: Props) {

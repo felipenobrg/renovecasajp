@@ -19,7 +19,8 @@ export interface ProductCardProps {
   price: string;
   oldPrice: string;
   textForWhatsApp: string;
-  productId: number;
+  productId: string 
+
 }
 
 export function ProductCard({
