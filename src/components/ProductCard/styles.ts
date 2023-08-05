@@ -29,7 +29,7 @@ export const CardContainer = styled.div`
 
     img {
       width: 95vw;
-      border-radius: 0;
+      border-radius: 6px;
     }
   }
 `;
