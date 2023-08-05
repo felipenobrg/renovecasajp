@@ -39,6 +39,7 @@ export function ProductDetail({ products }: Props) {
     })}`;
     window.open(url, "_blank");
   };
+  
   return (
     <>
       <Header />
