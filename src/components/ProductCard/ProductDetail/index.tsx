@@ -23,7 +23,8 @@ interface Props {
 
 export function ProductDetail({ products }: Props) {
   const { productId } = useParams<{ productId: string }>();
-  const product = products.find((p) => p.productId === parseInt(productId));
+  const parsedProductId = productId ? parseInt(productId) : undefined;
+  const product = products.find((p) => p.productId === parsedProductId);
 
 
   if (!product) {
