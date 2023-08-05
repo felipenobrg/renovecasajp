@@ -6,13 +6,8 @@ export const SectionContainer = styled.section`
   max-width: 100%;
   overflow: auto;
 
-  @media screen and (max-width: 768px) {
-    display: flex;
-    align-items: center;
-
-    font-size: 0.95rem;
-    text-align: center;
-    overflow-x: auto;
+  @media screen and (max-width: 769px) {
+    display: none;
   }
 `;
 
@@ -46,11 +41,5 @@ export const SectionContent = styled.div`
     height: 2px;
     width: 100%;
     background: ${(props) => props.theme["white"]};
-  }
-
-  @media screen and (max-width: 768px) {
-    gap: 1rem;
-    margin-left: -1rem;
-    overflow: auto;
   }
 `;

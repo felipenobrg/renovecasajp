@@ -115,11 +115,17 @@ export const ButtonCard = styled.button`
 
 export const WornOut = styled.div`
   position: absolute;
-  width: 10rem;
+  right: 10px;
+  left: 10px;
   text-align: center;
+  margin-top: -10rem;
   z-index: 1;
   color: ${(props) => props.theme["white"]};
   background: ${(props) => props.theme["red"]};
   padding: 10px;
   font-weight: bold;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;

@@ -1,24 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { SectionContainer, SectionContent } from "./styles";
-import { useState, useEffect } from "react";
 
 export function SectionLink() {
-  const [showSection, setShowSection] = useState(true);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setShowSection(window.innerWidth >= 768);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  if (!showSection) {
-    return null;
-  }
-
   return (
     <SectionContainer>
       <SectionContent>
