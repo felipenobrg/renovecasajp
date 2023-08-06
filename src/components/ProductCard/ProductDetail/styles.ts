@@ -58,8 +58,15 @@ export const ShareButton = styled.button`
    margin-top: 3rem;
    text-decoration: 0;
 
+   svg {
+    &:hover {
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+   }
+
    @media (max-width: 768px) {
-    left: 130px;
+    left: 140px;
   }
 `
 
