@@ -56,6 +56,7 @@ export const ShareButton = styled.button`
    top: 0;
    right: 150px;
    margin-top: 3rem;
+   text-decoration: 0;
 
    @media (max-width: 768px) {
     left: 130px;

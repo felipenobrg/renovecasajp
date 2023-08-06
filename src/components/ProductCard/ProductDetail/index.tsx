@@ -4,7 +4,7 @@ import { SectionLink } from "../../SectionLink";
 
 import { AboutGuarantee, Description, ProductDetailContainer, ShareButton, WhatsAppButton } from "./styles";
 import { MoneySign, Price } from "../styles";
-import { Share, WhatsappLogo } from "phosphor-react";
+import { Export, WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
 
 type ProductType = {
@@ -45,8 +45,10 @@ export function ProductDetail({ products }: Props) {
 
   const handleShare = () => {
     const shareURL = window.location.href;
+
     if (navigator.share) {
       navigator.share({
+        text: product.title,
         url: shareURL,
       }).then(() => {
         console.log('Shared successfully!');
@@ -64,7 +66,7 @@ export function ProductDetail({ products }: Props) {
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
-        <ShareButton onClick={handleShare}><Share size={30} /></ShareButton>
+        <ShareButton onClick={handleShare}><Export size={30} /></ShareButton>
         <h1>{product.title}</h1>
         <div>
           <Price>
