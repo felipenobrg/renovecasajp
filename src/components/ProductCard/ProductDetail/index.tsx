@@ -15,6 +15,7 @@ type ProductType = {
   price: string;
   oldPrice: string;
   textForWhatsApp: string;
+  description: string;
 };
 
 type PartialProductType = Omit<ProductType, 'id'> & Partial<Pick<ProductType, 'id'>>;
