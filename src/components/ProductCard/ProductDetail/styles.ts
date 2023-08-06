@@ -6,7 +6,7 @@ export const ProductDetailContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 2rem;
+
   background: ${(props) => props.theme["base-card"]};
   padding: 3rem;
   border-radius: 6px;
