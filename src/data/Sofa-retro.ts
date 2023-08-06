@@ -14,7 +14,8 @@ export const sofaRetroData = [
   {
     productId: 1,
     imgSrc: SofaRetroOffWhite,
-    title: "Sofá Retrô Cinza Off White 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Cinza Off White ",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Off White",
@@ -22,7 +23,7 @@ export const sofaRetroData = [
   {
     productId: 2,
     imgSrc: SofaRetroCinza,
-    title: "Sofá Retrô Cinza Chumbo 1.90x90cm",
+    title: "Sofá Retrô Cinza Chumbo",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Cinza Chumbo",
@@ -30,7 +31,8 @@ export const sofaRetroData = [
   {
     productId: 3,
     imgSrc: SofaRetroPreto,
-    title: "Sofá Retrô Preto 1.90x90cm",
+    title: "Sofá Retrô Preto",
+    description: "Dimensões: 1.90x90cm",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Preto",
@@ -38,7 +40,8 @@ export const sofaRetroData = [
   {
     productId: 4,
     imgSrc: SofaRetroAzul,
-    title: "Sofá Retrô Azul Royal 1.90x90cm",
+    title: "Sofá Retrô Azul Royal",
+    description: "Dimensões: 1.90x90cm",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Azul Royal",
@@ -46,7 +49,8 @@ export const sofaRetroData = [
   {
     productId: 5,
     imgSrc: SofaRetroVermelho,
-    title: "Sofá Retrô Vermelho 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Vermelho",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Vermelho",
@@ -54,7 +58,8 @@ export const sofaRetroData = [
   {
     productId: 6,
     imgSrc: SofaRetroTerraCota,
-    title: "Sofá Retrô Terra Cota 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Terra Cota",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Terra Cota",
@@ -62,7 +67,8 @@ export const sofaRetroData = [
   {
     productId: 7,
     imgSrc: RetroLinhoMarromEscuro,
-    title: "Sofá Retrô Linho Marrom Escuro 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Linho Marrom Escuro",
     price: "899,99",
     oldPrice: "949,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Linho Marrom Escuro",
@@ -70,7 +76,8 @@ export const sofaRetroData = [
   {
     productId: 8,
     imgSrc: RetroLinhoAzul,
-    title: "Sofá Retrô Linho Azul 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Linho Azul",
     price: "999,99",
     oldPrice: "1299,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Azul",
@@ -78,7 +85,8 @@ export const sofaRetroData = [
   {
     productId: 9,
     imgSrc: RetroLinhoMarromClaroAlmofadaLisa,
-    title: "Sofá Retrô Linho Marrom Claro c/ Almofada Lisa 1.90x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Linho Marrom Claro c/ Almofada Lisa",
     price: "999,99",
     oldPrice: "1299,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Linho Marrom Claro c/ Almofada",
@@ -86,7 +94,8 @@ export const sofaRetroData = [
   {
     productId: 10,
     imgSrc: RetroDeltaMarfim,
-    title: "Sofá Retrô Delta Marfim Linho (Acompanha o Centro) 2.0x90cm",
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Delta Marfim Linho (Acompanha o Centro)",
     price: "1199,99",
     oldPrice: "1299,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",

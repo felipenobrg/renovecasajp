@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
 import { SectionLink } from "../../SectionLink";
 
-import { ProductDetailContainer } from "./styles";
+import { Description, ProductDetailContainer } from "./styles";
 import { OldPrice, Price } from "../styles";
 import { WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
@@ -39,7 +39,7 @@ export function ProductDetail({ products }: Props) {
     })}`;
     window.open(url, "_blank");
   };
-  
+
   return (
     <>
       <Header />
@@ -47,6 +47,7 @@ export function ProductDetail({ products }: Props) {
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
         <h1>{product.title}</h1>
+        <Description>{product.description}</Description>
         <div>
         <Price>R${product.price}</Price>
         <OldPrice>R${product.oldPrice}</OldPrice>

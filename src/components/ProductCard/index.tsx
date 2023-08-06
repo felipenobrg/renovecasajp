@@ -12,6 +12,7 @@ import {
 import queryString from "query-string";
 import { NavLink } from "react-router-dom";
 
+
 export interface ProductCardProps {
   imgSrc: string;
   wornOut?: string;
@@ -20,6 +21,7 @@ export interface ProductCardProps {
   oldPrice: string;
   textForWhatsApp: string;
   productId: number;
+  description?: string;
   key: number
 }
 

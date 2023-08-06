@@ -14,7 +14,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 1,
       imgSrc: MonacoBege,
-      title: "Sofá Monaco Bege 2.0x90cm",
+      title: "Sofá Monaco Bege",
+      description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Bege",
@@ -22,7 +23,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 2,
       imgSrc: MonacoMarromEscuro,
-      title: "Sofá Monaco Marrom Escuro 2.0x90cm",
+      title: "Sofá Monaco Marrom Escuro",
+      description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom Escuro",
@@ -30,7 +32,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 3,
       imgSrc: MonacoCinza,
-      title: "Sofá Monaco Cinza Chumbo 2.0x90cm",
+      title: "Sofá Monaco Cinza Chumbo",
+      description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Chumbo",
@@ -38,7 +41,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 4,
       imgSrc: SofaMarrom,
-      title: "Sofá Monaco Marrom 2.0x90cm",
+      title: "Sofá Monaco Marrom",
+      description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom",
@@ -46,7 +50,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 5,
       imgSrc: SofaOffWhite,
-      title: "Sofá Monaco Off White 2.0x90cm",
+      title: "Sofá Monaco Off White",
+      description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Off White",
@@ -54,7 +59,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 6,
       imgSrc: SofaBrancoGeloLinho,
-      title: "Sofá Monaco Branco Gelo Linho 2.0x90cm",
+      title: "Sofá Monaco Branco Gelo Linho",
+      description: "Dimensões: 2.0x90cm",
       price: "1149,99",
       oldPrice: "1299,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Branco Gelo Linho",
@@ -62,7 +68,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 7,
       imgSrc: SofaParisCinza,
-      title: "Sofá Paris Cinza Linho 2.0x90cm",
+      title: "Sofá Paris Cinza Linho",
+      description: "Dimensões: 2.0x90cm",
       wornOut: "ESGOTADO",
       price: "1199,99",
       oldPrice: "1299,99",
@@ -71,7 +78,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 8,
       imgSrc: SofaParisMarfim,
-      title: "Sofá Paris Marfim Linho 2.0x90cm",
+      title: "Sofá Paris Marfim Linho",
+      description: "Dimensões: 2.0x90cm",
       wornOut: "ESGOTADO",
       price: "1199,99",
       oldPrice: "1299,99",
@@ -80,7 +88,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 9,
       imgSrc: SofaLuxoAzul,
-      title: "Sofá Luxo Azul Royal 2.0x90cm",
+      title: "Sofá Luxo Azul Royal",
+      description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
@@ -88,7 +97,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 10,
       imgSrc: SofaLuxoOffWhite,
-      title: "Sofá Luxo Off White 2.0x90cm",
+      title: "Sofá Luxo Off White",
+      description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
@@ -96,7 +106,8 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
     {
       productId: 11,
       imgSrc: SofaLuxoCinza,
-      title: "Sofá Luxo Cinza 2.0x90cm",
+      title: "Sofá Luxo Cinza",
+      description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Cinza",
