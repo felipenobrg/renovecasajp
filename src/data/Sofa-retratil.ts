@@ -80,7 +80,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       price: "1199,99",
       oldPrice: "1299,99",
       cardValue: "111,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Linho",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Paris Cinza Linho",
     },
     {
       productId: 8,
