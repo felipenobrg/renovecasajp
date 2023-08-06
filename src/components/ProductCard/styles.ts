@@ -101,7 +101,8 @@ export const ButtonCard = styled.button`
   background: ${(props) => props.theme["green-300"]};
   color: ${(props) => props.theme["white"]};
   border-radius: 6px;
-  padding: 0.5rem;
+  padding: 0.8rem;
+  margin-top: 1rem;
   border: 0;
   width: 100%;
   cursor: pointer;

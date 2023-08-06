@@ -19,7 +19,7 @@ export const ProductDetailContainer = styled.div`
   }
 
   button {
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.3rem;
@@ -29,7 +29,8 @@ export const ProductDetailContainer = styled.div`
     margin-top: 1rem;
     border: 0;
     border-radius: 6px;
-    padding: 0.5rem;
+    padding: 0.8rem;
+    margin-top: 1rem;
 
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};

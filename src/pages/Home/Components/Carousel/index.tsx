@@ -23,7 +23,7 @@ export function Carousel() {
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          autoplay
+          autoplay={true}
         >
           <SwiperSlide>
             <img src={CarouselImage1} alt="" />
