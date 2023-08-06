@@ -66,7 +66,7 @@ export function ProductDetail({ products }: Props) {
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
-        <ShareButton onClick={handleShare}><Export size={30} /></ShareButton>
+        <ShareButton onClick={handleShare}><Export size={30} color="#000000" /></ShareButton>
         <h1>{product.title}</h1>
         <div>
           <Price>
