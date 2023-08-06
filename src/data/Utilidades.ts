@@ -39,7 +39,8 @@ export const utilidadesData = [
     {
       productId: 4,
       imgSrc: Baus,
-      title: "Báu 90x40",
+      title: "Báu",
+      description: "Dimensões: 90x40cm",
       price: "99,99",
       oldPrice: "129,99",
       cardValue: "9,99",
@@ -66,7 +67,8 @@ export const utilidadesData = [
     {
       productId: 7,
       imgSrc: QuadroLeaoLaranja,
-      title: "Quadro Decorativo Leão Laranja 1.20x60",
+      title: "Quadro Decorativo Leão Laranja",
+      description: "Dimensões: 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
       cardValue: "12,99",
@@ -75,7 +77,8 @@ export const utilidadesData = [
     {
       productId: 8,
       imgSrc: QuadroLeao,
-      title: "Quadro Decorativo Leão 1.20x60",
+      title: "Quadro Decorativo Leão",
+      description: "Dimensões: 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
       cardValue: "12,99",
@@ -84,7 +87,8 @@ export const utilidadesData = [
     {
       productId: 9,
       imgSrc: QuadroLeaoELeoa,
-      title: "Quadro Decorativo Leão e Leoa 1.20x60",
+      title: "Quadro Decorativo Leão e Leoa",
+      description: "Dimensões: 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
       cardValue: "12,99",

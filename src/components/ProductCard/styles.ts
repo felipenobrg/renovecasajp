@@ -9,11 +9,11 @@ export const CardContainer = styled.div`
   margin: 2rem 2rem 1rem 2rem;
   flex: 1;
   text-decoration: none;
-  
+
   img {
     width: 100%;
     height: 32rem;
-    border-radius: 9px;
+    border-radius: 6px;
   }
 
   a {
@@ -30,6 +30,7 @@ export const CardContainer = styled.div`
     img {
       width: 95vw;
       border-radius: 6px;
+      height: 28rem;
     }
   }
 `;
