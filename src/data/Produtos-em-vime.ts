@@ -40,7 +40,8 @@ export const produtosEmVimeData = [
       imgSrc: CadeiraDeBalanco,
       title: "Cadeira de Balanço",
       price: "199,99",
-      oldPrice: "19,99",
+      oldPrice: "129,99",
+      cardValue: "19,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço",
     },
     {

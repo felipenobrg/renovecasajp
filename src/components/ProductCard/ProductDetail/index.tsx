@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
 import { SectionLink } from "../../SectionLink";
 
-import { Description, ProductDetailContainer } from "./styles";
+import { AboutGuarantee, Description, ProductDetailContainer } from "./styles";
 import { MoneySign, Price } from "../styles";
 import { WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
@@ -19,7 +19,8 @@ type ProductType = {
   cardValue: string;
 };
 
-type PartialProductType = Omit<ProductType, 'id'> & Partial<Pick<ProductType, 'id'>>;
+type PartialProductType = Omit<ProductType, "id"> &
+  Partial<Pick<ProductType, "id">>;
 
 interface Props {
   products: PartialProductType[];
@@ -50,11 +51,34 @@ export function ProductDetail({ products }: Props) {
         <img src={product.imgSrc} alt={product.title} />
         <h1>{product.title}</h1>
         <div>
-        <Price><MoneySign>R$ </MoneySign>{product.price} à vista</Price>
+          <Price>
+            <MoneySign>R$ </MoneySign>
+            {product.price} à vista
+          </Price>
         </div>
-        <p>ou <strong>12x</strong> de <strong><MoneySign>R$</MoneySign> {product.cardValue}</strong></p>
+        <p>
+          ou <strong>12x</strong> de{" "}
+          <strong>
+            <MoneySign>R$</MoneySign> {product.cardValue}
+          </strong>
+        </p>
         <Description>{product.description}</Description>
-        <button onClick={handleWhatsAppClick}><WhatsappLogo size={20} weight="fill" />COMPRAR</button>
+        <button onClick={handleWhatsAppClick}>
+          <WhatsappLogo size={20} weight="fill" />
+          COMPRAR
+        </button>
+        <AboutGuarantee>
+          <h1>Sobre Garantia:</h1>
+          <p>
+            • Troca de peças pequenas são feitas na nossa loja física em João
+            Pessoa, no João Paulo ll.
+          </p>
+          <p>• Não realizamos trocas de estofados sem defeito de fábrica</p>
+          <p>
+            • Se o sofá apresentar defeito de fábrica será analisado e levada
+            para conserto ou troca na fábrica
+          </p>
+        </AboutGuarantee>
       </ProductDetailContainer>
     </>
   );

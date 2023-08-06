@@ -41,7 +41,8 @@ export const utilidadesData = [
       imgSrc: Baus,
       title: "Báu 90x40",
       price: "99,99",
-      oldPrice: "9,99",
+      oldPrice: "129,99",
+      cardValue: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Baú",
     },
     {
@@ -49,7 +50,8 @@ export const utilidadesData = [
       imgSrc: CadeiraDeBalancoDeFio,
       title: "Cadeira de Balanço de Fio",
       price: "189,99",
-      oldPrice: "18,99",
+      oldPrice: "199,99",
+      cardValue: "18,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço de Fio",
     },
     {
