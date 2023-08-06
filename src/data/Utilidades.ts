@@ -15,6 +15,7 @@ export const utilidadesData = [
       title: "Puff Retrô",
       price: "89,99",
       oldPrice: "109,99",
+      cardValue: "8,99",
       textForWhatsApp: "Olá. Gostaria de comprar Puff Retrô",
     },
     {
@@ -23,6 +24,7 @@ export const utilidadesData = [
       title: "Sapateira",
       price: "149,99",
       oldPrice: "189,99",
+      cardValue: "14,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
     },
     {
@@ -31,6 +33,7 @@ export const utilidadesData = [
       title: "Sapateira",
       price: "149,99",
       oldPrice: "189,99",
+      cardValue: "14,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
     },
     {
@@ -38,7 +41,7 @@ export const utilidadesData = [
       imgSrc: Baus,
       title: "Báu 90x40",
       price: "99,99",
-      oldPrice: "119,99",
+      oldPrice: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Baú",
     },
     {
@@ -46,16 +49,17 @@ export const utilidadesData = [
       imgSrc: CadeiraDeBalancoDeFio,
       title: "Cadeira de Balanço de Fio",
       price: "189,99",
-      oldPrice: "199,99",
+      oldPrice: "18,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço de Fio",
     },
     {
       productId: 6,
       imgSrc: CantinhoDeCafe,
-      title: "Cantinho de Chá",
+      title: "Cantinho de Café",
       price: "299,99",
       oldPrice: "329,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Cantinho de Chá",
+      cardValue: "28,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Cantinho de Café",
     },
     {
       productId: 7,
@@ -63,6 +67,7 @@ export const utilidadesData = [
       title: "Quadro Decorativo Leão Laranja 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
+      cardValue: "12,99",
       textForWhatsApp: "Olá. Quadro Decorativo Leão Laranja",
     },
     {
@@ -71,6 +76,7 @@ export const utilidadesData = [
       title: "Quadro Decorativo Leão 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
+      cardValue: "12,99",
       textForWhatsApp: "Olá. Gostaria de comprar Quadro Decorativo Leão",
     },
     {
@@ -79,8 +85,7 @@ export const utilidadesData = [
       title: "Quadro Decorativo Leão e Leoa 1.20x60",
       price: "129,99",
       oldPrice: "159,99",
+      cardValue: "12,99",
       textForWhatsApp: "Olá. Quadro Decorativo Leão e Leoa",
     },
-    // Add other product objects here
-    // ...
   ];

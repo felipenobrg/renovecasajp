@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 import { SectionLink } from "../../SectionLink";
 
 import { Description, ProductDetailContainer } from "./styles";
-import { OldPrice, Price } from "../styles";
+import { MoneySign, Price } from "../styles";
 import { WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
 
@@ -13,9 +13,10 @@ type ProductType = {
   imgSrc: string;
   title: string;
   price: string;
-  oldPrice: string;
+  oldPrice?: string;
   textForWhatsApp: string;
   description?: string;
+  cardValue: string;
 };
 
 type PartialProductType = Omit<ProductType, 'id'> & Partial<Pick<ProductType, 'id'>>;
@@ -48,11 +49,11 @@ export function ProductDetail({ products }: Props) {
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
         <h1>{product.title}</h1>
-        <Description>{product.description}</Description>
         <div>
-        <Price>R${product.price}</Price>
-        <OldPrice>R${product.oldPrice}</OldPrice>
+        <Price><MoneySign>R$ </MoneySign>{product.price} à vista</Price>
         </div>
+        <p>ou <strong>12x</strong> de <strong><MoneySign>R$</MoneySign> {product.cardValue}</strong></p>
+        <Description>{product.description}</Description>
         <button onClick={handleWhatsAppClick}><WhatsappLogo size={20} weight="fill" />COMPRAR</button>
       </ProductDetailContainer>
     </>

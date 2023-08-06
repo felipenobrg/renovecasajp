@@ -58,7 +58,7 @@ export const CardContent = styled.div`
 
 export const TitleCard = styled.p`
   font-family: "Baloo 2", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;

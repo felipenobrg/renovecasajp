@@ -11,6 +11,7 @@ export const camaData = [
       title: "Cama Box de Casal Topázio",
       price: "549,99",
       oldPrice: "699,99",
+      cardValue: "53,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Topázio",
     },
     {
@@ -19,6 +20,7 @@ export const camaData = [
       title: "Cama Box de Solteiro Topázio",
       price: "449,99",
       oldPrice: "599,99",
+      cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Solteiro Topázio",
     },
     {
@@ -27,6 +29,7 @@ export const camaData = [
       title: "Cama Box de Casal Molas Ensacadas Topázio",
       price: "899,99",
       oldPrice: "999,99",
+      cardValue: "86,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Molas Ensacadas Topázio",
     },
     {
@@ -35,6 +38,7 @@ export const camaData = [
       title: "Colchão Molas Ensacadas Topázio",
       price: "849,99",
       oldPrice: "899,99",
+      cardValue: "82,99",
       textForWhatsApp: "Olá. Gostaria de comprar Colchão Molas Ensacadas",
     },
     {
@@ -43,6 +47,7 @@ export const camaData = [
       title: "Colchão + Base de Casal Topázio",
       price: "799,99",
       oldPrice: "899,99",
+      cardValue: "77,99",
       textForWhatsApp: "Olá. Gostaria de comprar Colchão + Base de Casal Topázio",
     }
 ]

@@ -18,6 +18,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
+      cardValue: "101,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Bege",
     },
     {
@@ -27,6 +28,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
+      cardValue: "101,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom Escuro",
     },
     {
@@ -36,6 +38,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
+      cardValue: "101,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Chumbo",
     },
     {
@@ -45,6 +48,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
+      cardValue: "101,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom",
     },
     {
@@ -54,6 +58,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1049,99",
       oldPrice: "1199,99",
+      cardValue: "101,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Off White",
     },
     {
@@ -63,6 +68,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1149,99",
       oldPrice: "1299,99",
+      cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Branco Gelo Linho",
     },
     {
@@ -73,6 +79,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       wornOut: "ESGOTADO",
       price: "1199,99",
       oldPrice: "1299,99",
+      cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Linho",
     },
     {
@@ -83,6 +90,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       wornOut: "ESGOTADO",
       price: "1199,99",
       oldPrice: "1299,99",
+      cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",
     },
     {
@@ -92,6 +100,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
+      cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
     },
     {
@@ -101,6 +110,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
+      cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
     },
     {
@@ -110,6 +120,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
+      cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Cinza",
     },
   ];

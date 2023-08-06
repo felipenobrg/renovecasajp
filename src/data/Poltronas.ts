@@ -17,6 +17,7 @@ export const poltronasData = [
     title: "Poltrona Capitonê Cinza",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Cinza",
   },
   {
@@ -25,6 +26,7 @@ export const poltronasData = [
     title: "Poltrona Capitonê Azul",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Azul",
   },
   {
@@ -33,6 +35,7 @@ export const poltronasData = [
     title: "Poltrona Capitonê Marrom",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Marrom",
   },
   {
@@ -41,6 +44,7 @@ export const poltronasData = [
     title: "Poltrona Capitonê Rosa",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Rosa",
   },
   {
@@ -49,6 +53,7 @@ export const poltronasData = [
     title: "Poltrona Almofadada Cinza",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Cinza",
   },
   {
@@ -57,6 +62,7 @@ export const poltronasData = [
     title: "Poltrona Almofadada Bege",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Bege",
   },
   {
@@ -65,6 +71,7 @@ export const poltronasData = [
     title: "Poltrona Almofadada Verde",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Verde",
   },
   {
@@ -73,6 +80,7 @@ export const poltronasData = [
     title: "Poltrona Almofadada Azul",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Azul",
   },
   {
@@ -81,6 +89,7 @@ export const poltronasData = [
     title: "Poltrona Bob Bege",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Bege",
   },
   {
@@ -89,6 +98,7 @@ export const poltronasData = [
     title: "Poltrona Bob Terra Cota",
     price: "219,99",
     oldPrice: "249,99",
+    cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Terra Cota",
   },
   {
@@ -97,6 +107,7 @@ export const poltronasData = [
     title: "Poltrona Bob Cinza Linho",
     price: "224,99",
     oldPrice: "289,99",
+    cardValue: "22,99",
     textForWhatsApp: "Olá. Gostaria de comprar Proltrona Bob Cinza Linho",
   },
 ];

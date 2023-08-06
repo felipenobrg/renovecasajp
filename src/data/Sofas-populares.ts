@@ -19,6 +19,7 @@ export const sofasPopularesData = [
       title: "Conjunto de Sofá Cinza",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza",
     },
     {
@@ -27,6 +28,7 @@ export const sofasPopularesData = [
       title: "Conjunto de Sofá Preto",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Preto",
     },
     {
@@ -35,6 +37,7 @@ export const sofasPopularesData = [
       title: "Conjunto de Sofá Cinza Escuro",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza Escuro",
     },
     {
@@ -43,6 +46,7 @@ export const sofasPopularesData = [
       title: "Conjunto de Sofá Vermelho",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Vermelho",
     },
     {
@@ -51,6 +55,7 @@ export const sofasPopularesData = [
       title: "Conjunto de Sofá Bege Sem Almofada",
       price: "599,99",
       oldPrice: "699,99",
+      cardValue: "57,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Bege Sem Almofada",
     },
     {
@@ -59,6 +64,7 @@ export const sofasPopularesData = [
       title: "Sofá Três Lugares Marrom",
       price: "449,99",
       oldPrice: "549,99",
+      cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Marrom",
     },
     {
@@ -67,6 +73,7 @@ export const sofasPopularesData = [
       title: "Sofá Três Lugares Preto com 2 Puffs",
       price: "549,99",
       oldPrice: "649,99",
+      cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Preto com 2 Puffs",
     },
     {
@@ -75,6 +82,7 @@ export const sofasPopularesData = [
       title: "Sofá Dubai Dois Lugares Bege",
       price: "449,99",
       oldPrice: "499,99",
+      cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Dois Lugares Bege",
     },
     {
@@ -83,6 +91,7 @@ export const sofasPopularesData = [
       title: "Sofá Dubai Cinza Três Lugares",
       price: "549,99",
       oldPrice: "599,99",
+      cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Cinza Três Lugares",
     },
     {
@@ -91,6 +100,7 @@ export const sofasPopularesData = [
       title: "Sofá Dubai Marrom Três Lugares",
       price: "549,99",
       oldPrice: "599,99",
+      cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Marrom Três Lugares",
     },
   ];

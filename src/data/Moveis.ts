@@ -12,6 +12,7 @@ import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
       title: "Armário de Cozinha Preto",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
     },
     {
@@ -20,6 +21,7 @@ import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
       title: "Armário de Cozinha Preto e Branco",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
     },
     {
@@ -28,6 +30,7 @@ import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
       title: "Armário de Cozinha Marrom",
       price: "749,99",
       oldPrice: "899,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Marrom",
     },
     {
@@ -37,6 +40,7 @@ import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
       title: "Painel de TV 46 Polegadas",
       price: "399,99",
       oldPrice: "599,99",
+      cardValue: "38,99",
       textForWhatsApp: "Olá. Gostaria de comprar Painel de TV 46 Polegadas",
     },
     {
@@ -45,6 +49,7 @@ import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
       title: "Painel de TV 55 Polegadas",
       price: "749,99",
       oldPrice: "699,99",
+      cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Painel de TV 55 Polegadas",
     },
   ]

@@ -26,11 +26,9 @@ export const ProductDetailContainer = styled.div`
 
     cursor: pointer;
     width: 55%;
-    margin-top: 1rem;
     border: 0;
     border-radius: 6px;
     padding: 0.8rem;
-    margin-top: 1rem;
 
     background: ${(props) => props.theme["green-300"]};
     color: ${(props) => props.theme["white"]};
@@ -43,9 +41,10 @@ export const ProductDetailContainer = styled.div`
   }
 
   h1 {
+    font-size: 1.5rem;
     font-family: "Baloo 2", sans-serif;
-    font-size: 2rem;
     text-align: center;
+    margin-bottom: 0.5rem;
   }
 
   img {
@@ -62,6 +61,10 @@ export const ProductDetailContainer = styled.div`
     button {
         width: 100%;
     }
+
+    h1 {
+      font-size: 1.4rem;
+    }
   }
 `;
 
@@ -69,7 +72,9 @@ export const ProductDetailContainer = styled.div`
 export const Description = styled.div`
    display: flex;
    margin-bottom: 1rem;
-   color: ${(props) => props.theme["gray-500"]}
+   color: ${(props) => props.theme["gray-500"]};
+   margin-top: 0.2rem;
+   font-size: 0.8rem;
 `
 
 export const Price = styled.p`
@@ -78,9 +83,7 @@ export const Price = styled.p`
   font-size: 1.2rem;
 `;
 
-
-export const OldPrice = styled.span`
-  font-size: 1rem;
-  text-decoration: line-through;
-  color: ${(props) => props.theme["gray-500"]};
+export const MoneySign = styled.span`
+  font-size: 0.9rem;
+  font-weight: 100;
 `;
