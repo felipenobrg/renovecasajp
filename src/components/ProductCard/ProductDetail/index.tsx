@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
 import { SectionLink } from "../../SectionLink";
 
-import { AboutGuarantee, Description, ProductDetailContainer } from "./styles";
+import { AboutGuarantee, Description, ProductDetailContainer, ShareButton, WhatsAppButton } from "./styles";
 import { MoneySign, Price } from "../styles";
-import { WhatsappLogo } from "phosphor-react";
+import { Share, WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
 
 type ProductType = {
@@ -43,12 +43,28 @@ export function ProductDetail({ products }: Props) {
     window.open(url, "_blank");
   };
 
+  const handleShare = () => {
+    const shareURL = window.location.href;
+    if (navigator.share) {
+      navigator.share({
+        url: shareURL,
+      }).then(() => {
+        console.log('Shared successfully!');
+      }).catch((error) => {
+        console.error('Error sharing:', error);
+      });
+    } else {
+      alert('Your browser does not support the Web Share API. You can manually copy the link.');
+    }
+  };
+
   return (
     <>
       <Header />
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} />
+        <ShareButton onClick={handleShare}><Share size={30} /></ShareButton>
         <h1>{product.title}</h1>
         <div>
           <Price>
@@ -63,10 +79,10 @@ export function ProductDetail({ products }: Props) {
           </strong>
         </p>
         <Description>{product.description}</Description>
-        <button onClick={handleWhatsAppClick}>
+        <WhatsAppButton onClick={handleWhatsAppClick}>
           <WhatsappLogo size={20} weight="fill" />
           COMPRAR
-        </button>
+        </WhatsAppButton>
         <AboutGuarantee>
           <h1>Sobre Garantia:</h1>
           <p>

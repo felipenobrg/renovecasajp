@@ -6,6 +6,7 @@ export const ProductDetailContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: auto;
+  position: relative;
 
   background: ${(props) => props.theme["base-card"]};
   padding: 3rem;
@@ -16,28 +17,6 @@ export const ProductDetailContainer = styled.div`
   div {
     display: flex;
     gap: 0.5rem;
-  }
-
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3rem;
-
-    cursor: pointer;
-    width: 55%;
-    border: 0;
-    border-radius: 6px;
-    padding: 0.8rem;
-
-    background: ${(props) => props.theme["green-300"]};
-    color: ${(props) => props.theme["white"]};
-    font-weight: bold;
-
-    &:hover {
-        transition: 0.3s ease;
-        background:  ${(props) => props.theme["green-400"]};;
-    }
   }
 
   h1 {
@@ -68,6 +47,42 @@ export const ProductDetailContainer = styled.div`
   }
 `;
 
+export const ShareButton = styled.button`
+   border: 0;
+   background: none;
+   width: 1rem;
+   cursor: pointer;
+   position: absolute;
+   top: 0;
+   right: 150px;
+   margin-top: 3rem;
+
+   @media (max-width: 768px) {
+    left: 130px;
+  }
+`
+
+export const WhatsAppButton = styled.button`
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    cursor: pointer;
+    width: 55%;
+    border: 0;
+    border-radius: 6px;
+    padding: 0.8rem;
+
+    background: ${(props) => props.theme["green-300"]};
+    color: ${(props) => props.theme["white"]};
+    font-weight: bold;
+
+    &:hover {
+        transition: 0.3s ease;
+        background:  ${(props) => props.theme["green-400"]};;
+    }
+` 
 
 export const Description = styled.div`
    display: flex;
