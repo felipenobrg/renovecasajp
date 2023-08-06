@@ -4,7 +4,7 @@ import CarouselImage2 from "../../../../assets/CarouselImages/Carousel2.jpg";
 import CarouselImage3 from "../../../../assets/CarouselImages/Carousel3.jpg";
 import CarouselImage4 from "../../../../assets/CarouselImages/Carousel4.jpg";
 
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -17,13 +17,13 @@ export function Carousel() {
     <>
     <CarouselContainer>
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={40}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          autoplay={true}
+          autoplay={{ delay: 1300}}
         >
           <SwiperSlide>
             <img src={CarouselImage1} alt="" />
