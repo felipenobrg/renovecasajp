@@ -34,6 +34,7 @@ export const DropdownList = styled.div`
   flex-direction: column;
   margin-right: auto;
   align-items: flex-start;
+  overflow-y: auto;
 
   a {
     display: flex;
