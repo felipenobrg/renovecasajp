@@ -86,7 +86,7 @@ export function ProductDetail({ products }: Props) {
           COMPRAR
         </WhatsAppButton>
         <AboutGuarantee>
-          <h1>Sobre Garantia:</h1>
+          <h1>Sobre a Garantia:</h1>
           <p>
             • Troca de peças pequenas são feitas na nossa loja física em João
             Pessoa, no João Paulo ll.
