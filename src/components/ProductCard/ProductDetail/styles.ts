@@ -54,11 +54,15 @@ export const ShareButton = styled.button`
    cursor: pointer;
    position: absolute;
    top: 0;
-   right: 150px;
+   right: 140px;
    margin-top: 3rem;
    text-decoration: 0;
 
    svg {
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 9999px;
+    padding: 0.2rem;
     &:hover {
       transition: 0.3s;
       transform: scale(1.1);
