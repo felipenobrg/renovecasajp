@@ -43,26 +43,31 @@ export function ProductDetail({ products }: Props) {
     window.open(url, "_blank");
   };
 
-  const handleShare = () => {
-    const shareURL = window.location.href;
-    const imageFile = new File([''], product.imgSrc, { type: 'image/jpg', lastModified: Date.now() });
-   
-
-    if (navigator.share) {
-      navigator.share({
-        text: product.title,
-        url: shareURL,
-        files: [imageFile],
-      }).then(() => {
-        console.log('Shared successfully!');
-      }).catch((error) => {
-        console.error('Error sharing:', error);
-      });
-    } else {
-      alert('Your browser does not support the Web Share API. You can manually copy the link.');
+    const handleShare = () => {
+      const shareURL = window.location.href;
+    
+      fetch(product.imgSrc)
+        .then(response => response.blob())
+        .then(imageBlob => {
+          if (navigator.share) {
+            navigator.share({
+              text: product.title,
+              url: shareURL,
+              files: [new File([imageBlob], 'product-image.jpg', { type: 'image/jpeg' })],
+            }).then(() => {
+              console.log('Shared successfully!');
+            }).catch((error) => {
+              console.error('Error sharing:', error);
+            });
+          } else {
+            alert('Your browser does not support the Web Share API. You can manually copy the link.');
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching image:', error);
+        });
     }
-  };
-
+    
   return (
     <>
       <Header />
