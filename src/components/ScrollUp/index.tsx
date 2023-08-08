@@ -1,7 +1,7 @@
 import { ArrowCircleUp, WhatsappLogo } from "phosphor-react";
 import { useState, useEffect } from "react";
 import { ScrollDownContainer } from "./styles";
-import queryString from "query-string";
+import { useWhatsAppApi } from "../../hooks/useWhatsAppApiContext";
 
 export function ScrollUp() {
   const [, setShowArrow] = useState(false);
@@ -26,13 +26,7 @@ export function ScrollUp() {
     });
   }
 
-  function handleWhatsAppClick() {
-    const url = `https://api.whatsapp.com/send?${queryString.stringify({
-      phone: "5583987663399",
-      text: "Olá. Me interessei pelos produtos",
-    })}`;
-    window.open(url, "_blank");
-  }
+  const { handleWhatsAppClick } = useWhatsAppApi()
   return (
     <ScrollDownContainer>
       <ArrowCircleUp

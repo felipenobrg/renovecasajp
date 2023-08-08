@@ -38,7 +38,6 @@ export function Router() {
             <Route path="/product6/:productId" element={<ProductDetail products={produtosEmVimeData} />} /> 
             <Route path="/product7/:productId" element={<ProductDetail products={moveisData} />} /> 
             <Route path="/product8/:productId" element={<ProductDetail products={utilidadesData} />} /> 
-
         </Routes>
     )
 }
