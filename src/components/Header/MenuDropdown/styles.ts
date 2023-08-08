@@ -27,6 +27,10 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
 
   max-width: 100vw;
   overflow-y: auto;
+
+  @media screen and (max-width: 768px) {
+     overflow: auto;
+    }
 `;
 
 export const DropdownList = styled.div`
