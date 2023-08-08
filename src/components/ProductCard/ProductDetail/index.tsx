@@ -53,7 +53,7 @@ export function ProductDetail({ products }: Props) {
             navigator.share({
               text: product.title,
               url: shareURL,
-              files: [new File([imageBlob], 'product-image.jpg', { type: 'image/jpeg' })],
+              files: [new File([imageBlob], product.imgSrc, { type: 'image/jpeg' })],
             }).then(() => {
               console.log('Shared successfully!');
             }).catch((error) => {
@@ -67,7 +67,7 @@ export function ProductDetail({ products }: Props) {
           console.error('Error fetching image:', error);
         });
     }
-    
+
   return (
     <>
       <Header />
