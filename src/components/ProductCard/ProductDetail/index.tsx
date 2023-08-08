@@ -39,6 +39,7 @@ export function ProductDetail({ products }: Props) {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
       text: product.textForWhatsApp,
+      media: product.imgSrc,
     })}`;
     window.open(url, "_blank");
   };
