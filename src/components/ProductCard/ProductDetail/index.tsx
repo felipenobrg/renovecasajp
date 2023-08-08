@@ -39,25 +39,30 @@ export function ProductDetail({ products }: Props) {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
       text: product.textForWhatsApp,
-      media: product.imgSrc,
     })}`;
     window.open(url, "_blank");
   };
 
-  const handleShare = () => {
+  const handleShare = async () => {
     const shareURL = window.location.href;
 
     if (navigator.share) {
-      navigator.share({
-        text: product.title,
-        url: shareURL,
-      }).then(() => {
-        console.log('Shared successfully!');
-      }).catch((error) => {
+      try {
+        const imgBlob = await fetch(product.imgSrc).then(response => response.blob());
+  
+        const sharedData = {
+          text: product.title,
+          url: shareURL,
+          files: [new File([imgBlob], product.imgSrc, { type: imgBlob.type })]
+        };
+  
+        await navigator.share(sharedData);
+        console.log('Shared successfully!', sharedData);
+      } catch (error) {
         console.error('Error sharing:', error);
-      });
+      }
     } else {
-      alert('Your browser does not support the Web Share API. You can manually copy the link.');
+      alert('Error.');
     }
   };
 
