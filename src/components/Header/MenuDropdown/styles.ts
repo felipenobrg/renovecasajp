@@ -69,11 +69,6 @@ export const DropdownList = styled.div`
       background: ${(props) => props.theme["green-400"]};
     }
   }
-
-  @media (max-width: 768px) { 
-    max-height: 15rem;
-    overflow-y: auto;
-  }
 `;
 
 interface DropdownButtonProps {
