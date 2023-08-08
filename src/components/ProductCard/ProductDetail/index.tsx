@@ -43,37 +43,29 @@ export function ProductDetail({ products }: Props) {
     window.open(url, "_blank");
   };
 
-    const handleShare = () => {
-      const shareURL = window.location.href;
-    
-      fetch(product.imgSrc)
-        .then(response => response.blob())
-        .then(imageBlob => {
-          if (navigator.share) {
-            navigator.share({
-              text: product.title,
-              url: shareURL,
-              files: [new File([imageBlob], product.imgSrc, { type: 'image/jpeg' })],
-            }).then(() => {
-              console.log('Shared successfully!');
-            }).catch((error) => {
-              console.error('Error sharing:', error);
-            });
-          } else {
-            alert('Your browser does not support the Web Share API. You can manually copy the link.');
-          }
-        })
-        .catch(error => {
-          console.error('Error fetching image:', error);
-        });
+  const handleShare = () => {
+    const shareURL = window.location.href;
+
+    if (navigator.share) {
+      navigator.share({
+        text: product.title,
+        url: shareURL,
+      }).then(() => {
+        console.log('Shared successfully!');
+      }).catch((error) => {
+        console.error('Error sharing:', error);
+      });
+    } else {
+      alert('Your browser does not support the Web Share API. You can manually copy the link.');
     }
+  };
 
   return (
     <>
       <Header />
       <SectionLink />
       <ProductDetailContainer>
-        <img src={product.imgSrc} alt={product.title} />
+        <img src={product.imgSrc} alt={product.title} loading="lazy" />
         <ShareButton onClick={handleShare}><Export size={30} color="#000000" /></ShareButton>
         <h1>{product.title}</h1>
         <div>

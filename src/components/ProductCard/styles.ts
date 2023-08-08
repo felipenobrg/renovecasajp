@@ -9,9 +9,15 @@ export const CardContainer = styled.div`
   margin: 2rem 2rem 1rem 2rem;
   flex: 1;
   text-decoration: none;
+  position: relative;
+
+  &:hover {
+    transition: 0.3s ease;
+    border: 1px solid ${(props) => props.theme["black"]};
+  }
 
   img {
-    width: 100%;
+    width: 32rem;
     height: 32rem;
     border-radius: 6px;
   }
@@ -20,7 +26,6 @@ export const CardContainer = styled.div`
     color: ${(props) => props.theme["black"]};
     text-decoration: none;
   }
-  
 
   @media (max-width: 768px) {
     margin: 0 auto;
@@ -30,11 +35,49 @@ export const CardContainer = styled.div`
     img {
       width: 85vw;
       border-radius: 6px;
-      height: 28rem;
+      height: 26rem;
     }
   }
-  
 `;
+
+export const Click = styled.p`
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  padding: 0.5rem;
+  border-radius: 6px;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  background: ${(props) => props.theme["gray-100"]};
+  opacity: 0.9;
+
+  font-weight: bold;
+
+  animation: shiver 1s infinite;
+
+  &:hover {
+    background: ${(props) => props.theme["gray-300"]};;
+  }
+
+@keyframes shiver {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(1px) rotate(-1deg);
+  }
+  50% {
+    transform: translateX(-3px) rotate(1deg);
+  }
+  75% {
+    transform: translateX(3px) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}`
 
 export const CardContent = styled.div`
   display: flex;
@@ -75,7 +118,7 @@ export const TitleCard = styled.p`
 
 export const ButtonShare = styled.button`
   border: 0;
-`
+`;
 
 export const Price = styled.p`
   margin-right: auto;

@@ -8,6 +8,7 @@ import {
   OldPrice,
   ButtonCard,
   WornOut,
+  Click,
 } from "./styles";
 import queryString from "query-string";
 import { NavLink } from "react-router-dom";
@@ -78,6 +79,7 @@ export function ProductCard({
       <CardContent>
         <NavLink to={linkDestination}>
           <img loading="lazy" src={imgSrc} alt="" />
+          <Click>Clique para saber mais</Click>
           {wornOut && <WornOut>{wornOut}</WornOut>}
           <TitleCard>{title}</TitleCard>
           <Price>
