@@ -45,7 +45,7 @@ export function ProductDetail({ products }: Props) {
 
   const handleShare = () => {
     const shareURL = window.location.href;
-    const imageFile = new File([''], product.imgSrc, { type: 'image/jpeg', lastModified: Date.now() });
+    const imageFile = new File([''], product.imgSrc, { type: 'image/jpg', lastModified: Date.now() });
    
 
     if (navigator.share) {
