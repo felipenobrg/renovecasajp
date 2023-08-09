@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-tecnologias"> Features </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-tecnologias"> Technologies </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-features"> Features </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-technologies"> Technologies </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-layout">Layout</a>
 </p>
 
@@ -18,6 +18,7 @@
 </p>
 
 ## :fire: Features
+
 <p>- Product Catalog: The website offers a comprehensive catalog of furniture products available in the store,
   organized into different categories for easy navigation.</p>
   
