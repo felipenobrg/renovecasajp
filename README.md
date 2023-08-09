@@ -7,14 +7,14 @@
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-tecnologias"> Features </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-tecnologias"> Technologies </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp>
+    <a href="#-tecnologias"> Technologies </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-layout">Layout</a>
 </p>
 
 ## 🔖 Layout
 
 <p align="center">
-<img  src="https://github.com/felipenobrg/renovecasajp/assets/122055576/916acb6d-8218-4657-ae4d-4385a6ea062b>"/>
+  <img src="https://github.com/felipenobrg/renovecasajp/assets/122055576/6cb35d2e-0465-4adc-bef9-0290335be72e" />
 </p>
 
 ## :fire: Features
@@ -37,10 +37,9 @@ This project was developed using the following technologies:
 - ReactJS
 - TypeScript
 - Styled-Components
+- ContextApi
 - React-Router-Dom
 - Swiper
-- useReducer
-- ReactForm
 - Phosphor Icons
 - Google Search Console
 - Google Analytics
