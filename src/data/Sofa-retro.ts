@@ -105,6 +105,7 @@ export const sofaRetroData = [
     imgSrc: RetroDeltaMarfim,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Delta Marfim Linho (Acompanha o Centro)",
+    wornOut: "ESGOTADO",
     price: "1199,99",
     oldPrice: "1299,99",
     cardValue: "115,99",
