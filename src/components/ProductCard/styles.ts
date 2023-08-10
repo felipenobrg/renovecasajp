@@ -58,6 +58,7 @@ export const Click = styled.p`
   animation: shiver 1s infinite;
 
   &:hover {
+    transition: 0.3s ease;
     background: ${(props) => props.theme["gray-300"]};;
   }
 
