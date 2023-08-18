@@ -14,7 +14,8 @@
 ## 🔖 Layout
 
 <p align="center">
-  <img src="https://github.com/felipenobrg/renovecasajp/assets/122055576/6cb35d2e-0465-4adc-bef9-0290335be72e" />
+<img src="https://github.com/felipenobrg/renovecasajp/assets/122055576/9808e341-9001-45f2-888a-47c7789eff3a">
+
 </p>
 
 ## :fire: Features
