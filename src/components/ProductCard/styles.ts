@@ -10,6 +10,7 @@ export const CardContainer = styled.div`
   flex: 1;
   text-decoration: none;
   position: relative;
+  
 
   &:hover {
     transition: 0.3s ease;
@@ -20,6 +21,7 @@ export const CardContainer = styled.div`
     width: 32rem;
     height: 32rem;
     border-radius: 6px;
+    object-fit: cover;
   }
 
   a {
