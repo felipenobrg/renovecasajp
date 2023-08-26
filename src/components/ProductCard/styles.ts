@@ -37,7 +37,7 @@ export const CardContainer = styled.div`
     img {
       width: 85vw;
       border-radius: 6px;
-      height: 26rem;
+      max-height: 26rem;
       object-fit: contain;
     }
   }
