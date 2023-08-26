@@ -2,14 +2,13 @@ import { styled } from "styled-components";
 
 export const CardContainer = styled.div`
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 35rem;
+  width: calc(33.33% - 2rem);
   max-height: 100%;
-  margin: 2rem 2rem 1rem 2rem;
+  margin: 2rem 1rem 1rem 1rem; 
   flex: 1;
   text-decoration: none;
   position: relative;
+  flex-wrap: wrap;
   
 
   &:hover {
@@ -32,7 +31,9 @@ export const CardContainer = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     margin-bottom: 2rem;
-    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
 
     img {
       width: 85vw;
