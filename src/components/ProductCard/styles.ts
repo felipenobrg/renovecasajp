@@ -38,7 +38,7 @@ export const CardContainer = styled.div`
       width: 85vw;
       border-radius: 6px;
       height: 26rem;
-      object-fit: none;
+      object-fit: contain;
     }
   }
 `;
