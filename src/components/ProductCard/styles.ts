@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const CardContainer = styled.div`
   display: inline-flex;
-  width: calc(33.33% - 2rem);
+  width: calc(50% - 2rem);
   max-height: 100%;
   margin: 2rem 1rem 1rem 1rem; 
   flex: 1;
@@ -10,7 +10,6 @@ export const CardContainer = styled.div`
   position: relative;
   flex-wrap: wrap;
   
-
   &:hover {
     transition: 0.3s ease;
     border: 1px solid ${(props) => props.theme["black"]};
@@ -39,6 +38,7 @@ export const CardContainer = styled.div`
       width: 85vw;
       border-radius: 6px;
       height: 26rem;
+      object-fit: none;
     }
   }
 `;
@@ -111,7 +111,7 @@ export const TitleCard = styled.p`
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: wrap;
 
   @media (max-width: 768px) {
     text-overflow: normal;
