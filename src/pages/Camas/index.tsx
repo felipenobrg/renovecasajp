@@ -15,10 +15,7 @@ export function Camas() {
   return (
     <>
       <Header />
-
-
       <SectionLink />
-
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (
         <ProductCard key={product.productId} {...product} />

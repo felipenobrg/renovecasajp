@@ -11,14 +11,9 @@ export const FooterContent = styled.div`
   max-width: 800px;
   text-align: center;
   font-size: 14px;
-  color: #666;
-`;
+  color: ${(props => props.theme["gray-500"])};
 
-export const FooterLink = styled.a`
-  color: #666;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
+  a {
+    color: #696969;
   }
 `;
