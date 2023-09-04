@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { AboutDelivery } from "../../components/AboutDelivery";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
@@ -17,7 +16,6 @@ export function SofaRetratil() {
   return (
     <>
       <Header />
-      <AboutDelivery />
       <SectionLink />
       <SearchBar  value={searchBar} onChange={setSearchBar}/>
       {filteredFurnitures.map((product) => (

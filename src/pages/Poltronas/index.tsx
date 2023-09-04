@@ -1,4 +1,3 @@
-import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
@@ -18,7 +17,6 @@ export function Poltronas() {
   return (
     <>
       <Header />
-      <AboutDelivery />
 
       <SectionLink />
       <SearchBar value={searchBar} onChange={setSearchBar} />

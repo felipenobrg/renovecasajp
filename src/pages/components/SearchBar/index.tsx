@@ -10,7 +10,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
   return (
     <SearchBarContainer>
       <span>
-        <MagnifyingGlass size={23} />{" "}
+        <MagnifyingGlass size={22} />{" "}
       </span>{" "}
       <input
         type="text"

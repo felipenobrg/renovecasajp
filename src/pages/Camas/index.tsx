@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
@@ -16,7 +15,7 @@ export function Camas() {
   return (
     <>
       <Header />
-      <AboutDelivery />
+
 
       <SectionLink />
 
