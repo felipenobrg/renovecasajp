@@ -6,19 +6,26 @@ import { SectionLink } from "../../components/SectionLink";
 
 import { Footer } from "../../components/Footer";
 import { poltronasData } from "../../data/Poltronas";
+import { SearchBar } from "../components/SearchBar";
+import { useState } from "react";
 
 export function Poltronas() {
+  const [searchBar, setSearchBar] = useState("");
+
+  const filteredFurnitures = poltronasData.filter((product) =>
+    product.title.toLowerCase().includes(searchBar.toLowerCase())
+  );
   return (
     <>
       <Header />
       <AboutDelivery />
 
       <SectionLink />
-
-      {poltronasData.map((product) => (
-         <ProductCard key={product.productId} {...product} />
+      <SearchBar value={searchBar} onChange={setSearchBar} />
+      {filteredFurnitures.map((product) => (
+        <ProductCard key={product.productId} {...product} />
       ))}
-       <ScrollUp />
+      <ScrollUp />
       <Footer />
     </>
   );
