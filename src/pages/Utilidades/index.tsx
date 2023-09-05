@@ -5,8 +5,16 @@ import { ScrollUp } from "../../components/ScrollUp";
 import { SectionLink } from "../../components/SectionLink";
 import { Footer } from "../../components/Footer";
 import { utilidadesData } from "../../data/Utilidades";
+import { useState } from "react";
+import { SearchBar } from "../components/SearchBar";
 
 export function Utilidades() {
+  const [searchBar, setSearchBar] = useState("");
+
+  const filteredFurnitures = utilidadesData.filter((product) =>
+    product.title.toLowerCase().includes(searchBar.toLowerCase())
+  );
+  
   return (
     <>
       <Header />
@@ -14,9 +22,11 @@ export function Utilidades() {
 
       <SectionLink />
       
-      {utilidadesData.map((product) => (
-         <ProductCard key={product.productId} {...product} />
+      <SearchBar value={searchBar} onChange={setSearchBar}/>
+      {filteredFurnitures.map((product) => (
+        <ProductCard key={product.productId} {...product} />
       ))}
+
     
       <ScrollUp />
 
