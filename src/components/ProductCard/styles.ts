@@ -9,17 +9,21 @@ export const CardContainer = styled.div`
   text-decoration: none;
   position: relative;
   flex-wrap: wrap;
+  cursor: pointer;
+  border: 1px solid transparent; 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 8px;
   
   &:hover {
     transition: 0.3s ease;
-    border: 1px solid ${(props) => props.theme["black"]};
+    border: 1px solid ${(props) => props.theme["gray-500"]};
   }
 
   img {
     width: 32rem;
     height: 32rem;
     border-radius: 6px;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   a {
