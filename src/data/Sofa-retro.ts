@@ -9,6 +9,7 @@ import RetroLinhoAzul from "../assets/SofaRetro/RetroLinhoAzul.jpg";
 import RetroLinhoMarromEscuro from "../assets/SofaRetro/RetroLinhoMarromEscuro.jpg";
 import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMarromClaro.jpg";
 import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.jpg";
+import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.jpg";
 
 export const sofaRetroData = [
   {
@@ -98,14 +99,23 @@ export const sofaRetroData = [
     price: "999,99",
     oldPrice: "1299,99",
     cardValue: "96,99",
-    textForWhatsApp: "Olá. Gostaria de comprar Sofá Linho Marrom Claro c/ Almofada",
+    textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Marrom Claro c/ Almofada Lisa",
   },
   {
     productId: 10,
+    imgSrc: RetroLinhoVerde,
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Linho Verde",
+    price: "999,99",
+    oldPrice: "1299,99",
+    cardValue: "96,99",
+    textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Verde",
+  },
+  {
+    productId: 11,
     imgSrc: RetroDeltaMarfim,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Delta Marfim Linho (Acompanha o Centro)",
-    wornOut: "ESGOTADO",
     price: "1199,99",
     oldPrice: "1299,99",
     cardValue: "115,99",
