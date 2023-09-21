@@ -2,6 +2,7 @@ import ConjuntoDeSofaCinza from "../assets/SofasPopulares/ConjuntoDeSofaCinza.jp
 import ConjuntoDeSofaPreto from "../assets/SofasPopulares/ConjuntoSofaPreto.jpg";
 import ConjuntoDeSofaCinzaEscuro from "../assets/SofasPopulares/ConjuntoDeSofaCinzaEscuro.jpg";
 import ConjuntoDeSofaVermelho from "../assets/SofasPopulares/ConjuntoDeSofaVermelho.jpg";
+import ConjuntoDeSofaMarrom from "../assets/SofasPopulares/ConjuntoDeSofaMarrom.jpg";
 
 import ConjuntoSemAlmofadaBege from "../assets/SofasPopulares/ConjuntoDeSofaSemAlmofadaMarrom.jpg";
 
@@ -21,6 +22,15 @@ export const sofasPopularesData = [
       oldPrice: "899,99",
       cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza",
+    },
+    {
+      productId: 2,
+      imgSrc: ConjuntoDeSofaMarrom,
+      title: "Conjunto de Sofá Marrom",
+      price: "749,99",
+      oldPrice: "899,99",
+      cardValue: "72,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Marrom",
     },
     {
       productId: 2,
