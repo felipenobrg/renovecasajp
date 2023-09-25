@@ -31,6 +31,8 @@
 
 <p>- Share Button: The website also features a "Share" button that allows users to easily share the catalog or specific products
   with their friends and contacts. This promotes word-of-mouth marketing and expands the reach of the store's offerings.</p>
+
+ <p>- Search Input: On every product page, there is a search input that allows you to refine your product search result.</p> 
   
 ## 🚀 Technologies
 
