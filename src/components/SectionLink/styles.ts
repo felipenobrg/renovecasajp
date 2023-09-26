@@ -16,10 +16,7 @@ export const SectionContent = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-
-  p {
-    color: ${(props) => props.theme["white"]};
-  }
+  margin: 0 4rem 0 4rem;
 
   a {
     text-decoration: none;
