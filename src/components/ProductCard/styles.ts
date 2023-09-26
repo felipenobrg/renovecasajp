@@ -16,7 +16,7 @@ export const CardContainer = styled.div`
   
   &:hover {
     transition: 0.3s ease;
-    border: 1px solid ${(props) => props.theme["gray-500"]};
+    border: 1px solid ${(props) => props.theme["gray-300"]};
   }
 
   img {
@@ -34,7 +34,7 @@ export const CardContainer = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     margin-bottom: 2rem;
-    min-width: 100%;
+    min-width: 95%;
     display: flex;
     flex-direction: column;
 
@@ -55,9 +55,9 @@ export const Click = styled.p`
   padding: 0.5rem;
   border-radius: 6px;
   position: absolute;
-  top: 50px;
+  top: 80px;
   right: 40px;
-  background: ${(props) => props.theme["gray-100"]};
+  background: ${(props) => props.theme["gray-300"]};
   opacity: 0.9;
 
   font-weight: bold;
@@ -66,7 +66,7 @@ export const Click = styled.p`
 
   &:hover {
     transition: 0.3s ease;
-    background: ${(props) => props.theme["gray-300"]};;
+    background: ${(props) => props.theme["gray-500"]};;
   }
 
 @keyframes shiver {
