@@ -22,10 +22,8 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   left: 0px;
   height: 100%;
   width: 70vw;
-  background-color: ${(props) => props.theme["purple-400"]};
+  background-color: ${(props) => props.theme["gray-100"]};
   animation: ${slideIn} 0.3s ease-in-out;
-
-  max-width: 100vw;
   overflow-y: auto;
 
   @media screen and (max-width: 768px) {
@@ -44,8 +42,8 @@ export const DropdownList = styled.div`
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: ${(props) => props.theme["gray-300"]};
-    padding: 17px 18px;
+    color: ${(props) => props.theme["gray-700"]};
+    padding: 15px 18px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
