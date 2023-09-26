@@ -50,6 +50,7 @@ export const DropdownList = styled.div`
   margin-top: 2rem;
   padding-top: 10px;
 
+
   a {
     display: flex;
     align-items: center;
@@ -137,7 +138,7 @@ export const CloseButton = styled.button`
   top: 20px;
   background: ${(props) => props.theme["gray-300"]};
   border-radius: 9px;
-  padding: 4px;
+  padding: 5px;
 
   transition: background-color 0.3s ease;
 

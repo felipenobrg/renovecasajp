@@ -9,10 +9,8 @@ export const HeaderContainer = styled.header`
   max-height: 10rem;
   max-width: 100%;
   z-index: 100;
-
   position: sticky;
   top: 0;
-
 
   @media screen and (max-width: 768px) {
     max-height: 5rem;

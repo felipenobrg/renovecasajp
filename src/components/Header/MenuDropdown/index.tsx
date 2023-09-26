@@ -1,6 +1,6 @@
 import { WhatsappLogo, X } from "phosphor-react";
 import { NavLink } from "react-router-dom";
-import { DropdownButton, DropdownMenu, DropdownList, CloseButton } from "./styles"; // Add CloseButton component
+import { DropdownButton, DropdownMenu, DropdownList, CloseButton } from "./styles";
 import queryString from "query-string";
 import { useState } from "react";
 
