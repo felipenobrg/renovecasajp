@@ -11,20 +11,29 @@ const slideIn = keyframes`
   }
 `;
 
+const fadeOut = keyframes`
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+`;
+
 export const DropdownMenu = styled.div<{ open: boolean }>`
   display: ${(props) => (props.open ? "flex" : "none")};
-  justify-content: center;
-  align-items: flex-start;
-
   z-index: 100;
   position: fixed;
-  top: 125px;
+
+  bottom: 0px;
   left: 0px;
-  height: 100%;
   width: 70vw;
   background-color: ${(props) => props.theme["gray-100"]};
-  animation: ${slideIn} 0.3s ease-in-out;
+  animation: ${(props) => (props.open ? slideIn : fadeOut)} 0.3s ease-in-out;
   overflow-y: auto;
+  height: 100%;
+  text-align: right;
+  padding-right: 20px;
 
   @media screen and (max-width: 768px) {
      overflow: auto;
@@ -37,6 +46,9 @@ export const DropdownList = styled.div`
   margin-right: auto;
   align-items: flex-start;
   overflow-y: auto;
+  position: relative;
+  margin-top: 2rem;
+  padding-top: 10px;
 
   a {
     display: flex;
@@ -54,7 +66,7 @@ export const DropdownList = styled.div`
     }
   }
 
-  button {
+  .whatsapp-button {
     display: flex;
     align-items: center;
     gap: 0.3rem;
@@ -112,3 +124,14 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
     top: 6px;
   }
 `;
+
+export const CloseButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0px; 
+  top: 20px; 
+
+`;
+

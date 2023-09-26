@@ -1,6 +1,6 @@
-import { WhatsappLogo } from "phosphor-react";
+import { WhatsappLogo, X } from "phosphor-react";
 import { NavLink } from "react-router-dom";
-import { DropdownButton, DropdownMenu, DropdownList } from "./styles";
+import { DropdownButton, DropdownMenu, DropdownList, CloseButton } from "./styles"; // Add CloseButton component
 import queryString from "query-string";
 import { useState } from "react";
 
@@ -20,6 +20,11 @@ export function DropDownMenu() {
     })}`;
     window.open(url, "_blank");
   }
+
+  function handleCloseDropdown() {
+    setDropdownOpen(false);
+  }
+
   return (
     <div>
       {isSmallScreen ? (
@@ -30,8 +35,11 @@ export function DropDownMenu() {
       {isDropdownOpen && (
         <DropdownMenu open={isDropdownOpen}>
           <DropdownList>
+            <CloseButton onClick={handleCloseDropdown}>
+              <X weight="fill" size={22}/>
+            </CloseButton>
             <NavLink to={"/"}>Início</NavLink>
-            <NavLink to={"/sofaretro"}>Sofá Retrô </NavLink>
+            <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
             <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
             <NavLink to={"/sofaspopulares"}>Sofás Populares</NavLink>
             <NavLink to={"/poltronas"}>Poltronas</NavLink>
@@ -39,7 +47,7 @@ export function DropDownMenu() {
             <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
             <NavLink to={"/moveis"}>Móveis</NavLink>
             <NavLink to={"/utilidades"}>Utilidades</NavLink>
-            <button onClick={handleWhatsAppClick}>
+            <button onClick={handleWhatsAppClick} className="whatsapp-button">
               <WhatsappLogo size={20} />
               Compre Via WhatsApp
             </button>
