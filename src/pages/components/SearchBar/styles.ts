@@ -4,14 +4,14 @@ export const SearchBarContainer = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: 1rem 0 0 0;
+   margin: 1rem 0 1rem 0;
    position: relative;
 
    input {
     padding: 0.6rem;
     border-radius: 8px;
     border: 0;
-    padding-left: 2rem;
+    padding-left: 3.5rem;
     background: ${(props => props.theme["gray-100"])};
    }
 
@@ -20,7 +20,7 @@ export const SearchBarContainer = styled.div`
     top: 50%;
     transform: translateY(-50%);
     color: #888;
-    margin-right: 12rem;
+    margin-right: 11rem;
   }
 
    @media screen and (max-width: 768px) {
