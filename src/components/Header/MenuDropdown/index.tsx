@@ -36,7 +36,7 @@ export function DropDownMenu() {
         <DropdownMenu open={isDropdownOpen}>
           <DropdownList>
             <CloseButton onClick={handleCloseDropdown}>
-              <X weight="fill" size={22}/>
+              <X weight="fill" color="#00000" size={23}/>
             </CloseButton>
             <NavLink to={"/"}>Início</NavLink>
             <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
