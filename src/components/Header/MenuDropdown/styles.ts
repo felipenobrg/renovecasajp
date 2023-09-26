@@ -27,7 +27,7 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
 
   bottom: 0px;
   left: 0px;
-  width: 70vw;
+  width: 70%;
   background-color: ${(props) => props.theme["gray-100"]};
   animation: ${(props) => (props.open ? slideIn : fadeOut)} 0.3s ease-in-out;
   overflow-y: auto;
@@ -36,8 +36,8 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
   padding-right: 20px;
 
   @media screen and (max-width: 768px) {
-     overflow: auto;
-    }
+    overflow: auto;
+  }
 `;
 
 export const DropdownList = styled.div`
@@ -70,7 +70,7 @@ export const DropdownList = styled.div`
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    padding: 0.8rem;
+    padding: 0.7rem;
     border: 0;
     border-radius: 9px;
     margin: 1rem 0 0 1rem;
@@ -126,12 +126,22 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
 `;
 
 export const CloseButton = styled.button`
+  display: flex;
+  align-items: center;
+
   background: none;
   border: none;
   cursor: pointer;
   position: absolute;
-  right: 0px; 
-  top: 20px; 
+  right: 0px;
+  top: 20px;
+  background: ${(props) => props.theme["gray-300"]};
+  border-radius: 9px;
+  padding: 4px;
 
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background: ${(props) => props.theme["gray-400"]};
+  }
 `;
-
