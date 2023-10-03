@@ -130,7 +130,6 @@ export const CloseButton = styled.button`
   display: flex;
   align-items: center;
 
-  background: none;
   border: none;
   cursor: pointer;
   position: absolute;
