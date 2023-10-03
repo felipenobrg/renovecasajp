@@ -1,4 +1,3 @@
-// data.js
 import SofaRetroCinza from "../assets/SofaRetro/RetroCinza.jpg";
 import SofaRetroOffWhite from "../assets/SofaRetro/RetroOffWhite.jpg";
 import SofaRetroPreto from "../assets/SofaRetro/RetroPreto.jpg";
@@ -10,6 +9,7 @@ import RetroLinhoMarromEscuro from "../assets/SofaRetro/RetroLinhoMarromEscuro.j
 import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMarromClaro.jpg";
 import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.jpg";
 import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.jpg";
+import RetroRetratilVerde from "../assets/SofaRetro/RetroRetratilVerde.jpg";
 
 export const sofaRetroData = [
   {
@@ -70,6 +70,16 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Terra Cota",
+  },
+  {
+    productId: 7,
+    imgSrc: RetroRetratilVerde,
+    description: "Dimensões: 1.90x90cm",
+    title: "Sofá Retrô Retrátil Verde",
+    price: "999,99",
+    oldPrice: "1299,99",
+    cardValue: "85,99",
+    textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Retrátil Verde",
   },
   {
     productId: 7,
