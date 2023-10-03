@@ -5,21 +5,16 @@ export function SectionAbout() {
   return (
     <SectionAboutContainer>
       <div>
-        <h2>
-          {" "}
-          <Truck size={60} />
-          Entrega para João Pessoa e Região
-        </h2>
+        <Truck size={50} />
+        <p> <span>Entrega</span> <br /> para João Pessoa e Região</p>
       </div>
       <div>
-        <h2>
-          <CreditCard size={60} /> Trabalhamos com todos cartões
-        </h2>
+        <CreditCard size={50} />
+        <p><span>Pague com cartão</span> <br /> em até 12x</p>
       </div>
       <div>
-        <h2>
-          <ShieldCheck size={60} />3 Meses de Garantia em Estofados
-        </h2>
+        <ShieldCheck size={50} />
+        <p><span>Compra Segura</span> <br /> privacidade e segurança</p>
       </div>
     </SectionAboutContainer>
   );

@@ -16,13 +16,14 @@ export const SectionContent = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin: 0 4rem 0 4rem;
+  margin: 0 3rem 0 3rem;
 
   a {
     text-decoration: none;
     font-weight: bold;
     color: ${(props) => props.theme["white"]};
     position: relative;
+    border-bottom: 1px solid transparent;
 
     &:hover {
       transition: 0.3 ease;

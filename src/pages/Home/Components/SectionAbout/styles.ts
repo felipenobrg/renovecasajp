@@ -7,12 +7,14 @@ export const SectionAboutContainer = styled.div`
   padding: 3rem;
 
   div {
-    h2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
       text-align: center;
-      gap: 0.5rem;
+      font-weight: bold;
+      font-size: 1.1rem;
     }
   }
 
