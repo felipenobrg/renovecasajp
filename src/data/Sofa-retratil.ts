@@ -6,6 +6,7 @@ import MonacoCinza from "../assets/SofaRetratil/MonacoCinza.jpg";
 import SofaBrancoGeloLinho from "../assets/SofaRetratil/MonacoLinhoBrancoGelo.jpg";
 import SofaParisCinza from "../assets/SofaRetratil/SofaParisCinza.jpg";
 import SofaParisMarfim from "../assets/SofaRetratil/SofaParisBege.jpg";
+import SofaLuxoMarrom from "../assets/SofaRetratil/LuxoMarrom.jpg";
 import SofaLuxoAzul from "../assets/SofaRetratil/SofaLuxoAzul.jpg";
 import SofaLuxoOffWhite from "../assets/SofaRetratil/SofaLuxoBrancoGelo.jpg";
 import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
@@ -90,6 +91,16 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
       oldPrice: "1299,99",
       cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",
+    },
+    {
+      productId: 9,
+      imgSrc: SofaLuxoMarrom,
+      title: "Sofá Luxo Marrom",
+      description: "Dimensões: 2.0x90cm",
+      price: "1499,99",
+      oldPrice: "1699,99",
+      cardValue: "144,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Marrom",
     },
     {
       productId: 9,
