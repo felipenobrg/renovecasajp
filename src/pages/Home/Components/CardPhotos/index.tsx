@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { CardPhotosContainer } from "./styles";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import SofaRetro from "../../../../assets/CardPhotos/SofaRetro.jpg"
 import SofaRetratil from "../../../../assets/CardPhotos/SofaRetratil.jpg"
@@ -10,16 +11,16 @@ export function CardPhotos() {
     return (
         <CardPhotosContainer>
         <NavLink to={"/sofaretro"}>
-        <img src={SofaRetro} alt="" />
+        <LazyLoadImage src={SofaRetro} alt="" />
         </NavLink>
         <NavLink to={"/sofaretratil"}>
-        <img src={SofaRetratil} alt="" />
+        <LazyLoadImage src={SofaRetratil} alt="" />
         </NavLink>
         <NavLink to={"/sofaspopulares"}>
-        <img src={SofasPopulares} alt="" />
+        <LazyLoadImage src={SofasPopulares} alt="" />
         </NavLink>
         <NavLink to={"/produtosvime"}>
-        <img src={ProdutosEmVime} alt="" />
+        <LazyLoadImage src={ProdutosEmVime} alt="" />
         </NavLink>
       </CardPhotosContainer>
     )

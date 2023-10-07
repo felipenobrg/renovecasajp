@@ -2,6 +2,7 @@ import { WhatsappLogo } from "phosphor-react";
 import { CardContainer, CardContent, TitleCard, Price, MoneySign, OldPrice, ButtonCard, WornOut, Click } from "./styles";
 import queryString from "query-string";
 import { NavLink, useLocation } from "react-router-dom"; 
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export interface ProductCardProps {
   imgSrc: string;
@@ -61,7 +62,7 @@ export function ProductCard({
     <CardContainer>
       <CardContent>
         <NavLink to={getLinkDestination()}>
-          <img loading="lazy" src={imgSrc} alt="" />
+          <LazyLoadImage src={imgSrc} alt="" />
           <Click>Clique para saber mais</Click>
           {wornOut && <WornOut>{wornOut}</WornOut>}
           <TitleCard>{title}</TitleCard>
