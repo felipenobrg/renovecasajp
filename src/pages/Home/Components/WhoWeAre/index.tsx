@@ -25,7 +25,7 @@ export function WhoWeAre() {
         </p>
       </div>
       <div>
-        <h3>Móveis de Qualidade em João Pessoa e Personalidade</h3>
+        <h3>Móveis de Qualidade e Personalidade</h3>
         <p>
           Procurando móveis de alta qualidade a preços acessíveis em João
           Pessoa? Você encontrou o lugar certo! Somos uma loja especializada em
