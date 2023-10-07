@@ -6,7 +6,7 @@ import { AboutGuarantee, Description, ProductDetailContainer, ShareButton, Whats
 import { MoneySign, Price } from "../styles";
 import { Export, WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 type ProductType = {
   id: number;
@@ -66,7 +66,7 @@ export function ProductDetail({ products }: Props) {
       <Header />
       <SectionLink />
       <ProductDetailContainer>
-        <LazyLoadImage src={product.imgSrc} alt={product.title} />
+        <img src={product.imgSrc} alt={product.title} loading="lazy" />
         <ShareButton onClick={handleShare}><Export size={30} color="#000000" /></ShareButton>
         <h1>{product.title}</h1>
         <div>

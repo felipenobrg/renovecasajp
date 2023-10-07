@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function Carousel() {
   return (
@@ -27,16 +26,16 @@ export function Carousel() {
           autoplay={{ delay: 1500}}
         >
           <SwiperSlide>
-            <LazyLoadImage src={CarouselImage1} alt="" />
+            <img src={CarouselImage1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <LazyLoadImage src={CarouselImage2} alt="" />
+            <img src={CarouselImage2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <LazyLoadImage src={CarouselImage3} alt="" />
+            <img src={CarouselImage3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <LazyLoadImage src={CarouselImage4} alt="" />
+            <img src={CarouselImage4} alt="" />
           </SwiperSlide>
         </Swiper>
     </CarouselContainer>
