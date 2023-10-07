@@ -7,13 +7,16 @@ export const CardPhotosContainer = styled.div`
 
   a {
     width: 24%;
-    display: block; 
+    display: block;
+    text-decoration: none;
   }
 
   img {
     width: 100%;
-    height: 100%;
+    max-width: 100%; 
+    height: auto; 
     border-radius: 9px;
+    transition: transform 0.3s ease;
 
     &:hover {
       transition: 0.3s ease;
