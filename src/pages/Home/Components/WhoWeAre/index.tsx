@@ -16,7 +16,7 @@ export function WhoWeAre() {
       </div>
 
       <div>
-        <h3>Variedade de Estilos e Valores | Móveis com Personalidade</h3>
+        <h3>Variedade de Estilos e Valores</h3>
         <p>
           Na nossa loja, você encontrará móveis para todos os gostos e
           necessidades. Temos opções que se encaixam perfeitamente em diferentes
@@ -25,7 +25,7 @@ export function WhoWeAre() {
         </p>
       </div>
       <div>
-        <h3>Móveis de Qualidade em João Pessoa | Loja Online e Física</h3>
+        <h3>Móveis de Qualidade em João Pessoa e Personalidade</h3>
         <p>
           Procurando móveis de alta qualidade a preços acessíveis em João
           Pessoa? Você encontrou o lugar certo! Somos uma loja especializada em
