@@ -32,7 +32,6 @@ export function Home() {
           <Carousel />
           <CardPhotos />
           <SectionAbout />
-
           <WhoWeAre />
           <ScrollUp />
           <Footer />

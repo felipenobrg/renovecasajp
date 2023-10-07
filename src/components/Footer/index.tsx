@@ -14,6 +14,7 @@ import eloCard from "../../assets/CardPayment/eloCard.png";
 import pix from "../../assets/CardPayment/pix.png";
 import visaCard from "../../assets/CardPayment/visaCard.png";
 import hiperCard from "../../assets/CardPayment/hiperCard.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function Footer() {
   return (
@@ -50,11 +51,11 @@ export function Footer() {
         <PaymentMethodsContainer>
           <h3>Formas de Pagamento</h3>
           <ImagesContainer>
-            <img src={pix} alt="" />
-            <img src={masterCard} alt="" />
-            <img src={eloCard} alt="" />
-            <img src={visaCard} alt="" />
-            <img src={hiperCard} alt="" />
+            <LazyLoadImage src={pix} alt="" />
+            <LazyLoadImage src={masterCard} alt="" />
+            <LazyLoadImage src={eloCard} alt="" />
+            <LazyLoadImage src={visaCard} alt="" />
+            <LazyLoadImage src={hiperCard} alt="" />
           </ImagesContainer>
         </PaymentMethodsContainer>
       </GridContainer>
