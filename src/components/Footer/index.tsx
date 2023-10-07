@@ -22,8 +22,8 @@ export function Footer() {
         <AboutRenoveContainer>
           <img src={RenoveCasaLogo} />
           <p>
-            Melhor loja paraibana de móveis. Com as melhores qualidades, preços,
-            e entrega imediata em João Pessoa!{" "}
+            Melhor loja de móveis da Paraíba, Com as melhores ofertas, preços e
+            qualidade, com entrega imediata para João Pessoa e região!
           </p>
         </AboutRenoveContainer>
         <ServiceContainer>
@@ -58,7 +58,7 @@ export function Footer() {
           </ImagesContainer>
         </PaymentMethodsContainer>
       </GridContainer>
-    <div className="horizontal-line"></div>
+      <div className="horizontal-line"></div>
       <DevelopedBy>
         <p>
           Desenvolvido por{" "}
