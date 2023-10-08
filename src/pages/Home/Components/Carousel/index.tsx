@@ -26,16 +26,16 @@ export function Carousel() {
           autoplay={{ delay: 1500}}
         >
           <SwiperSlide>
-            <img src={CarouselImage1} alt="" loading="lazy" />
+            <img src={CarouselImage1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={CarouselImage2} alt="" loading="lazy" />
+            <img src={CarouselImage2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={CarouselImage3} alt="" loading="lazy" />
+            <img src={CarouselImage3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={CarouselImage4} alt="" loading="lazy" />
+            <img src={CarouselImage4} alt="" />
           </SwiperSlide>
         </Swiper>
     </CarouselContainer>
