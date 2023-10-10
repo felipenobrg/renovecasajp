@@ -1,15 +1,15 @@
-import SofaRetroCinza from "../assets/SofaRetro/RetroCinza.jpg";
-import SofaRetroOffWhite from "../assets/SofaRetro/RetroOffWhite.jpg";
-import SofaRetroPreto from "../assets/SofaRetro/RetroPreto.jpg";
-import SofaRetroAzul from "../assets/SofaRetro/RetroAzul.jpg";
-import SofaRetroVermelho from "../assets/SofaRetro/RetroVermelho.jpg";
-import SofaRetroTerraCota from "../assets/SofaRetro/RetroTerraCota.jpg";
-import RetroLinhoAzul from "../assets/SofaRetro/RetroLinhoAzul.jpg";
-import RetroLinhoMarromEscuro from "../assets/SofaRetro/RetroLinhoMarromEscuro.jpg";
-import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMarromClaro.jpg";
-import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.jpg";
-import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.jpg";
-import RetroRetratilVerde from "../assets/SofaRetro/RetroRetratilVerde.jpg";
+import SofaRetroCinza from "../assets/SofaRetro/RetroCinza.webp";
+import SofaRetroOffWhite from "../assets/SofaRetro/RetroOffWhite.webp";
+import SofaRetroPreto from "../assets/SofaRetro/RetroPreto.webp";
+import SofaRetroAzul from "../assets/SofaRetro/RetroAzul.webp";
+import SofaRetroVermelho from "../assets/SofaRetro/RetroVermelho.webp";
+import SofaRetroTerraCota from "../assets/SofaRetro/RetroTerraCota.webp";
+import RetroLinhoAzul from "../assets/SofaRetro/RetroLinhoAzul.webp";
+import RetroLinhoMarromEscuro from "../assets/SofaRetro/RetroLinhoMarromEscuro.webp";
+import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMarromClaro.webp";
+import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.webp";
+import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.webp";
+import RetroRetratilVerde from "../assets/SofaRetro/RetroRetratilVerde.webp";
 
 export const sofaRetroData = [
   {
