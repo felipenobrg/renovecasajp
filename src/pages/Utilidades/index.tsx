@@ -1,4 +1,3 @@
-import { AboutDelivery } from "../../components/AboutDelivery";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
@@ -18,10 +17,7 @@ export function Utilidades() {
   return (
     <>
       <Header />
-      <AboutDelivery />
-
-      <SectionLink />
-      
+      <SectionLink />   
       <SearchBar value={searchBar} onChange={setSearchBar}/>
       {filteredFurnitures.map((product) => (
         <ProductCard key={product.productId} {...product} />
