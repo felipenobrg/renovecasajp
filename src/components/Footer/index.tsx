@@ -20,7 +20,7 @@ export function Footer() {
     <FooterContainer>
       <GridContainer>
         <AboutRenoveContainer>
-          <img src={RenoveCasaLogo} />
+          <img src={RenoveCasaLogo} alt="Renove Casa Logo" />
           <p>
             Melhor loja de móveis da Paraíba, Com as melhores ofertas, preços e
             qualidade, com entrega imediata para João Pessoa e região!
