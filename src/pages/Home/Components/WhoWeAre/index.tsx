@@ -1,4 +1,4 @@
-import { FacebookLogo, InstagramLogo } from "phosphor-react";
+import { InstagramLogo } from "phosphor-react";
 import { WhoWeAreContainer } from "./styles";
 
 export function WhoWeAre() {
@@ -37,9 +37,6 @@ export function WhoWeAre() {
       <p>
         <a href="https://www.instagram.com/renovecasajp/">
           <InstagramLogo size={30} color="#929292" />
-        </a>
-        <a>
-          <FacebookLogo size={30} />
         </a>
       </p>
     </WhoWeAreContainer>
