@@ -44,7 +44,7 @@ export const AboutRenoveContainer = styled.div`
   @media screen and (max-width: 1024px) {
     align-items: center;
      p {
-      width: 100%;
+      width: 80%;
       text-align: center;
       margin-bottom: 1rem;
      }
