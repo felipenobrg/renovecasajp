@@ -10,16 +10,16 @@ export function CardPhotos() {
   return (
     <CardPhotosContainer>
       <NavLink to="/sofaretro">
-        <img src={SofaRetro} alt="Sofa Retro" loading="lazy" />
+        <img src={SofaRetro} alt="Sofa Retro" />
       </NavLink>
       <NavLink to="/sofaretratil">
-        <img src={SofaRetratil} alt="Sofa Retratil" loading="lazy" />
+        <img src={SofaRetratil} alt="Sofa Retratil" />
       </NavLink>
       <NavLink to="/sofaspopulares">
-        <img src={SofasPopulares} alt="Sofas Populares" loading="lazy" />
+        <img src={SofasPopulares} alt="Sofas Populares" />
       </NavLink>
       <NavLink to="/produtosvime">
-        <img src={ProdutosEmVime} alt="Produtos em Vime" loading="lazy" />
+        <img src={ProdutosEmVime} alt="Produtos em Vime" />
       </NavLink>
     </CardPhotosContainer>
   );
