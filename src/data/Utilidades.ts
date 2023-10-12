@@ -1,12 +1,12 @@
-import PuffRetro from '../assets/Utilidades/PuffsRetro.jpg';
-import SapateiraPretaBege from '../assets/Utilidades/SapateiraPretaBege.jpg';
-import SapateiraCinzaVermelho from '../assets/Utilidades/SapateiraCinzaVermelho.jpg';
-import Baus from '../assets/Utilidades/Baus.jpg';
-import CadeiraDeBalancoDeFio from '../assets/Utilidades/CadeiraDeBalanco.jpg';
-import CantinhoDeCafe from '../assets/Utilidades/CatinhoDeCafe.jpg';
-import QuadroLeaoLaranja from '../assets/Utilidades/QuadroLeaoLaranja.jpg';
-import QuadroLeao from '../assets/Utilidades/QuadroLeao.jpg';
-import QuadroLeaoELeoa from '../assets/Utilidades/QuadroLeaoELeoa.jpg';
+import PuffRetro from '../assets/Utilidades/PuffsRetro.webp';
+import SapateiraPretaBege from '../assets/Utilidades/SapateiraPretaBege.webp';
+import SapateiraCinzaVermelho from '../assets/Utilidades/SapateiraCinzaVermelho.webp';
+import Baus from '../assets/Utilidades/Baus.webp';
+import CadeiraDeBalancoDeFio from '../assets/Utilidades/CadeiraDeBalanco.webp';
+import CantinhoDeCafe from '../assets/Utilidades/CatinhoDeCafe.webp';
+import QuadroLeaoLaranja from '../assets/Utilidades/QuadroLeaoLaranja.webp';
+import QuadroLeao from '../assets/Utilidades/QuadroLeao.webp';
+import QuadroLeaoELeoa from '../assets/Utilidades/QuadroLeaoELeoa.webp';
 
 export const utilidadesData = [
     {

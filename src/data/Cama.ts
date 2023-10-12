@@ -1,8 +1,8 @@
-import CamaDeCasalSimples from "../assets/Camas/CamaDeCasalSimples.jpg";
-import CamaDeSolteiroSimples from "../assets/Camas/CamaDeSolteiro.jpg";
-import CamaMolasEnsacadas from "../assets/Camas/CamaDeCasalMolas.jpg";
-import ColchaoDeMolas from "../assets/Camas/ColchaoDeMolas.jpg";
-import ColchaoMaisBaseCasal from "../assets/Camas/ColchaoComBaseCasal.jpg";
+import CamaDeCasalSimples from "../assets/Camas/CamaDeCasalSimples.webp";
+import CamaDeSolteiroSimples from "../assets/Camas/CamaDeSolteiro.webp";
+import CamaMolasEnsacadas from "../assets/Camas/CamaDeCasalMolas.webp";
+import ColchaoDeMolas from "../assets/Camas/ColchaoDeMolas.webp";
+import ColchaoMaisBaseCasal from "../assets/Camas/ColchaoComBaseCasal.webp";
 
 export const camaData = [
     {
