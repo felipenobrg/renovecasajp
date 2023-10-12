@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
 import { CardPhotosContainer } from "./styles";
 
-import SofaRetro from "../../../../assets/CardPhotos/SofaRetro.jpg"
-import SofaRetratil from "../../../../assets/CardPhotos/SofaRetratil.jpg"
-import SofasPopulares from "../../../../assets/CardPhotos/SofasPopulares.jpg"
-import ProdutosEmVime from "../../../../assets/CardPhotos/ProdutosEmVime.jpg"
+import SofaRetro from "../../../../assets/CardPhotos/SofaRetro.webp"
+import SofaRetratil from "../../../../assets/CardPhotos/SofaRetratil.webp"
+import SofasPopulares from "../../../../assets/CardPhotos/SofasPopulares.webp"
+import ProdutosEmVime from "../../../../assets/CardPhotos/ProdutosEmVime.webp"
 
 export function CardPhotos() {
   return (

@@ -1,8 +1,8 @@
 import { CarouselContainer } from "./styles";
-import CarouselImage1 from "../../../../assets/CarouselImages/Carousel1.jpg";
-import CarouselImage2 from "../../../../assets/CarouselImages/Carousel2.jpg";
-import CarouselImage3 from "../../../../assets/CarouselImages/Carousel3.jpg";
-import CarouselImage4 from "../../../../assets/CarouselImages/Carousel4.jpg";
+import CarouselImage1 from "../../../../assets/CarouselImages/Carousel1.webp";
+import CarouselImage2 from "../../../../assets/CarouselImages/Carousel2.webp";
+import CarouselImage3 from "../../../../assets/CarouselImages/Carousel3.webp";
+import CarouselImage4 from "../../../../assets/CarouselImages/Carousel4.webp";
 
 import {
   Navigation,

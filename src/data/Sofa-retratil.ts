@@ -1,15 +1,15 @@
-import SofaMarrom from "../assets/SofaRetratil/sofaMarrom.jpg";
-import SofaOffWhite from "../assets/SofaRetratil/MonacoOffWhite.jpg";
-import MonacoMarromEscuro from "../assets/SofaRetratil/MonacoMarromEscuro.jpg";
-import MonacoBege from "../assets/SofaRetratil/MonacoBege.jpg";
-import MonacoCinza from "../assets/SofaRetratil/MonacoCinza.jpg";
-import SofaBrancoGeloLinho from "../assets/SofaRetratil/MonacoLinhoBrancoGelo.jpg";
-import SofaParisCinza from "../assets/SofaRetratil/SofaParisCinza.jpg";
-import SofaParisMarfim from "../assets/SofaRetratil/SofaParisBege.jpg";
-import SofaLuxoMarrom from "../assets/SofaRetratil/LuxoMarrom.jpg";
-import SofaLuxoAzul from "../assets/SofaRetratil/SofaLuxoAzul.jpg";
-import SofaLuxoOffWhite from "../assets/SofaRetratil/SofaLuxoBrancoGelo.jpg";
-import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.jpg";
+import SofaMarrom from "../assets/SofaRetratil/sofaMarrom.webp";
+import SofaOffWhite from "../assets/SofaRetratil/MonacoOffWhite.webp";
+import MonacoMarromEscuro from "../assets/SofaRetratil/MonacoMarromEscuro.webp";
+import MonacoBege from "../assets/SofaRetratil/MonacoBege.webp";
+import MonacoCinza from "../assets/SofaRetratil/MonacoCinza.webp";
+import SofaBrancoGeloLinho from "../assets/SofaRetratil/MonacoLinhoBrancoGelo.webp";
+import SofaParisCinza from "../assets/SofaRetratil/SofaParisCinza.webp";
+import SofaParisMarfim from "../assets/SofaRetratil/SofaParisBege.webp";
+import SofaLuxoMarrom from "../assets/SofaRetratil/LuxoMarrom.webp";
+import SofaLuxoAzul from "../assets/SofaRetratil/SofaLuxoAzul.webp";
+import SofaLuxoOffWhite from "../assets/SofaRetratil/SofaLuxoBrancoGelo.webp";
+import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
 
  export const sofaRetratilData = [
     {

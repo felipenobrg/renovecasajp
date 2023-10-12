@@ -1,14 +1,14 @@
-import PoltronaCapitoneCinza from "../assets/Poltronas/PoltronaCapitoneCinza.jpg";
-import PoltronaCapitoneAzul from "../assets/Poltronas/PoltronaCapitoneAzul.jpg";
-import PoltronaCapitoneMarrom from "../assets/Poltronas/PoltronaCapitoneMarrom.jpg";
-import PoltronaCapitoneRosa from "../assets/Poltronas/PoltronaCapitoneRosa.jpg";
-import PoltronaAlmofadaCinza from "../assets/Poltronas/PoltronaAlmodadaCinza.jpg";
-import PoltronaAlmofadaVerde from "../assets/Poltronas/PoltronaAlmofadadVerde.jpg";
-import PoltronaAlmofadaAzul from "../assets/Poltronas/PoltronaAlmofadadaAzul.jpg";
-import PoltronaAlmofadaBege from "../assets/Poltronas/PoltronaAlmofadadaBege.jpg";
-import PoltronaBobBege from "../assets/Poltronas/PoltronaBobBege.jpg";
-import PoltronaBobTerraCota from "../assets/Poltronas/PoltronaBobTerraCota.jpg";
-import PoltronaBobCinzaLinho from "../assets/Poltronas/PoltronaBobCinzaLinho.jpg";
+import PoltronaCapitoneCinza from "../assets/Poltronas/PoltronaCapitoneCinza.webp";
+import PoltronaCapitoneAzul from "../assets/Poltronas/PoltronaCapitoneAzul.webp";
+import PoltronaCapitoneMarrom from "../assets/Poltronas/PoltronaCapitoneMarrom.webp";
+import PoltronaCapitoneRosa from "../assets/Poltronas/PoltronaCapitoneRosa.webp";
+import PoltronaAlmofadaCinza from "../assets/Poltronas/PoltronaAlmodadaCinza.webp";
+import PoltronaAlmofadaVerde from "../assets/Poltronas/PoltronaAlmofadadVerde.webp";
+import PoltronaAlmofadaAzul from "../assets/Poltronas/PoltronaAlmofadadaAzul.webp";
+import PoltronaAlmofadaBege from "../assets/Poltronas/PoltronaAlmofadadaBege.webp";
+import PoltronaBobBege from "../assets/Poltronas/PoltronaBobBege.webp";
+import PoltronaBobTerraCota from "../assets/Poltronas/PoltronaBobTerraCota.webp";
+import PoltronaBobCinzaLinho from "../assets/Poltronas/PoltronaBobCinzaLinho.webp";
 
 export const poltronasData = [
   {

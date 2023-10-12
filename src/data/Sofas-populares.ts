@@ -1,19 +1,19 @@
-import ConjuntoDeSofaCinza from "../assets/SofasPopulares/ConjuntoDeSofaCinza.jpg";
-import ConjuntoDeSofaPreto from "../assets/SofasPopulares/ConjuntoSofaPreto.jpg";
-import ConjuntoDeSofaCinzaEscuro from "../assets/SofasPopulares/ConjuntoDeSofaCinzaEscuro.jpg";
-import ConjuntoDeSofaVermelho from "../assets/SofasPopulares/ConjuntoDeSofaVermelho.jpg";
-import ConjuntoDeSofaMarrom from "../assets/SofasPopulares/ConjuntoDeSofaMarrom.jpg";
-import ConjuntoDeSofaTerraCota from "../assets/SofasPopulares/ConjuntoDeSofaTerraCota.jpg";
+import ConjuntoDeSofaCinza from "../assets/SofasPopulares/ConjuntoDeSofaCinza.webp";
+import ConjuntoDeSofaPreto from "../assets/SofasPopulares/ConjuntoSofaPreto.webp";
+import ConjuntoDeSofaCinzaEscuro from "../assets/SofasPopulares/ConjuntoDeSofaCinzaEscuro.webp";
+import ConjuntoDeSofaVermelho from "../assets/SofasPopulares/ConjuntoDeSofaVermelho.webp";
+import ConjuntoDeSofaMarrom from "../assets/SofasPopulares/ConjuntoDeSofaMarrom.webp";
+import ConjuntoDeSofaTerraCota from "../assets/SofasPopulares/ConjuntoDeSofaTerraCota.webp";
 
-import ConjuntoSemAlmofadaBege from "../assets/SofasPopulares/ConjuntoDeSofaSemAlmofadaMarrom.jpg";
+import ConjuntoSemAlmofadaBege from "../assets/SofasPopulares/ConjuntoDeSofaSemAlmofadaMarrom.webp";
 
-import SofaTresLugaresMarrom from "../assets/SofasPopulares/SofaTresLugaresMarrom.jpg";
-import SofaTresLugaresPretoComPuffs from "../assets/SofasPopulares/SofaTresLugaresPretoComPuffs.jpg";
+import SofaTresLugaresMarrom from "../assets/SofasPopulares/SofaTresLugaresMarrom.webp";
+import SofaTresLugaresPretoComPuffs from "../assets/SofasPopulares/SofaTresLugaresPretoComPuffs.webp";
 
-import DubaiDoisLugaresBege from "../assets/SofasPopulares/SofaDoisLugaresBegeDubai.jpeg";
-import DubaiDoisLugaresBege3Lugares from "../assets/SofasPopulares/DubaiBege3Lugares.jpg";
-import DubaiCinza from "../assets/SofasPopulares/SofaDubaiCinza.jpg";
-import DubaiMarrom from "../assets/SofasPopulares/SofaDubaiMarrom.jpg";
+import DubaiDoisLugaresBege from "../assets/SofasPopulares/SofaDoisLugaresBegeDubai.webp";
+import DubaiDoisLugaresBege3Lugares from "../assets/SofasPopulares/DubaiBege3Lugares.webp";
+import DubaiCinza from "../assets/SofasPopulares/SofaDubaiCinza.webp";
+import DubaiMarrom from "../assets/SofasPopulares/SofaDubaiMarrom.webp";
 
 export const sofasPopularesData = [
     {

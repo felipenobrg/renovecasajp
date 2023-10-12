@@ -3,7 +3,7 @@ import {
   HeaderContainer,
   HeaderContent,
 } from "./styles";
-import LogoRenoveCasa from "../../assets/logoRenoveCasa.png";
+import LogoRenoveCasa from "../../assets/logoRenoveCasa.webp";
 import { DropDownMenu } from "./MenuDropdown";
 
 export function Header() {

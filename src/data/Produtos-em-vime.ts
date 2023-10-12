@@ -1,10 +1,10 @@
-import BanquetaPreta from "../assets/ProdutosEmVime/banquetaPreta.jpg";
-import BanquetaMarrom from "../assets/ProdutosEmVime/banquetaMarrom.jpg";
-import BanquetaBege from "../assets/ProdutosEmVime/banquetaBege.jpg";
-import ConjuntoDeTerracoPreto from "../assets/ProdutosEmVime/ConjuntoDeTerracoPreto.jpg";
-import ConjuntoDeTerracoMarrom from "../assets/ProdutosEmVime/ConjuntoDeTerracoMarrom.jpg";
-import ConjuntodeTerracoMesclado from "../assets/ProdutosEmVime/ConjuntodeTerracoMesclado.jpg";
-import CadeiraDeBalanco from "../assets/ProdutosEmVime/CadeiraDeBalanco.jpg";
+import BanquetaPreta from "../assets/ProdutosEmVime/banquetaPreta.webp";
+import BanquetaMarrom from "../assets/ProdutosEmVime/banquetaMarrom.webp";
+import BanquetaBege from "../assets/ProdutosEmVime/banquetaBege.webp";
+import ConjuntoDeTerracoPreto from "../assets/ProdutosEmVime/ConjuntoDeTerracoPreto.webp";
+import ConjuntoDeTerracoMarrom from "../assets/ProdutosEmVime/ConjuntoDeTerracoMarrom.webp";
+import ConjuntodeTerracoMesclado from "../assets/ProdutosEmVime/ConjuntodeTerracoMesclado.webp";
+import CadeiraDeBalanco from "../assets/ProdutosEmVime/CadeiraDeBalanco.webp";
 
 
 export const produtosEmVimeData = [

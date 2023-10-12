@@ -1,10 +1,10 @@
-import ArmarioPreto from '../assets/Moveis/ArmarioDeCozinhaPreto.jpg';
-import ArmarioBranco from '../assets/Moveis/ArmarioDeCozinhaBranco.jpg';
-import ArmarioMarrom from '../assets/Moveis/ArmarioDeCozinhaMarrom.jpg';
-import MesaDeJantarPreta from "../assets/Moveis/MesaDeJantarPreta.jpg"
-import MesaDeJantarBranca from "../assets/Moveis/MesaDeJantarBranca.jpg"
-import PainelDeTv46Polegadas from '../assets/Moveis/PainelParaTv.jpg';
-import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.jpg';
+import ArmarioPreto from '../assets/Moveis/ArmarioDeCozinhaPreto.webp';
+import ArmarioBranco from '../assets/Moveis/ArmarioDeCozinhaBranco.webp';
+import ArmarioMarrom from '../assets/Moveis/ArmarioDeCozinhaMarrom.webp';
+import MesaDeJantarPreta from "../assets/Moveis/MesaDeJantarPreta.webp"
+import MesaDeJantarBranca from "../assets/Moveis/MesaDeJantarBranca.webp"
+import PainelDeTv46Polegadas from '../assets/Moveis/PainelParaTv.webp';
+import PainelDeTv55Polegadas from '../assets/Moveis/PainelParaTv55.webp';
 
 
   export const moveisData = [

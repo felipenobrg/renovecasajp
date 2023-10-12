@@ -7,13 +7,13 @@ import {
   PaymentMethodsContainer,
   ServiceContainer,
 } from "./styles";
-import RenoveCasaLogo from "../../assets/logoRenoveCasa.png";
+import RenoveCasaLogo from "../../assets/logoRenoveCasa.webp";
 import { Phone, WhatsappLogo } from "phosphor-react";
-import masterCard from "../../assets/CardPayment/masterCard.png";
-import eloCard from "../../assets/CardPayment/eloCard.png";
-import pix from "../../assets/CardPayment/pix.png";
-import visaCard from "../../assets/CardPayment/visaCard.png";
-import hiperCard from "../../assets/CardPayment/hiperCard.png";
+import masterCard from "../../assets/CardPayment/masterCard.webp";
+import eloCard from "../../assets/CardPayment/eloCard.webp";
+import pix from "../../assets/CardPayment/pix.webp";
+import visaCard from "../../assets/CardPayment/visaCard.webp";
+import hiperCard from "../../assets/CardPayment/hiperCard.webp";
 
 export function Footer() {
   return (
