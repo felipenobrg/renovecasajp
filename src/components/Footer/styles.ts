@@ -33,7 +33,6 @@ export const AboutRenoveContainer = styled.div`
 
   p {
     width: 70%;
-    text-align: left;
     margin-top: -1rem;
   }
 
@@ -86,7 +85,7 @@ export const ImagesContainer = styled.div`
   align-items: center; 
 
   img {
-    width: 3rem;
+  
     height: auto;
     display: block;
     margin: 0 auto;

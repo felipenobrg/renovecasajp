@@ -29,7 +29,6 @@ export const HeaderContent = styled.div`
 
   img {
     margin-top: 1rem;
-    width: 24rem;
   }
 
   @media screen and (max-width: 768px) {

@@ -50,11 +50,11 @@ export function Footer() {
         <PaymentMethodsContainer>
           <h3>Formas de Pagamento</h3>
           <ImagesContainer>
-            <img src={pix} alt="" />
-            <img src={masterCard} alt="" />
-            <img src={eloCard} alt="" />
-            <img src={visaCard} alt="" />
-            <img src={hiperCard} alt="" />
+            <img src={pix} alt="Logotipo do Pix" height="48" width="48" />
+            <img src={masterCard} alt="Logotipo do Mastercard"  height="48" width="48" />
+            <img src={eloCard} alt="Logotipo do Elocard"  height="48" width="48" />
+            <img src={visaCard} alt="Logotipo do Visacard"  height="48" width="48" />
+            <img src={hiperCard} alt="Logotipo do Hipercard"  height="48" width="48" />
           </ImagesContainer>
         </PaymentMethodsContainer>
       </GridContainer>

@@ -13,7 +13,7 @@ export function Header() {
       <HeaderContainer>
         <HeaderContent>
         <DropDownMenu />
-          <img src={LogoRenoveCasa} alt="" />
+          <img src={LogoRenoveCasa} alt="Renove Casa Logotipo" width="350" height="auto" />
         </HeaderContent>
       </HeaderContainer>
     </>
