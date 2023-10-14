@@ -22,10 +22,7 @@ export function Utilidades() {
       {filteredFurnitures.map((product) => (
         <ProductCard key={product.productId} {...product} />
       ))}
-
-    
       <ScrollUp />
-
       <Footer />
     </>
   );

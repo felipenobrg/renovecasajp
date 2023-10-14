@@ -4,7 +4,7 @@ export const WhoWeAreContainer = styled.div`
    display: flex;
    flex-direction: column;
    gap: 2rem;
-   margin: 0 2rem 1rem 2rem;
+   margin: 2rem 2rem 1rem 2rem;
 
    h1 {
     font-family: 'Baloo 2', sans-serif;

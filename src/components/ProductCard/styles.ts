@@ -47,6 +47,29 @@ export const CardContainer = styled.div`
   }
 `;
 
+
+export const CardContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex: 1;
+
+  background: ${(props) => props.theme["base-card"]};
+  border-radius: 6px;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 0.5rem;
+  }
+`;
+
 export const Click = styled.p`
   display: flex;
   align-items: center;
@@ -87,27 +110,6 @@ export const Click = styled.p`
   }
 }`
 
-export const CardContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 2rem;
-  max-width: 100%;
-  height: 100%;
-  overflow: hidden;
-  flex: 1;
-
-  background: ${(props) => props.theme["base-card"]};
-  border-radius: 6px;
-
-  @media (max-width: 768px) {
-    margin: 0 auto;
-    padding: 2rem;
-    gap: 0.5rem;
-  }
-`;
 
 export const TitleCard = styled.p`
   font-family: "Baloo 2", sans-serif;
