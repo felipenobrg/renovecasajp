@@ -22,7 +22,7 @@ export const CardContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 28rem;
+    height: 32rem;
 
     img {
       border-radius: 6px;
