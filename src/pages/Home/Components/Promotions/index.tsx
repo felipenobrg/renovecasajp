@@ -66,6 +66,7 @@ export function Promotions() {
           productTitle={promotion.productTitle}
           price={promotion.price}
           oldPrice={promotion.oldPrice}
+          textForWhatsApp={promotion.textForWhatsApp}
         />
     ))}
       </PromotionsCardGrid>
