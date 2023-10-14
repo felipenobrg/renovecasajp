@@ -55,7 +55,7 @@ export function Promotions() {
     <>
       <PromotionsContainer>
         <div>
-          <h1>Oferta do mês</h1>
+          <h1>Produtos em destaques</h1>
         </div>
       </PromotionsContainer>
       <PromotionsCardGrid>

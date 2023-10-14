@@ -22,6 +22,7 @@ export const CardContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    height: 28rem;
 
     img {
       border-radius: 6px;
@@ -41,7 +42,7 @@ export const CardContent = styled.div`
   overflow: hidden;
   background: ${(props) => props.theme["base-card"]};
   border-radius: 6px;
-  margin: 2rem 1rem 2rem 1rem;
+  margin: 2rem;
 
   @media (max-width: 768px) {
     margin: 0 auto;
