@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const PromotionsContainer = styled.div`
   h1 {
+    display: flex;
+    justify-content: center;
     margin: 1.5rem 2rem 0 2rem;
     font-size: 1.5rem;
   }
