@@ -5,7 +5,14 @@ export const PromotionsContainer = styled.div`
     display: flex;
     justify-content: center;
     margin: 1.5rem 2rem 0 2rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Baloo 2', sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+    }
   }
 `;
 

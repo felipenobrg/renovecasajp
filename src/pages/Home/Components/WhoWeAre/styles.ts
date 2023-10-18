@@ -20,4 +20,9 @@ export const WhoWeAreContainer = styled.div`
     color: ${(props => props.theme["gray-500"])};
    }
 
+   @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+   }
 ` 
