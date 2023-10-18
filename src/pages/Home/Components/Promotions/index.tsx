@@ -21,10 +21,10 @@ export function Promotions() {
         {
           id: 1,
           imgSrc: SofaRetroBegeComDuasPoltronas,
-          productTitle: "Sofá Retrô com Duas Poltronas Bob",
-          price: "1299,99",
-          oldPrice: "1399,99",
-          textForWhatsApp: "Olá, gostaria de comprar Sofá Retrô com Duas Poltronas Bob"
+          productTitle: "Sofá Retrô com Duas Poltronas King",
+          price: "1799,99",
+          oldPrice: "1899,99",
+          textForWhatsApp: "Olá, gostaria de comprar Sofá Retrô com Duas Poltronas King"
         },
         {
           id: 2,
