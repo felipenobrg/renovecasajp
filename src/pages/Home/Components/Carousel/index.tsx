@@ -1,5 +1,4 @@
 import { CarouselContainer } from "./styles";
-import CarouselImage1 from "../../../../assets/CarouselImages/Carousel1.webp";
 import CarouselImage2 from "../../../../assets/CarouselImages/Carousel2.webp";
 import CarouselImage3 from "../../../../assets/CarouselImages/Carousel3.webp";
 import CarouselImage4 from "../../../../assets/CarouselImages/Carousel4.webp";
@@ -33,12 +32,6 @@ export function Carousel() {
         >
           <SwiperSlide>
             <img
-              src={CarouselImage1}
-              alt="Sofá Retrátil Pillow Top com o valor de 1499.99 reais"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
               src={CarouselImage2}
               alt="Sofá Retrátil Reclinável com o valor de 999.99 reais"
             />
@@ -52,7 +45,7 @@ export function Carousel() {
           <SwiperSlide>
             <img
               src={CarouselImage4}
-              alt="Sofá Retrô Linhp acompanhado de um puff de brinde com o valor de 999.99 reais"
+              alt="Sofá Retrô Linho acompanhado de um puff de brinde com o valor de 999.99 reais"
             />
           </SwiperSlide>
         </Swiper>
