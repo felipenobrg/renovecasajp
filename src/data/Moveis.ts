@@ -18,7 +18,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       title: "Rack Detroit",
       price: "499,99",
       oldPrice: "599,99",
-      cardValue: "136,99",
+      cardValue: "48,99",
       textForWhatsApp: "Olá. Gostaria de comprar Rack Detroit",
     },
     {
@@ -27,7 +27,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       title: "Rack Lyon",
       price: "349,99",
       oldPrice: "499,99",
-      cardValue: "136,99",
+      cardValue: "34,99",
       textForWhatsApp: "Olá. Gostaria de comprar Rack Lyon",
     },
     {
@@ -36,7 +36,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       title: "Home Ocean Off White",
       price: "949,99",
       oldPrice: "999,99",
-      cardValue: "136,99",
+      cardValue: "92,99",
       textForWhatsApp: "Olá. Gostaria de comprarHome Ocean Off White",
     },
     {
@@ -45,7 +45,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       title: "Home Ocean Preto",
       price: "949,99",
       oldPrice: "999,99",
-      cardValue: "136,99",
+      cardValue: "92,99",
       textForWhatsApp: "Olá. Gostaria de comprar Home Ocean Preto",
     },
     {
