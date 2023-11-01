@@ -5,6 +5,7 @@ export const SectionContainer = styled.section`
   padding: 2rem;
   max-width: 100%;
   overflow: auto;
+  
 
   @media screen and (max-width: 1024px) {
     display: none;

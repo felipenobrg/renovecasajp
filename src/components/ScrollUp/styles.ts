@@ -9,6 +9,7 @@ export const ScrollDownContainer = styled.div`
    bottom: 20px;
    right: 5px;
    cursor: pointer;
+   z-index: 99;
 
    svg:hover {
       transition: 0.3s ease;
