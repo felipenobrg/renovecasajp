@@ -4,6 +4,7 @@ import ConjuntoDeDubaiPreto from "../../../../assets/Promotions/ConjuntoDeDubaiP
 import SofaDeltaAzul from "../../../../assets/Promotions/SofaDeltaAzul.webp"
 import SofaRetroBegeComDuasPoltronas from "../../../../assets/Promotions/SofaRetroBegeComDuasPoltronas.webp"
 import SofaRetratilComPuffsAzul from "../../../../assets/Promotions/SofaRetratilComPuffsAzul.webp"
+import RackDetroit from "../../../../assets/Promotions/DetroitRack.webp"
 
 interface Promotion {
     id: number;
@@ -48,6 +49,14 @@ export function Promotions() {
           price: "1199,99",
           oldPrice: "1299,99",
           textForWhatsApp: "Olá, gostaria de comprar Sofá Delta com Puff Incluso"
+        },
+        {
+          id: 5,
+          imgSrc: RackDetroit,
+          productTitle: "Rack Detroit",
+          price: "499,99",
+          oldPrice: "599,99",
+          textForWhatsApp: "Olá, gostaria de comprar Rack Detroit"
         },
       ];
   return (
