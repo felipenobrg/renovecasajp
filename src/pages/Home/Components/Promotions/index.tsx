@@ -4,7 +4,7 @@ import ConjuntoDeDubaiPreto from "../../../../assets/Promotions/ConjuntoDeDubaiP
 import SofaDeltaAzul from "../../../../assets/Promotions/SofaDeltaAzul.webp"
 import SofaRetroBegeComDuasPoltronas from "../../../../assets/Promotions/SofaRetroBegeComDuasPoltronas.webp"
 import SofaRetratilComPuffsAzul from "../../../../assets/Promotions/SofaRetratilComPuffsAzul.webp"
-import RackDetroit from "../../../../assets/Promotions/DetroitRack.webp"
+import LyonRack from "../../../../assets/Promotions/LyonRack.webp"
 
 interface Promotion {
     id: number;
@@ -52,11 +52,11 @@ export function Promotions() {
         },
         {
           id: 5,
-          imgSrc: RackDetroit,
-          productTitle: "Rack Detroit",
-          price: "499,99",
-          oldPrice: "599,99",
-          textForWhatsApp: "Olá, gostaria de comprar Rack Detroit"
+          imgSrc: LyonRack,
+          productTitle: "Rack Lyon",
+          price: "349,99",
+          oldPrice: "499,99",
+          textForWhatsApp: "Olá, gostaria de comprar Rack Lyon"
         },
       ];
   return (
