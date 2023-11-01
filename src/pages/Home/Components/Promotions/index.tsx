@@ -5,7 +5,6 @@ import SofaDeltaAzul from "../../../../assets/Promotions/SofaDeltaAzul.webp"
 import SofaRetroBegeComDuasPoltronas from "../../../../assets/Promotions/SofaRetroBegeComDuasPoltronas.webp"
 import SofaRetratilComPuffsAzul from "../../../../assets/Promotions/SofaRetratilComPuffsAzul.webp"
 
-
 interface Promotion {
     id: number;
     imgSrc: string;
