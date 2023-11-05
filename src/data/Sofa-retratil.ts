@@ -103,7 +103,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Marrom",
     },
     {
-      productId: 9,
+      productId: 10,
       imgSrc: SofaLuxoAzul,
       title: "Sofá Luxo Azul Royal",
       description: "Dimensões: 2.0x90cm",
@@ -113,7 +113,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
     },
     {
-      productId: 10,
+      productId: 11,
       imgSrc: SofaLuxoOffWhite,
       title: "Sofá Luxo Off White",
       description: "Dimensões: 2.0x90cm",
@@ -123,7 +123,7 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
     },
     {
-      productId: 11,
+      productId: 12,
       imgSrc: SofaLuxoCinza,
       title: "Sofá Luxo Cinza",
       description: "Dimensões: 2.0x90cm",

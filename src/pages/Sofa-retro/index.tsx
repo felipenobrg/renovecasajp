@@ -18,13 +18,11 @@ export function SofaRetro() {
     <>
       <Header />
       <SectionLink />
-      <SearchBar  value={searchBar} onChange={setSearchBar}/>
+      <SearchBar value={searchBar} onChange={setSearchBar}/>
       {filteredFurnitures.map((product) => (
         <ProductCard key={product.productId} {...product} />
       ))}
-
       <ScrollUp />
-
       <Footer />
     </>
   );
