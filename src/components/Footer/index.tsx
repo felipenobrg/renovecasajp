@@ -51,24 +51,49 @@ export function Footer() {
           <h3>Formas de Pagamento</h3>
           <ImagesContainer>
             <img src={pix} alt="Logotipo do Pix" height="48" width="48" />
-            <img src={masterCard} alt="Logotipo do Mastercard"  height="48" width="48" />
-            <img src={eloCard} alt="Logotipo do Elocard"  height="48" width="48" />
-            <img src={visaCard} alt="Logotipo do Visacard"  height="48" width="48" />
-            <img src={hiperCard} alt="Logotipo do Hipercard"  height="48" width="48" />
+            <img
+              src={masterCard}
+              alt="Logotipo do Mastercard"
+              height="48"
+              width="48"
+            />
+            <img
+              src={eloCard}
+              alt="Logotipo do Elocard"
+              height="48"
+              width="48"
+            />
+            <img
+              src={visaCard}
+              alt="Logotipo do Visacard"
+              height="48"
+              width="48"
+            />
+            <img
+              src={hiperCard}
+              alt="Logotipo do Hipercard"
+              height="48"
+              width="48"
+            />
           </ImagesContainer>
         </PaymentMethodsContainer>
       </GridContainer>
       <div className="horizontal-line"></div>
       <DevelopedBy>
-        <p>
-          Desenvolvido por{" "}
-          <a href="https://portfolio-felipenobrega.vercel.app/">
-            Felipe Nóbrega
-          </a>
-          <br />
-          Contato: 83 98766-3399
-        </p>
-        <p>© {new Date().getFullYear()} Todos Direitos Reservados.</p>
+        <DevelopedBy>
+          <p>
+            Desenvolvido por{" "}
+            <a
+              href="https://portfolio-felipenobrega.vercel.app/"
+              aria-label="Portfólio de Felipe Nóbrega"
+            >
+              Felipe Nóbrega
+            </a>
+            <br />
+            Contato: 83 98766-3399
+          </p>
+          <p>© {new Date().getFullYear()} Todos Direitos Reservados.</p>
+        </DevelopedBy>
       </DevelopedBy>
     </FooterContainer>
   );
