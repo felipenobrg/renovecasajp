@@ -2,10 +2,6 @@ import PoltronaCapitoneCinza from "../assets/Poltronas/PoltronaCapitoneCinza.web
 import PoltronaCapitoneAzul from "../assets/Poltronas/PoltronaCapitoneAzul.webp";
 import PoltronaCapitoneMarrom from "../assets/Poltronas/PoltronaCapitoneMarrom.webp";
 import PoltronaCapitoneRosa from "../assets/Poltronas/PoltronaCapitoneRosa.webp";
-import PoltronaAlmofadaCinza from "../assets/Poltronas/PoltronaAlmodadaCinza.webp";
-import PoltronaAlmofadaVerde from "../assets/Poltronas/PoltronaAlmofadadVerde.webp";
-import PoltronaAlmofadaAzul from "../assets/Poltronas/PoltronaAlmofadadaAzul.webp";
-import PoltronaAlmofadaBege from "../assets/Poltronas/PoltronaAlmofadadaBege.webp";
 import PoltronaBobBege from "../assets/Poltronas/PoltronaBobBege.webp";
 import PoltronaBobTerraCota from "../assets/Poltronas/PoltronaBobTerraCota.webp";
 import PoltronaBobCinzaLinho from "../assets/Poltronas/PoltronaBobCinzaLinho.webp";
@@ -46,42 +42,6 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Rosa",
-  },
-  {
-    productId: 5,
-    imgSrc: PoltronaAlmofadaCinza,
-    title: "Poltrona Almofadada Cinza",
-    price: "219,99",
-    oldPrice: "249,99",
-    cardValue: "21,99",
-    textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Cinza",
-  },
-  {
-    productId: 6,
-    imgSrc: PoltronaAlmofadaBege,
-    title: "Poltrona Almofadada Bege",
-    price: "219,99",
-    oldPrice: "249,99",
-    cardValue: "21,99",
-    textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Bege",
-  },
-  {
-    productId: 7,
-    imgSrc: PoltronaAlmofadaVerde,
-    title: "Poltrona Almofadada Verde",
-    price: "219,99",
-    oldPrice: "249,99",
-    cardValue: "21,99",
-    textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Verde",
-  },
-  {
-    productId: 8,
-    imgSrc: PoltronaAlmofadaAzul,
-    title: "Poltrona Almofadada Azul",
-    price: "219,99",
-    oldPrice: "249,99",
-    cardValue: "21,99",
-    textForWhatsApp: "Olá. Gostaria de comprar Poltrona Almofadada Azul",
   },
   {
     productId: 9,
