@@ -11,6 +11,6 @@ export const DeliveryContent = styled.div`
   font-weight: bold;
 
   @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
+    display: none;
   }
 `;
