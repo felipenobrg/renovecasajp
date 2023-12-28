@@ -7,10 +7,9 @@ import {
   MoneySign,
   ProductDetailContainer,
   ShareButton,
-  WhatsAppButton,
 } from "./styles";
 import { Price } from "../styles";
-import { Export, WhatsappLogo } from "phosphor-react";
+import { Export } from "phosphor-react";
 import queryString from "query-string";
 import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
 
