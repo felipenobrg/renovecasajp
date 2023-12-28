@@ -1,6 +1,7 @@
-import { Star, WhatsappLogo } from "phosphor-react";
-import { ButtonCard, CardContainer, CardContent, Emphasis, MoneySign, OldPrice, Price, PromotionsContainer, TitleCard } from "./styles";
+import { Star } from "phosphor-react";
+import { CardContainer, CardContent, Emphasis, MoneySign, OldPrice, Price, PromotionsContainer, TitleCard } from "./styles";
 import queryString from "query-string";
+import { BuyWhatsAppButton } from "../../../../../../components/BuyWhatsAppButton";
 
 
 interface PromotionsCardsProps {
@@ -36,10 +37,7 @@ export function PromotionsCards({imgSrc, productTitle, price, oldPrice, textForW
           <Price>
             <MoneySign>R$</MoneySign> {price} <OldPrice>{oldPrice}</OldPrice>
           </Price>
-          <ButtonCard onClick={handleWhatsAppClick}>
-            <WhatsappLogo size={20} weight="fill" />
-            COMPRAR
-          </ButtonCard>
+          <BuyWhatsAppButton handleButtonClick={handleWhatsAppClick} TextButton={"COMPRAR"}  />
         </CardContent>
       </CardContainer>
     </PromotionsContainer>

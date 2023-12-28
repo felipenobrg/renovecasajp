@@ -1,16 +1,15 @@
-import { WhatsappLogo } from "phosphor-react";
 import {
   CardContainer,
   CardContent,
   TitleCard,
   Price,
   OldPrice,
-  ButtonCard,
   WornOut,
   CurrentPrice,
 } from "./styles";
 import queryString from "query-string";
 import { NavLink, useLocation } from "react-router-dom";
+import { BuyWhatsAppButton } from "../BuyWhatsAppButton";
 
 export interface ProductCardProps {
   imgSrc: string;
@@ -77,10 +76,7 @@ export function ProductCard({
             <OldPrice>R$ {oldPrice}</OldPrice>
             <CurrentPrice>R$ {price}</CurrentPrice>
           </Price>
-          <ButtonCard onClick={handleWhatsAppClick}>
-            <WhatsappLogo size={22} />
-            COMPRAR NO WHATSAPP
-          </ButtonCard>
+          <BuyWhatsAppButton handleButtonClick={handleWhatsAppClick} TextButton="COMPRAR NO WHATSAPP" />
         </NavLink>
       </CardContent>
     </CardContainer>
