@@ -12,6 +12,7 @@ import {
 import { Price } from "../styles";
 import { Export, WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
+import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
 
 type ProductType = {
   id: number;
@@ -93,10 +94,7 @@ export function ProductDetail({ products }: Props) {
           </strong>
         </p>
         <Description>{product.description}</Description>
-        <WhatsAppButton onClick={handleWhatsAppClick}>
-          <WhatsappLogo size={22} />
-          COMPRAR
-        </WhatsAppButton>
+         <BuyWhatsAppButton TextButton="COMPRAR NO WHATSAPP" handleButtonClick={handleWhatsAppClick} />
         <AboutGuarantee>
           <h1>Sobre a Garantia:</h1>
           <p>
