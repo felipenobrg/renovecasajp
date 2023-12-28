@@ -1,13 +1,15 @@
-import { WhatsappLogo, X } from "phosphor-react";
+import { X } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 import {
   DropdownButton,
   DropdownMenu,
   DropdownList,
   CloseButton,
+  WhatsAppButtonContainer,
 } from "./styles";
 import queryString from "query-string";
 import { useState } from "react";
+import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
 
 export function DropDownMenu() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -46,7 +48,7 @@ export function DropDownMenu() {
         <DropdownMenu open={isDropdownOpen}>
           <DropdownList>
             <CloseButton onClick={handleCloseDropdown}>
-              <X weight="fill" color="#00000" size={23} />
+              <X color="#000" size={23} />
             </CloseButton>
             <NavLink to={"/"}>Início</NavLink>
             <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
@@ -57,14 +59,14 @@ export function DropDownMenu() {
             <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
             <NavLink to={"/moveis"}>Móveis</NavLink>
             <NavLink to={"/utilidades"}>Utilidades</NavLink>
-            <button
-              onClick={handleWhatsAppClick}
-              className="whatsapp-button"
+
+            <WhatsAppButtonContainer>
+            <BuyWhatsAppButton
+              TextButton="COMPRE VIA WHATSAPP"
+              handleButtonClick={handleWhatsAppClick}
               aria-label="Compre Via WhatsApp"
-            >
-              <WhatsappLogo size={20} />
-              Compre Via WhatsApp
-            </button>
+            />
+            </WhatsAppButtonContainer>
           </DropdownList>
         </DropdownMenu>
       )}

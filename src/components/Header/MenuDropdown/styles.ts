@@ -136,6 +136,9 @@ export const CloseButton = styled.button`
   top: 20px;
   border-radius: 9px;
   padding: 5px;
-
-  transition: background-color 0.3s ease;
+  background: none;
 `;
+
+export const WhatsAppButtonContainer = styled.div`
+  margin-left: 1rem;
+`

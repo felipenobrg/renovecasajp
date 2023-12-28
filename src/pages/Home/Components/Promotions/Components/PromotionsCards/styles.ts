@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 export const PromotionsContainer = styled.div`
   min-width: 100%;
-`
+`;
 export const CardContainer = styled.div`
   width: 19rem;
   height: 33rem;
   max-height: 100%;
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
 
   img {
     width: 13rem;
     height: 13rem;
     border-radius: 6px;
-    object-fit: cover; 
+    object-fit: cover;
   }
 
   @media (max-width: 768px) {
@@ -61,9 +61,12 @@ export const Emphasis = styled.p`
 `;
 
 export const Price = styled.p`
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  flex-direction: column;
 `;
 
 export const TitleCard = styled.p`
@@ -74,7 +77,6 @@ export const TitleCard = styled.p`
   text-overflow: ellipsis;
   white-space: wrap;
 
-
   @media (max-width: 768px) {
     text-overflow: normal;
     white-space: normal;
@@ -82,15 +84,11 @@ export const TitleCard = styled.p`
   }
 `;
 
-export const MoneySign = styled.span`
-  font-size: 0.9rem;
-  font-weight: 100;
-`;
-
 export const OldPrice = styled.span`
   font-size: 0.9rem;
   text-decoration: line-through;
   color: ${(props) => props.theme["gray-500"]};
+  font-weight: 500;
 `;
 
 export const ButtonCard = styled.button`

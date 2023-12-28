@@ -1,18 +1,31 @@
 import { Star } from "phosphor-react";
-import { CardContainer, CardContent, Emphasis, MoneySign, OldPrice, Price, PromotionsContainer, TitleCard } from "./styles";
+import {
+  CardContainer,
+  CardContent,
+  Emphasis,
+  OldPrice,
+  Price,
+  PromotionsContainer,
+  TitleCard,
+} from "./styles";
 import queryString from "query-string";
 import { BuyWhatsAppButton } from "../../../../../../components/BuyWhatsAppButton";
 
-
 interface PromotionsCardsProps {
-    imgSrc: string;
-    productTitle: string;
-    price: string;
-    oldPrice: string;
-    textForWhatsApp: string;
+  imgSrc: string;
+  productTitle: string;
+  price: string;
+  oldPrice: string;
+  textForWhatsApp: string;
 }
 
-export function PromotionsCards({imgSrc, productTitle, price, oldPrice, textForWhatsApp}: PromotionsCardsProps) {
+export function PromotionsCards({
+  imgSrc,
+  productTitle,
+  price,
+  oldPrice,
+  textForWhatsApp,
+}: PromotionsCardsProps) {
   const handleWhatsAppClick = () => {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
@@ -35,9 +48,12 @@ export function PromotionsCards({imgSrc, productTitle, price, oldPrice, textForW
           </Emphasis>
           <TitleCard>{productTitle}</TitleCard>
           <Price>
-            <MoneySign>R$</MoneySign> {price} <OldPrice>{oldPrice}</OldPrice>
+            <OldPrice>R$ {oldPrice}</OldPrice> R$ {price}
           </Price>
-          <BuyWhatsAppButton handleButtonClick={handleWhatsAppClick} TextButton={"COMPRAR"}  />
+          <BuyWhatsAppButton
+            handleButtonClick={handleWhatsAppClick}
+            TextButton={"COMPRAR"}
+          />
         </CardContent>
       </CardContainer>
     </PromotionsContainer>
