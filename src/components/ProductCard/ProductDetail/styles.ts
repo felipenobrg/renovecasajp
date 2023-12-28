@@ -21,10 +21,19 @@ export const ProductDetailContainer = styled.div`
   }
 
   h1 {
-    font-size: 1.5rem;
-    font-family: "Baloo 2", sans-serif;
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+
+    @media (max-width: 768px) {
+      text-overflow: normal;
+      white-space: normal;
+      font-size: 1.2rem;
+    }
   }
 
   img {
@@ -39,27 +48,23 @@ export const ProductDetailContainer = styled.div`
     }
 
     button {
-        width: 100%;
-    }
-
-    h1 {
-      font-size: 1.4rem;
+      width: 100%;
     }
   }
 `;
 
 export const ShareButton = styled.button`
-   border: 0;
-   background: none;
-   width: 1rem;
-   cursor: pointer;
-   position: absolute;
-   top: 0;
-   right: 140px;
-   margin-top: 3rem;
-   text-decoration: 0;
+  border: 0;
+  background: none;
+  width: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 140px;
+  margin-top: 3rem;
+  text-decoration: 0;
 
-   svg {
+  svg {
     background-color: white;
     opacity: 0.9;
     border-radius: 9999px;
@@ -68,42 +73,43 @@ export const ShareButton = styled.button`
       transition: 0.3s;
       transform: scale(1.1);
     }
-   }
+  }
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     left: 140px;
   }
-`
+`;
+
 
 export const WhatsAppButton = styled.button`
- display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
 
-    cursor: pointer;
-    width: 55%;
-    border: 0;
-    border-radius: 6px;
-    padding: 0.8rem;
+  background: #eefbef;
+  color: ${(props) => props.theme["green-300"]};
+  border-radius: 6px;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border: 1px solid ${(props) => props.theme["green-300"]};
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
 
-    background: ${(props) => props.theme["green-300"]};
-    color: ${(props) => props.theme["white"]};
-    font-weight: bold;
-
-    &:hover {
-        transition: 0.3s ease;
-        background:  ${(props) => props.theme["green-400"]};;
-    }
-` 
+  &:hover {
+    transition: 0.5s background-color;
+    border: 1px solid ${(props) => props.theme["green-400"]};
+  }
+`;
 
 export const Description = styled.div`
-   display: flex;
-   margin-bottom: 1rem;
-   color: ${(props) => props.theme["gray-500"]};
-   margin-top: 0.2rem;
-   font-size: 0.8rem;
-`
+  display: flex;
+  margin-bottom: 1rem;
+  color: ${(props) => props.theme["gray-500"]};
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+`;
 
 export const Price = styled.p`
   margin-right: auto;
@@ -126,10 +132,10 @@ export const AboutGuarantee = styled.div`
   h1 {
     margin-top: 3rem;
     font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   p {
     color: ${(props) => props.theme["gray-500"]};
   }
-`
+`;

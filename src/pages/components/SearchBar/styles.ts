@@ -11,10 +11,14 @@ export const SearchBarContainer = styled.div`
     padding: 0.6rem;
     height: 2.8rem;
     border-radius: 10px;
-    border: 0;
+    border: 1px solid ${(props) => props.theme["gray-300"]};
     padding-left: 3.5rem;
     background: ${(props => props.theme["gray-100"])};
    }
+
+   &:focus {
+      outline: none; 
+    }
 
    span {
     position: absolute;

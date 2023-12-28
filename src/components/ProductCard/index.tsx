@@ -1,7 +1,16 @@
 import { WhatsappLogo } from "phosphor-react";
-import { CardContainer, CardContent, TitleCard, Price, MoneySign, OldPrice, ButtonCard, WornOut, Click } from "./styles";
+import {
+  CardContainer,
+  CardContent,
+  TitleCard,
+  Price,
+  OldPrice,
+  ButtonCard,
+  WornOut,
+  CurrentPrice,
+} from "./styles";
 import queryString from "query-string";
-import { NavLink, useLocation } from "react-router-dom"; 
+import { NavLink, useLocation } from "react-router-dom";
 
 export interface ProductCardProps {
   imgSrc: string;
@@ -24,7 +33,7 @@ export function ProductCard({
   wornOut,
   productId,
 }: ProductCardProps) {
-  const location = useLocation(); 
+  const location = useLocation();
 
   const handleWhatsAppClick = () => {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
@@ -61,16 +70,16 @@ export function ProductCard({
     <CardContainer>
       <CardContent>
         <NavLink to={getLinkDestination()}>
-          <img src={imgSrc} alt="" loading="lazy"/>
-          <Click>Clique para saber mais</Click>
+          <img src={imgSrc} alt="" loading="lazy" />
           {wornOut && <WornOut>{wornOut}</WornOut>}
           <TitleCard>{title}</TitleCard>
           <Price>
-            <MoneySign>R$</MoneySign> {price} <OldPrice>R$ {oldPrice}</OldPrice>
+            <OldPrice>R$ {oldPrice}</OldPrice>
+            <CurrentPrice>R$ {price}</CurrentPrice>
           </Price>
           <ButtonCard onClick={handleWhatsAppClick}>
-            <WhatsappLogo size={20} weight="fill" />
-            COMPRAR
+            <WhatsappLogo size={22} />
+            COMPRAR NO WHATSAPP
           </ButtonCard>
         </NavLink>
       </CardContent>

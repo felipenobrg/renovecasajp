@@ -1,11 +1,10 @@
 import { styled } from "styled-components";
 
 export const SectionContainer = styled.section`
-  background: ${(props) => props.theme["purple-400"]};
-  padding: 2rem;
+  background: ${(props) => props.theme["gray-900"]};
+  padding: 1.2rem;
   max-width: 100%;
   overflow: auto;
-  
 
   @media screen and (max-width: 1024px) {
     display: none;
@@ -21,14 +20,15 @@ export const SectionContent = styled.div`
 
   a {
     text-decoration: none;
-    font-weight: bold;
     color: ${(props) => props.theme["white"]};
     position: relative;
     border-bottom: 1px solid transparent;
+    font-size: 0.9rem;
+    cursor: pointer;
 
     &:hover {
-      transition: 0.3 ease;
-      color: ${(props) => props.theme["gray-100"]};
+      transition: color 0.3s ease;
+      color: ${(props) => props.theme["gray-300"]};
     }
   }
 

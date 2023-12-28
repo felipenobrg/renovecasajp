@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background: ${(props) => props.theme["purple-400"]};
+    background: ${(props) => props.theme["main-color"]};
   }
 
    :focus {

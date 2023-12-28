@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  background-color: ${(props) => props.theme["gray-100"]};
+  background-color: ${(props) => props.theme["gray-900"]};
   padding: 20px;
 
   .horizontal-line {
     margin: 0 auto;
     width: 95%;
     margin-bottom: 1rem;
-    border: 1px solid ${(props) => props.theme["gray-300"]};
+    border: 1px solid ${(props) => props.theme["gray-800"]};
   }
+
+  p, h3 {
+    color: ${(props => props.theme["white"])};
+    font-weight: normal;
+  }
+
 `;
 
 export const GridContainer = styled.div`
@@ -34,11 +40,13 @@ export const AboutRenoveContainer = styled.div`
   p {
     width: 70%;
     margin-top: -1rem;
+    color: ${(props => props.theme["white"])};
   }
 
   img {
     width: 15rem;
   }
+  
 
   @media screen and (max-width: 1024px) {
     align-items: center;
@@ -47,6 +55,8 @@ export const AboutRenoveContainer = styled.div`
       text-align: center;
       margin-bottom: 1rem;
      }
+
+     
   }
 
 `;
@@ -85,7 +95,6 @@ export const ImagesContainer = styled.div`
   align-items: center; 
 
   img {
-  
     height: auto;
     display: block;
     margin: 0 auto;
@@ -100,7 +109,6 @@ export const DevelopedBy = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: ${(props) => props.theme["gray-500"]};
   font-size: 12px;
   text-align: center;
 

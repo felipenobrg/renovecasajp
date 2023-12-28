@@ -50,7 +50,6 @@ export const DropdownList = styled.div`
   margin-top: 2rem;
   padding-top: 10px;
 
-
   a {
     display: flex;
     align-items: center;
@@ -96,13 +95,13 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
   z-index: 100;
   border: 0;
   padding: 15px 15px;
-  margin-top: -1rem;
   background: none;
+  margin-left: -1rem;
 
   .icon {
     width: 24px;
     height: 2px;
-    background: ${(props) => props.theme["black"]};
+    background: ${(props) => props.theme["white"]};
     position: relative;
     display: flex;
   }
@@ -113,7 +112,7 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
     position: absolute;
     width: 24px;
     height: 2px;
-    background: ${(props) => props.theme["black"]};
+    background: ${(props) => props.theme["white"]};
     transition: transform 0.3s ease-in-out;
   }
 
@@ -135,13 +134,8 @@ export const CloseButton = styled.button`
   position: absolute;
   right: 0px;
   top: 20px;
-  background: ${(props) => props.theme["gray-300"]};
   border-radius: 9px;
   padding: 5px;
 
   transition: background-color 0.3s ease;
-
-  &:hover {
-    background: ${(props) => props.theme["gray-400"]};
-  }
 `;

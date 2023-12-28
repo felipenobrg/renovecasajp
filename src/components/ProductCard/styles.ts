@@ -4,16 +4,18 @@ export const CardContainer = styled.div`
   display: inline-flex;
   width: calc(50% - 2rem);
   max-height: 100%;
-  margin: 2rem 1rem 1rem 1rem; 
+  margin: 2rem 1rem 1rem 1rem;
   flex: 1;
   text-decoration: none;
   position: relative;
   flex-wrap: wrap;
   cursor: pointer;
-  border: 1px solid transparent; 
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+  border: 1px solid transparent;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
   border-radius: 8px;
-  
+
   &:hover {
     transition: 0.3s ease;
     border: 1px solid ${(props) => props.theme["gray-300"]};
@@ -46,7 +48,6 @@ export const CardContainer = styled.div`
     }
   }
 `;
-
 
 export const CardContent = styled.div`
   display: flex;
@@ -89,31 +90,32 @@ export const Click = styled.p`
 
   &:hover {
     transition: 0.3s ease;
-    background: ${(props) => props.theme["gray-500"]};;
+    background: ${(props) => props.theme["gray-500"]};
   }
 
-@keyframes shiver {
-  0% {
-    transform: translateX(0);
+  @keyframes shiver {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(1px) rotate(-1deg);
+    }
+    50% {
+      transform: translateX(-3px) rotate(1deg);
+    }
+    75% {
+      transform: translateX(3px) rotate(-1deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
-  25% {
-    transform: translateX(1px) rotate(-1deg);
-  }
-  50% {
-    transform: translateX(-3px) rotate(1deg);
-  }
-  75% {
-    transform: translateX(3px) rotate(-1deg);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}`
-
+`;
 
 export const TitleCard = styled.p`
-  font-family: "Baloo 2", sans-serif;
-  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -122,7 +124,6 @@ export const TitleCard = styled.p`
   @media (max-width: 768px) {
     text-overflow: normal;
     white-space: normal;
-    font-size: 1.4rem;
   }
 `;
 
@@ -130,18 +131,20 @@ export const ButtonShare = styled.button`
   border: 0;
 `;
 
-export const Price = styled.p`
-  margin-right: auto;
-  font-weight: bold;
+export const Price = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   font-size: 1.1rem;
 `;
 
-export const MoneySign = styled.span`
-  font-size: 0.9rem;
-  font-weight: 100;
+export const CurrentPrice = styled.p`
+  font-size: 1.3rem;
+  font-weight: bolder;
 `;
 
-export const OldPrice = styled.span`
+export const OldPrice = styled.p`
   font-size: 0.9rem;
   text-decoration: line-through;
   color: ${(props) => props.theme["gray-500"]};
@@ -153,19 +156,19 @@ export const ButtonCard = styled.button`
   justify-content: center;
   gap: 0.2rem;
 
-  background: ${(props) => props.theme["green-300"]};
-  color: ${(props) => props.theme["white"]};
+  background: #eefbef;
+  color: ${(props) => props.theme["green-300"]};
   border-radius: 6px;
   padding: 0.8rem;
   margin-top: 1rem;
-  border: 0;
+  border: 1px solid ${(props) => props.theme["green-300"]};
   width: 100%;
   cursor: pointer;
   font-weight: bold;
 
   &:hover {
     transition: 0.5s background-color;
-    background: ${(props) => props.theme["green-400"]};
+    border: 1px solid ${(props) => props.theme["green-400"]};
   }
 `;
 

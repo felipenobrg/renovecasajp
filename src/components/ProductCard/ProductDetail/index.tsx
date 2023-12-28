@@ -1,12 +1,17 @@
 import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
 import { SectionLink } from "../../SectionLink";
-
-import { AboutGuarantee, Description, ProductDetailContainer, ShareButton, WhatsAppButton } from "./styles";
-import { MoneySign, Price } from "../styles";
+import {
+  AboutGuarantee,
+  Description,
+  MoneySign,
+  ProductDetailContainer,
+  ShareButton,
+  WhatsAppButton,
+} from "./styles";
+import { Price } from "../styles";
 import { Export, WhatsappLogo } from "phosphor-react";
 import queryString from "query-string";
-
 
 type ProductType = {
   id: number;
@@ -48,16 +53,21 @@ export function ProductDetail({ products }: Props) {
     const shareURL = window.location.href;
 
     if (navigator.share) {
-      navigator.share({
-        text: product.title,
-        url: shareURL,
-      }).then(() => {
-        console.log('Shared successfully!');
-      }).catch((error) => {
-        console.error('Error sharing:', error);
-      });
+      navigator
+        .share({
+          text: product.title,
+          url: shareURL,
+        })
+        .then(() => {
+          console.log("Shared successfully!");
+        })
+        .catch((error) => {
+          console.error("Error sharing:", error);
+        });
     } else {
-      alert('Your browser does not support the Web Share API. You can manually copy the link.');
+      alert(
+        "Your browser does not support the Web Share API. You can manually copy the link."
+      );
     }
   };
 
@@ -67,12 +77,13 @@ export function ProductDetail({ products }: Props) {
       <SectionLink />
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} loading="lazy" />
-        <ShareButton onClick={handleShare}><Export size={30} color="#000000" /></ShareButton>
+        <ShareButton onClick={handleShare}>
+          <Export size={30} color="#000000" />
+        </ShareButton>
         <h1>{product.title}</h1>
         <div>
           <Price>
-            <MoneySign>R$ </MoneySign>
-            {product.price} à vista
+            <strong>R$ {product.price} à vista</strong>
           </Price>
         </div>
         <p>
@@ -83,7 +94,7 @@ export function ProductDetail({ products }: Props) {
         </p>
         <Description>{product.description}</Description>
         <WhatsAppButton onClick={handleWhatsAppClick}>
-          <WhatsappLogo size={20} weight="fill" />
+          <WhatsappLogo size={22} />
           COMPRAR
         </WhatsAppButton>
         <AboutGuarantee>
