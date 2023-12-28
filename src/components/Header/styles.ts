@@ -36,6 +36,7 @@ export const HeaderContent = styled.div`
   @media screen and (max-width: 768px) {
     img {
       width: 10rem;
+      height: 10rem;
     }
   }
 `;
