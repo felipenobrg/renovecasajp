@@ -11,6 +11,7 @@ export interface ProductCartItems {
 interface CartContextType {
   cart: ProductCartItems[];
   addToCart: (item: ProductCartItems) => void;
+  removeCart: (item: ProductCartItems) => void;
   cartQuantity: number;
   totalPrice: number;
   formattedTotalPrice: string;
@@ -19,6 +20,7 @@ interface CartContextType {
 const initialState: CartContextType = {
   cart: [],
   addToCart: () => {},
+  removeCart: () => {},
   cartQuantity: 0,
   totalPrice: 0,
   formattedTotalPrice: 'R$ 0,00',
@@ -44,6 +46,13 @@ export const CartContextProvider = ({ children }: CartContextProviderProps) => {
     setCart((prevCart) => [...prevCart, item]);
   };
 
+  const removeCart = (item: ProductCartItems) => {
+    setCart((prevCart) => {
+    const updatedCart = prevCart.filter((cartItem) => cartItem.productId !== item.productId);
+    return updatedCart;
+  });
+};
+
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
@@ -61,8 +70,9 @@ export const CartContextProvider = ({ children }: CartContextProviderProps) => {
   }).format(totalPrice);
 
   const value: CartContextType = {
-    cart,
     addToCart,
+    removeCart,
+    cart,
     cartQuantity,
     totalPrice,
     formattedTotalPrice,

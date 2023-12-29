@@ -43,6 +43,16 @@ export const ItemContainer = styled.div`
     margin-top: 0.5rem;
     font-weight: bold;
   }
+
+  button {
+    padding: 0.4rem;
+    width: 6.5rem;
+    border: 0;
+    background-color: ${(props => props.theme["gray-300"])};
+    display: flex;
+    gap: 3px;
+    margin-top: 1rem;
+  }
 `;
 
 export const ItemInfo = styled.div`

@@ -1,3 +1,4 @@
+import { Trash } from "phosphor-react";
 import { BuyWhatsAppButton } from "../../components/BuyWhatsAppButton";
 import { Header } from "../../components/Header";
 import { SectionLink } from "../../components/SectionLink";
@@ -12,7 +13,7 @@ import {
 import queryString from "query-string";
 
 export const Checkout = () => {
-  const { cart, formattedTotalPrice } = useCart();
+  const { cart, formattedTotalPrice, removeCart } = useCart();
   const handleWhatsAppClick = () => {
     const cartItemsText = cart
       .map((item) => `${item.title} R$ ${item.price} ` )
@@ -36,7 +37,10 @@ export const Checkout = () => {
               <img src={item.imgSrc} alt={item.title} />
               <ItemInfo>
                 <p className="title">{item.title}</p>
-                <p>R${item.price}</p>
+                <p>R${item.price}  </p>
+                <button onClick={() => removeCart(item)}>
+                Remover <Trash size={18} />
+                </button>
               </ItemInfo>
             </ItemContainer>
           ))
