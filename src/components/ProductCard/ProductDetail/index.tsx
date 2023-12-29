@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
-import { SectionLink } from "../../SectionLink";
 import {
   AboutGuarantee,
   Description,
@@ -74,7 +73,7 @@ export function ProductDetail({ products }: Props) {
   return (
     <>
       <Header />
-      <SectionLink />
+
       <ProductDetailContainer>
         <img src={product.imgSrc} alt={product.title} loading="lazy" />
         <ShareButton onClick={handleShare}>

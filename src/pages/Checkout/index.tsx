@@ -1,7 +1,6 @@
 import { Trash } from "phosphor-react";
 import { BuyWhatsAppButton } from "../../components/BuyWhatsAppButton";
 import { Header } from "../../components/Header";
-import { SectionLink } from "../../components/SectionLink";
 import { useCart } from "../../context/CartContext";
 import {
   CheckoutContainer,
@@ -29,7 +28,6 @@ export const Checkout = () => {
   return (
     <>
       <Header />
-      <SectionLink />
       <H1>Carrinho de Compras</H1>
       <CheckoutContainer>
         {cart.length > 0 ? (

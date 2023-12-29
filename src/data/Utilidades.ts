@@ -7,10 +7,11 @@ import CantinhoDeCafe from '../assets/Utilidades/CatinhoDeCafe.webp';
 import QuadroLeaoLaranja from '../assets/Utilidades/QuadroLeaoLaranja.webp';
 import QuadroLeao from '../assets/Utilidades/QuadroLeao.webp';
 import QuadroLeaoELeoa from '../assets/Utilidades/QuadroLeaoELeoa.webp';
+import { v4 as uuidv4 } from 'uuid';
 
 export const utilidadesData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: PuffRetro,
       title: "Puff Retrô",
       price: "89,99",
@@ -19,7 +20,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Puff Retrô",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: SapateiraPretaBege,
       title: "Sapateira",
       price: "149,99",
@@ -28,7 +29,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: SapateiraCinzaVermelho,
       title: "Sapateira",
       price: "149,99",
@@ -37,7 +38,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: Baus,
       title: "Báu",
       description: "Dimensões: 90x40cm",
@@ -47,7 +48,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Baú",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: CadeiraDeBalancoDeFio,
       title: "Cadeira de Balanço de Fio",
       price: "189,99",
@@ -56,7 +57,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço de Fio",
     },
     {
-      productId: 6,
+      productId: uuidv4(),
       imgSrc: CantinhoDeCafe,
       title: "Cantinho de Café",
       price: "299,99",
@@ -65,7 +66,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cantinho de Café",
     },
     {
-      productId: 7,
+      productId: uuidv4(),
       imgSrc: QuadroLeaoLaranja,
       title: "Quadro Decorativo Leão Laranja",
       description: "Dimensões: 1.20x60",
@@ -75,7 +76,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Quadro Decorativo Leão Laranja",
     },
     {
-      productId: 8,
+      productId: uuidv4(),
       imgSrc: QuadroLeao,
       title: "Quadro Decorativo Leão",
       description: "Dimensões: 1.20x60",
@@ -85,7 +86,7 @@ export const utilidadesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Quadro Decorativo Leão",
     },
     {
-      productId: 9,
+      productId: uuidv4(),
       imgSrc: QuadroLeaoELeoa,
       title: "Quadro Decorativo Leão e Leoa",
       description: "Dimensões: 1.20x60",

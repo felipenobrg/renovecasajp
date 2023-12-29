@@ -1,5 +1,4 @@
 import { Header } from "../../components/Header";
-import { SectionLink } from "../../components/SectionLink";
 
 import { ScrollUp } from "../../components/ScrollUp";
 import { Footer } from "../../components/Footer";
@@ -17,7 +16,7 @@ export function ProdutosEmVime() {
   return (
     <>
       <Header />
-      <SectionLink />
+   
 
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (

@@ -10,10 +10,12 @@ import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMar
 import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.webp";
 import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.webp";
 import RetroRetratilVerde from "../assets/SofaRetro/RetroRetratilVerde.webp";
+import { v4 as uuidv4 } from 'uuid';
+
 
 export const sofaRetroData = [
   {
-    productId: 1,
+    productId: uuidv4(),
     imgSrc: SofaRetroOffWhite,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Cinza Off White ",
@@ -23,7 +25,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Off White",
   },
   {
-    productId: 2,
+    productId: uuidv4(),
     imgSrc: SofaRetroCinza,
     title: "Sofá Retrô Cinza Chumbo",
     price: "899,99",
@@ -32,7 +34,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Cinza Chumbo",
   },
   {
-    productId: 3,
+    productId: uuidv4(),
     imgSrc: SofaRetroPreto,
     title: "Sofá Retrô Preto",
     description: "Dimensões: 1.90x90cm",
@@ -42,7 +44,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Preto",
   },
   {
-    productId: 4,
+    productId: uuidv4(),
     imgSrc: SofaRetroAzul,
     title: "Sofá Retrô Azul Royal",
     description: "Dimensões: 1.90x90cm",
@@ -52,7 +54,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Azul Royal",
   },
   {
-    productId: 5,
+    productId: uuidv4(),
     imgSrc: SofaRetroVermelho,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Vermelho",
@@ -62,7 +64,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Vermelho",
   },
   {
-    productId: 6,
+    productId: uuidv4(),
     imgSrc: SofaRetroTerraCota,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Terra Cota",
@@ -72,7 +74,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Terra Cota",
   },
   {
-    productId: 7,
+    productId: uuidv4(),
     imgSrc: RetroRetratilVerde,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Retrátil Verde",
@@ -82,7 +84,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Retrátil Verde",
   },
   {
-    productId: 8,
+    productId: uuidv4(),
     imgSrc: RetroLinhoMarromEscuro,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Linho Marrom Escuro",
@@ -92,7 +94,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Linho Marrom Escuro",
   },
   {
-    productId: 9,
+    productId: uuidv4(),
     imgSrc: RetroLinhoAzul,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Linho Azul",
@@ -102,7 +104,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Azul",
   },
   {
-    productId: 10,
+    productId: uuidv4(),
     imgSrc: RetroLinhoMarromClaroAlmofadaLisa,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Linho Marrom Claro c/ Almofada Lisa",
@@ -112,7 +114,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Marrom Claro c/ Almofada Lisa",
   },
   {
-    productId: 11,
+    productId: uuidv4(),
     imgSrc: RetroLinhoVerde,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Linho Verde",
@@ -122,7 +124,7 @@ export const sofaRetroData = [
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Verde",
   },
   {
-    productId: 12,
+    productId: uuidv4(),
     imgSrc: RetroDeltaMarfim,
     description: "Dimensões: 1.90x90cm",
     title: "Sofá Retrô Delta Marfim Linho (Acompanha o Centro)",

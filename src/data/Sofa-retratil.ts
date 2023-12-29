@@ -10,12 +10,13 @@ import SofaLuxoMarrom from "../assets/SofaRetratil/LuxoMarrom.webp";
 import SofaLuxoAzul from "../assets/SofaRetratil/SofaLuxoAzul.webp";
 import SofaLuxoOffWhite from "../assets/SofaRetratil/SofaLuxoBrancoGelo.webp";
 import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
+import { v4 as uuidv4 } from 'uuid';
 
  export const sofaRetratilData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: MonacoBege,
-      title: "Sofá Monaco Bege",
+      title: "Sofá Retrátil Monaco Bege",
       description: "Dimensões: 2.0x90cm",
       price: "999,99",
       oldPrice: "1199,99",
@@ -23,9 +24,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Bege",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: MonacoMarromEscuro,
-      title: "Sofá Monaco Marrom Escuro",
+      title: "Sofá Retrátil Monaco Marrom Escuro",
       description: "Dimensões: 2.0x90cm",
       price: "999,99",
       oldPrice: "1199,99",
@@ -33,9 +34,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom Escuro",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: MonacoCinza,
-      title: "Sofá Monaco Cinza Chumbo",
+      title: "Sofá Retrátil Monaco Cinza Chumbo",
       description: "Dimensões: 2.0x90cm",
       price: "999,99",
       oldPrice: "1199,99",
@@ -43,9 +44,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Chumbo",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: SofaMarrom,
-      title: "Sofá Monaco Marrom",
+      title: "Sofá Retrátil Monaco Marrom",
       description: "Dimensões: 2.0x90cm",
       price: "999,99",
       oldPrice: "1199,99",
@@ -53,9 +54,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: SofaOffWhite,
-      title: "Sofá Monaco Off White",
+      title: "Sofá Retrátil Monaco Off White",
       description: "Dimensões: 2.0x90cm",
       price: "999,99",
       oldPrice: "1199,99",
@@ -63,9 +64,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Off White",
     },
     {
-      productId: 6,
+      productId: uuidv4(),
       imgSrc: SofaBrancoGeloLinho,
-      title: "Sofá Monaco Branco Gelo Linho",
+      title: "Sofá Retrátil Monaco Branco Gelo Linho",
       description: "Dimensões: 2.0x90cm",
       price: "1149,99",
       oldPrice: "1299,99",
@@ -73,9 +74,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Branco Gelo Linho",
     },
     {
-      productId: 7,
+      productId: uuidv4(),
       imgSrc: SofaParisCinza,
-      title: "Sofá Paris Cinza Linho",
+      title: "Sofá Retrátil Paris Cinza Linho",
       description: "Dimensões: 2.0x90cm",
       price: "1199,99",
       oldPrice: "1299,99",
@@ -83,9 +84,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Paris Cinza Linho",
     },
     {
-      productId: 8,
+      productId: uuidv4(),
       imgSrc: SofaParisMarfim,
-      title: "Sofá Paris Marfim Linho",
+      title: "Sofá Retrátil Paris Marfim Linho",
       description: "Dimensões: 2.0x90cm",
       price: "1199,99",
       oldPrice: "1299,99",
@@ -93,9 +94,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",
     },
     {
-      productId: 9,
+      productId: uuidv4(),
       imgSrc: SofaLuxoMarrom,
-      title: "Sofá Luxo Marrom",
+      title: "Sofá Retrátil Luxo Marrom",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
@@ -103,9 +104,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Marrom",
     },
     {
-      productId: 10,
+      productId: uuidv4(),
       imgSrc: SofaLuxoAzul,
-      title: "Sofá Luxo Azul Royal",
+      title: "Sofá Retrátil Luxo Azul Royal",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
@@ -113,9 +114,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
     },
     {
-      productId: 11,
+      productId: uuidv4(),
       imgSrc: SofaLuxoOffWhite,
-      title: "Sofá Luxo Off White",
+      title: "Sofá Retrátil Luxo Off White",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
@@ -123,9 +124,9 @@ import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
     },
     {
-      productId: 12,
+      productId: uuidv4(),
       imgSrc: SofaLuxoCinza,
-      title: "Sofá Luxo Cinza",
+      title: "Sofá Retrátil Luxo Cinza",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",

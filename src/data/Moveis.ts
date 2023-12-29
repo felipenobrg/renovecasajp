@@ -10,10 +10,11 @@ import DetroitRack from '../assets/Moveis/DetroitRack.webp'
 import LyonRack from '../assets/Moveis/LyonRack.webp'
 import HomeOcenOffWhite from '../assets/Moveis/HomeOcenOffWhite.webp'
 import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
+import { v4 as uuidv4 } from 'uuid';
 
   export const moveisData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: DetroitRack,
       title: "Rack Detroit",
       price: "499,99",
@@ -22,7 +23,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Rack Detroit",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: LyonRack,
       title: "Rack Lyon",
       price: "349,99",
@@ -31,7 +32,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Rack Lyon",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: HomeOcenOffWhite,
       title: "Home Ocean Off White",
       price: "949,99",
@@ -40,7 +41,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprarHome Ocean Off White",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: HomeOceanPreto,
       title: "Home Ocean Preto",
       price: "949,99",
@@ -49,7 +50,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Home Ocean Preto",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: GuardaRoupaPanama,
       title: "Guarda Roupa Panamá 2.08x1.18",
       price: "1199,99",
@@ -58,7 +59,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Guarda Roupa Panamá 2.08x1.18",
     },
     {
-      productId: 6,
+      productId: uuidv4(),
       imgSrc: MesaDeJantarPreta,
       title: "Mesa de Jantar Preta 70x70",
       price: "499,99",
@@ -67,7 +68,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Mesa de Jantar Preta",
     },
     {
-      productId: 7,
+      productId: uuidv4(),
       imgSrc: MesaDeJantarBranca,
       title: "Mesa de Jantar Branca 70x70",
       price: "749,99",
@@ -76,7 +77,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
     },
     {
-      productId: 8,
+      productId: uuidv4(),
       imgSrc: ArmarioPreto,
       title: "Armário de Cozinha Preto",
       price: "749,99",
@@ -85,7 +86,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
     },
     {
-      productId: 9,
+      productId: uuidv4(),
       imgSrc: ArmarioBranco,
       title: "Armário de Cozinha Preto e Branco",
       price: "749,99",
@@ -94,7 +95,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
     },
     {
-      productId: 10,
+      productId: uuidv4(),
       imgSrc: ArmarioMarrom,
       title: "Armário de Cozinha Marrom",
       price: "749,99",
@@ -103,7 +104,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Marrom",
     },
     {
-      productId: 11,
+      productId: uuidv4(),
       imgSrc: PainelDeTv46Polegadas,
       title: "Painel de TV 46 Polegadas",
       price: "399,99",
@@ -112,7 +113,7 @@ import HomeOceanPreto from '../assets/Moveis/HomeOceanPreto.webp'
       textForWhatsApp: "Olá. Gostaria de comprar Painel de TV 46 Polegadas",
     },
     {
-      productId: 12,
+      productId: uuidv4(),
       imgSrc: PainelDeTv55Polegadas,
       title: "Painel de TV 55 Polegadas",
       price: "749,99",

@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header";
-import { SectionLink } from "../../components/SectionLink";
+
 
 
 import { ScrollUp } from "../../components/ScrollUp";
@@ -18,7 +18,7 @@ export function SofasPopulares() {
   return (
     <>
       <Header />
-      <SectionLink />
+
       <SearchBar  value={searchBar} onChange={setSearchBar}/>
       {filteredFurnitures.map((product) => (
         <ProductCard key={product.productId} {...product} />

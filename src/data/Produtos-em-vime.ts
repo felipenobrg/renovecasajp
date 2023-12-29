@@ -5,11 +5,12 @@ import ConjuntoDeTerracoPreto from "../assets/ProdutosEmVime/ConjuntoDeTerracoPr
 import ConjuntoDeTerracoMarrom from "../assets/ProdutosEmVime/ConjuntoDeTerracoMarrom.webp";
 import ConjuntodeTerracoMesclado from "../assets/ProdutosEmVime/ConjuntodeTerracoMesclado.webp";
 import CadeiraDeBalanco from "../assets/ProdutosEmVime/CadeiraDeBalanco.webp";
+import { v4 as uuidv4 } from 'uuid';
 
 
 export const produtosEmVimeData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: BanquetaPreta,
       title: "Banqueta Preta em Vime",
       price: "99,99",
@@ -18,7 +19,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Preta em Vime",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: BanquetaMarrom,
       title: "Banqueta Marrom em Vime",
       price: "99,99",
@@ -27,7 +28,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Marrom em Vime",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: BanquetaBege,
       title: "Banqueta Bege em Vime",
       price: "99,99",
@@ -36,7 +37,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Bege em Vime",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: CadeiraDeBalanco,
       title: "Cadeira de Balanço",
       price: "199,99",
@@ -45,7 +46,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeTerracoPreto,
       title: "Conjunto de Terraço Preto",
       price: "549,99",
@@ -54,7 +55,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Terraço Preto",
     },
     {
-      productId: 6,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeTerracoMarrom,
       title: "Conjunto de Terraço Marrom",
       price: "549,99",
@@ -63,7 +64,7 @@ export const produtosEmVimeData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Terraço Marrom",
     },
     {
-      productId: 7,
+      productId: uuidv4(),
       imgSrc: ConjuntodeTerracoMesclado,
       title: "Conjunto de Terraço Mesclado",
       price: "549,99",

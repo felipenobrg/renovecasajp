@@ -3,10 +3,11 @@ import CamaDeSolteiroSimples from "../assets/Camas/CamaDeSolteiro.webp";
 import CamaMolasEnsacadas from "../assets/Camas/CamaDeCasalMolas.webp";
 import ColchaoDeMolas from "../assets/Camas/ColchaoDeMolas.webp";
 import ColchaoMaisBaseCasal from "../assets/Camas/ColchaoComBaseCasal.webp";
+import { v4 as uuidv4 } from 'uuid';
 
 export const camaData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: CamaDeCasalSimples,
       title: "Cama Box de Casal Topázio",
       price: "549,99",
@@ -15,7 +16,7 @@ export const camaData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Topázio",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: CamaDeSolteiroSimples,
       title: "Cama Box de Solteiro Topázio",
       price: "449,99",
@@ -24,7 +25,7 @@ export const camaData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Solteiro Topázio",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: CamaMolasEnsacadas,
       title: "Cama Box de Casal Molas Ensacadas Topázio",
       price: "899,99",
@@ -33,7 +34,7 @@ export const camaData = [
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Molas Ensacadas Topázio",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: ColchaoDeMolas,
       title: "Colchão Molas Ensacadas Topázio",
       price: "849,99",
@@ -42,7 +43,7 @@ export const camaData = [
       textForWhatsApp: "Olá. Gostaria de comprar Colchão Molas Ensacadas",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: ColchaoMaisBaseCasal,
       title: "Colchão + Base de Casal Topázio",
       price: "799,99",

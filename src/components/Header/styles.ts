@@ -7,13 +7,13 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["main-color"]};
   padding: 3rem;
   height: 10rem;
-  max-width: 100%;
+  width: 100%;
   z-index: 100;
   position: sticky;
   top: 0;
 
   @media screen and (max-width: 768px) {
-    max-height: 5rem;
+    height: 5rem;
     padding: 4rem;
   }
 `;
@@ -22,7 +22,6 @@ export const HeaderContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
   width: 100%;
   max-width: 1120px;
 
@@ -33,27 +32,72 @@ export const HeaderContent = styled.div`
     object-fit: cover;
   }
 
-  .shopping-cart {
-    margin-top: 2.5rem;
-    cursor: pointer;
-  }
-
-  .cart-count {
-    position: absolute;
-    background-color: ${(props) => props.theme["red"]};
-    color: ${(props) => props.theme["white"]};
-    border-radius: 50%;
-    padding: 4px 8px;
-    font-size: 12px;
-    margin-top: -8px;
-    margin-left: -2px;
-  }
-
   @media screen and (max-width: 768px) {
     img {
       width: 10rem;
       height: 10rem;
-      margin-left: 2rem;
+      margin-left: 4rem;
     }
+  }
+`;
+
+export const Ul = styled.ul`
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  overflow-y: auto;
+  list-style: none;
+  z-index: 10;
+
+  @media screen and (max-width: 768px) {
+   height: 15rem;
+  }
+`;
+
+export const Li = styled.li`
+  width: 30%;
+  margin: 0.5rem;
+  border: 1px solid ${(props) => props.theme["gray-300"]};
+  padding: 1rem;
+  text-align: center;
+
+  h1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  img {
+    width:80%;
+    border-radius: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 1rem;
+  }
+`;
+
+export const InputContainer = styled.div`
+  display: flex;
+  input {
+    border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
+    padding: 1.5rem;
+    width: 100%;
+    transition: all 0.3s ease;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .close-button {
+    cursor: pointer;
+    margin-left: -2rem;
+    margin-top: 1rem;
   }
 `;

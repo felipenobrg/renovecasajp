@@ -14,10 +14,11 @@ import DubaiDoisLugaresBege from "../assets/SofasPopulares/SofaDoisLugaresBegeDu
 import DubaiDoisLugaresBege3Lugares from "../assets/SofasPopulares/DubaiBege3Lugares.webp";
 import DubaiCinza from "../assets/SofasPopulares/SofaDubaiCinza.webp";
 import DubaiMarrom from "../assets/SofasPopulares/SofaDubaiMarrom.webp";
+import { v4 as uuidv4 } from 'uuid';
 
 export const sofasPopularesData = [
     {
-      productId: 1,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaCinza,
       title: "Conjunto de Sofá Cinza",
       price: "699,99",
@@ -26,7 +27,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza",
     },
     {
-      productId: 2,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaTerraCota,
       title: "Conjunto de Sofá Terra Cota",
       price: "699,99",
@@ -35,7 +36,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Terra Cota",
     },
     {
-      productId: 3,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaMarrom,
       title: "Conjunto de Sofá Marrom",
       price: "699,99",
@@ -44,7 +45,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Marrom",
     },
     {
-      productId: 4,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaPreto,
       title: "Conjunto de Sofá Preto",
       price: "699,99",
@@ -53,7 +54,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Preto",
     },
     {
-      productId: 5,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaCinzaEscuro,
       title: "Conjunto de Sofá Cinza Escuro",
       price: "699,99",
@@ -62,7 +63,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza Escuro",
     },
     {
-      productId: 6,
+      productId: uuidv4(),
       imgSrc: ConjuntoDeSofaVermelho,
       title: "Conjunto de Sofá Vermelho",
       price: "699,99",
@@ -71,7 +72,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Vermelho",
     },
     {
-      productId: 7,
+      productId: uuidv4(),
       imgSrc: ConjuntoSemAlmofadaBege,
       title: "Conjunto de Sofá Bege Sem Almofada",
       price: "599,99",
@@ -80,7 +81,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Bege Sem Almofada",
     },
     {
-      productId: 8,
+      productId: uuidv4(),
       imgSrc: SofaTresLugaresMarrom,
       title: "Sofá Três Lugares Marrom",
       price: "449,99",
@@ -89,7 +90,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Marrom",
     },
     {
-      productId: 9,
+      productId: uuidv4(),
       imgSrc: SofaTresLugaresPretoComPuffs,
       title: "Sofá Três Lugares Preto com 2 Puffs",
       price: "549,99",
@@ -98,7 +99,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Preto com 2 Puffs",
     },
     {
-      productId: 10,
+      productId: uuidv4(),
       imgSrc: DubaiDoisLugaresBege,
       title: "Sofá Dubai Dois Lugares Bege 2 Lugares",
       price: "449,99",
@@ -107,7 +108,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Dois Lugares Bege",
     },
     {
-      productId: 11,
+      productId: uuidv4(),
       imgSrc: DubaiDoisLugaresBege3Lugares,
       title: "Sofá Dubai Bege 3 Lugares",
       price: "549,99",
@@ -116,7 +117,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Bege 3 Lugares",
     },
     {
-      productId: 12,
+      productId: uuidv4(),
       imgSrc: DubaiCinza,
       title: "Sofá Dubai Cinza Três Lugares",
       price: "549,99",
@@ -125,7 +126,7 @@ export const sofasPopularesData = [
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Cinza Três Lugares",
     },
     {
-      productId: 13,
+      productId: uuidv4(),
       imgSrc: DubaiMarrom,
       title: "Sofá Dubai Marrom Três Lugares",
       price: "549,99",

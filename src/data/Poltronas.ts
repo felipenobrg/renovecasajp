@@ -5,10 +5,11 @@ import PoltronaCapitoneRosa from "../assets/Poltronas/PoltronaCapitoneRosa.webp"
 import PoltronaBobBege from "../assets/Poltronas/PoltronaBobBege.webp";
 import PoltronaBobTerraCota from "../assets/Poltronas/PoltronaBobTerraCota.webp";
 import PoltronaBobCinzaLinho from "../assets/Poltronas/PoltronaBobCinzaLinho.webp";
+import { v4 as uuidv4 } from 'uuid';
 
 export const poltronasData = [
   {
-    productId: 1,
+    productId: uuidv4(),
     imgSrc: PoltronaCapitoneCinza,
     title: "Poltrona Capitonê Cinza",
     price: "219,99",
@@ -17,7 +18,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Cinza",
   },
   {
-    productId: 2,
+    productId: uuidv4(),
     imgSrc: PoltronaCapitoneAzul,
     title: "Poltrona Capitonê Azul",
     price: "219,99",
@@ -26,7 +27,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Azul",
   },
   {
-    productId: 3,
+    productId: uuidv4(),
     imgSrc: PoltronaCapitoneMarrom,
     title: "Poltrona Capitonê Marrom",
     price: "219,99",
@@ -35,7 +36,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Marrom",
   },
   {
-    productId: 4,
+    productId: uuidv4(),
     imgSrc: PoltronaCapitoneRosa,
     title: "Poltrona Capitonê Rosa",
     price: "219,99",
@@ -44,7 +45,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Rosa",
   },
   {
-    productId: 9,
+    productId: uuidv4(),
     imgSrc: PoltronaBobBege,
     title: "Poltrona Bob Bege",
     price: "219,99",
@@ -53,7 +54,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Bege",
   },
   {
-    productId: 10,
+    productId: uuidv4(),
     imgSrc: PoltronaBobTerraCota,
     title: "Poltrona Bob Terra Cota",
     price: "219,99",
@@ -62,7 +63,7 @@ export const poltronasData = [
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Terra Cota",
   },
   {
-    productId: 11,
+    productId: uuidv4(),
     imgSrc: PoltronaBobCinzaLinho,
     title: "Poltrona Bob Cinza Linho",
     price: "224,99",
