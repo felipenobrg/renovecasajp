@@ -20,7 +20,7 @@ interface ProductCardProps {
   price: string;
   oldPrice: string;
   textForWhatsApp: string;
-  productId: number;
+  productId: string;
   description?: string;
   key: number;
 }

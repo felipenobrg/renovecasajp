@@ -19,7 +19,9 @@ export function Header() {
   const [searchBar, setSearchBar] = useState("");
   const filteredAllProducts = AllProducts.filter((product) =>
     product.title.toLowerCase().includes(searchBar.toLowerCase())
+
   );
+
 
   const handleButtonClick = () => {
     setIsInputVisible((prevValue) => !prevValue);

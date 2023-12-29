@@ -5,7 +5,7 @@ export interface ProductCartItems {
   imgSrc: string;
   title: string;
   price: string;
-  productId: number;
+  productId: string;
 }
 
 interface CartContextType {
