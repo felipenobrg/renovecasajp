@@ -15,7 +15,7 @@ export const Checkout = () => {
   const { cart, formattedTotalPrice } = useCart();
   const handleWhatsAppClick = () => {
     const cartItemsText = cart
-      .map((item) => `${item.title} ----- R$ ${item.price}`)
+      .map((item) => `${item.title} R$ ${item.price} ----------- ` )
       .join("\n");
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
