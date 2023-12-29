@@ -16,11 +16,12 @@ export const Checkout = () => {
   const { cart, formattedTotalPrice, removeCart } = useCart();
   const handleWhatsAppClick = () => {
     const cartItemsText = cart
-      .map((item) => `${item.title} R$ ${item.price} ` )
+      .map((item) => `*${item.title}*\nPreço: R$ ${item.price}\n---`)
       .join("\n");
+    const message = `Olá! Gostaria de comprar os seguintes itens:\n${cartItemsText}\n`;
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
-      text: `Olá, gostaria de comprar os seguintes itens: \n${cartItemsText}\n-`,
+      text: message,
     })}`;
     window.open(url, "_blank");
   };
