@@ -39,7 +39,7 @@ export const Checkout = () => {
                 <p className="title">{item.title}</p>
                 <p>R${item.price}  </p>
                 <button onClick={() => removeCart(item)}>
-                Remover <Trash size={18} />
+                Remover <Trash size={18} color="#000"/>
                 </button>
               </ItemInfo>
             </ItemContainer>

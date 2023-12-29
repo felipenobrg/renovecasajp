@@ -52,6 +52,7 @@ export const ItemContainer = styled.div`
     display: flex;
     gap: 3px;
     margin-top: 1rem;
+    color: ${(props => props.theme["black"])};
   }
 `;
 
