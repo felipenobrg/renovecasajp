@@ -18,7 +18,7 @@ export function Camas() {
 
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (
-        <ProductCard key={product.productId} {...product} />
+        <ProductCard  {...product} />
       ))}
 
       <ScrollUp />

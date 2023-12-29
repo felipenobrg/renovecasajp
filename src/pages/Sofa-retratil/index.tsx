@@ -19,7 +19,7 @@ export function SofaRetratil() {
 
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (
-        <ProductCard key={product.productId} {...product} />
+        <ProductCard  {...product} />
       ))}
 
       <ScrollUp />

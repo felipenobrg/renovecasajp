@@ -32,7 +32,7 @@ export const Checkout = () => {
       <CheckoutContainer>
         {cart.length > 0 ? (
           cart.map((item) => (
-            <ItemContainer key={item.productId}>
+            <ItemContainer >
               <img src={item.imgSrc} alt={item.title} />
               <ItemInfo>
                 <p className="title">{item.title}</p>
