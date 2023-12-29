@@ -31,6 +31,8 @@ export const ItemContainer = styled.div`
   img {
     width: 8rem;
     margin-right: 10px;
+    height: 8rem;
+    object-fit: cover;
   }
 
   .title {
