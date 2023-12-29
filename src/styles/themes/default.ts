@@ -13,7 +13,7 @@ export const defaultTheme = {
     'green-400': '#087A3F',
     'main-color': '#0d5257',
   
-    'red': '#F70000',
+    'red': '#D1392C',
 
     'beige-400': '#FAF2E7',
 

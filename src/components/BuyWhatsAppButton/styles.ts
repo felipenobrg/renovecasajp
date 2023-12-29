@@ -12,12 +12,16 @@ export const ButtonCard = styled.button`
   padding: 0.8rem;
   margin-top: 1rem;
   border: 1px solid ${(props) => props.theme["green-300"]};
-  width: 100%;
+  width: 70%;
   cursor: pointer;
   font-weight: bold;
 
   &:hover {
     transition: 0.5s background-color;
     border: 1px solid ${(props) => props.theme["green-400"]};
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;

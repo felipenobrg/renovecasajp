@@ -4,15 +4,18 @@ import { Router } from "../src/routes/routes";
 import { GlobalStyle } from "./styles/global";
 import { WhatsAppApiProvider } from "./context/WhatsAppApiContext";
 import { defaultTheme } from "./styles/themes/default";
+import { CartContextProvider } from "./context/CartContext";
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
         <GlobalStyle />
-        <WhatsAppApiProvider>
-          <Router />
-        </WhatsAppApiProvider>
+        <CartContextProvider>
+          <WhatsAppApiProvider>
+            <Router />
+          </WhatsAppApiProvider>
+        </CartContextProvider>
       </BrowserRouter>
     </ThemeProvider>
   );

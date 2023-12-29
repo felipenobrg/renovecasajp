@@ -1,3 +1,5 @@
+import { NavLink, useLocation } from "react-router-dom";
+import queryString from "query-string";
 import {
   CardContainer,
   CardContent,
@@ -7,11 +9,11 @@ import {
   WornOut,
   CurrentPrice,
 } from "./styles";
-import queryString from "query-string";
-import { NavLink, useLocation } from "react-router-dom";
 import { BuyWhatsAppButton } from "../BuyWhatsAppButton";
+import { AddCartButton } from "../AddCartButton";
+import { useCart } from "../../context/CartContext";
 
-export interface ProductCardProps {
+interface ProductCardProps {
   imgSrc: string;
   wornOut?: string;
   title: string;
@@ -33,6 +35,7 @@ export function ProductCard({
   productId,
 }: ProductCardProps) {
   const location = useLocation();
+  const { addToCart } = useCart();
 
   const handleWhatsAppClick = () => {
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
@@ -65,19 +68,36 @@ export function ProductCard({
     }
   };
 
+  const handleAddToCart = () => {
+    const product = {
+      imgSrc,
+      title,
+      price,
+      productId,
+    };
+    addToCart(product);
+  };
+
   return (
     <CardContainer>
       <CardContent>
         <NavLink to={getLinkDestination()}>
-          <img src={imgSrc} alt="" loading="lazy" />
+          <img src={imgSrc} alt={title} loading="lazy" />
           {wornOut && <WornOut>{wornOut}</WornOut>}
           <TitleCard>{title}</TitleCard>
           <Price>
             <OldPrice>R$ {oldPrice}</OldPrice>
             <CurrentPrice>R$ {price}</CurrentPrice>
           </Price>
-          <BuyWhatsAppButton handleButtonClick={handleWhatsAppClick} TextButton="COMPRAR NO WHATSAPP" />
         </NavLink>
+        <AddCartButton
+          TextButton="ADICIONAR AO CARRINHO"
+          handleAddToCart={handleAddToCart}
+        />
+        <BuyWhatsAppButton
+          handleButtonClick={handleWhatsAppClick}
+          TextButton="COMPRAR NO WHATSAPP"
+        />
       </CardContent>
     </CardContainer>
   );

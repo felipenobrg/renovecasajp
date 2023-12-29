@@ -22,15 +22,30 @@ export const HeaderContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
   width: 100%;
   max-width: 1120px;
- 
+
   img {
     margin-top: 1rem;
     width: 12rem;
     height: 12rem;
     object-fit: cover;
+  }
+
+  .shopping-cart {
+    margin-top: 2.5rem;
+    cursor: pointer;
+  }
+
+  .cart-count {
+    position: absolute;
+    background-color: ${(props) => props.theme["red"]};
+    color: ${(props) => props.theme["white"]};
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-top: -0.4rem;
   }
 
   @media screen and (max-width: 768px) {

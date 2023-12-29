@@ -17,6 +17,7 @@ import { camaData } from "../data/Cama"
 import { produtosEmVimeData } from "../data/Produtos-em-vime"
 import { moveisData } from "../data/Moveis"
 import { utilidadesData } from "../data/Utilidades"
+import { Checkout } from "../pages/Checkout"
 
 export function Router() {
     return (
@@ -30,6 +31,7 @@ export function Router() {
             <Route path="/camas" element={<Camas />} />
             <Route path="/produtosvime" element={<ProdutosEmVime />} />
             <Route path="/utilidades" element={<Utilidades />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="/product/:productId" element={<ProductDetail products={sofaRetroData} />} /> 
             <Route path="/product2/:productId" element={<ProductDetail products={sofaRetratilData} />} /> 
             <Route path="/product3/:productId" element={<ProductDetail products={sofasPopularesData} />} /> 
