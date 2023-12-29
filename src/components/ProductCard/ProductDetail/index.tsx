@@ -14,7 +14,7 @@ import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
 
 type ProductType = {
   id: number;
-  productId: number;
+  productId: string;
   imgSrc: string;
   title: string;
   price: string;
@@ -33,7 +33,7 @@ interface Props {
 
 export function ProductDetail({ products }: Props) {
   const { productId } = useParams<{ productId: string }>();
-  const parsedProductId = productId ? parseInt(productId) : undefined;
+  const parsedProductId = productId ? (productId) : undefined;
   const product = products.find((p) => p.productId === parsedProductId);
 
   if (!product) {
