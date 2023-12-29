@@ -1,4 +1,5 @@
-import { createContext, useContext, useState, ReactNode } from "react";
+// CartContext.tsx
+import { createContext, useContext, useState, ReactNode, useEffect } from "react";
 
 export interface ProductCartItems {
   imgSrc: string;
@@ -20,7 +21,7 @@ const initialState: CartContextType = {
   addToCart: () => {},
   cartQuantity: 0,
   totalPrice: 0,
-  formattedTotalPrice: 'R$ 0,00', 
+  formattedTotalPrice: 'R$ 0,00',
 };
 
 const CartContext = createContext<CartContextType>(initialState);
@@ -32,9 +33,20 @@ interface CartContextProviderProps {
 export const CartContextProvider = ({ children }: CartContextProviderProps) => {
   const [cart, setCart] = useState<ProductCartItems[]>(initialState.cart);
 
+  useEffect(() => {
+    const storedCart = localStorage.getItem("cart");
+    if (storedCart) {
+      setCart(JSON.parse(storedCart) as ProductCartItems[]);
+    }
+  }, []);
+
   const addToCart = (item: ProductCartItems) => {
     setCart((prevCart) => [...prevCart, item]);
   };
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   const cartQuantity = cart.length;
 
