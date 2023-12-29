@@ -45,13 +45,15 @@ export const HeaderContent = styled.div`
     border-radius: 50%;
     padding: 4px 8px;
     font-size: 12px;
-    margin-top: -0.4rem;
+    margin-top: -8px;
+    margin-left: -2px;
   }
 
   @media screen and (max-width: 768px) {
     img {
       width: 10rem;
       height: 10rem;
+      margin-left: 2rem;
     }
   }
 `;
