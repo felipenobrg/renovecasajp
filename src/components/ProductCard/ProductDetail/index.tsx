@@ -22,6 +22,7 @@ type ProductType = {
   textForWhatsApp: string;
   description?: string;
   cardValue: string;
+  routeProduct: string;
 };
 
 type PartialProductType = Omit<ProductType, "id"> &

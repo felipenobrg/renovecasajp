@@ -22,6 +22,7 @@ interface ProductCardProps {
   textForWhatsApp: string;
   productId: string;
   description?: string;
+  routeProduct: string;
 }
 
 export function ProductCard({

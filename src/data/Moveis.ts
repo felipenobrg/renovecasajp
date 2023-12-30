@@ -21,6 +21,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "599,99",
       cardValue: "48,99",
       textForWhatsApp: "Olá. Gostaria de comprar Rack Detroit",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -30,6 +31,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "499,99",
       cardValue: "34,99",
       textForWhatsApp: "Olá. Gostaria de comprar Rack Lyon",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -39,6 +41,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "999,99",
       cardValue: "92,99",
       textForWhatsApp: "Olá. Gostaria de comprarHome Ocean Off White",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -48,6 +51,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "999,99",
       cardValue: "92,99",
       textForWhatsApp: "Olá. Gostaria de comprar Home Ocean Preto",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -57,6 +61,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1299,99",
       cardValue: "136,99",
       textForWhatsApp: "Olá. Gostaria de comprar Guarda Roupa Panamá 2.08x1.18",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -66,6 +71,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "559,99",
       cardValue: "48,99",
       textForWhatsApp: "Olá. Gostaria de comprar Mesa de Jantar Preta",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -75,6 +81,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "899,99",
       cardValue: "48,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -84,6 +91,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "899,99",
       cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -93,6 +101,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "899,99",
       cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Preto e Branco",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -102,6 +111,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "899,99",
       cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Armário de Cozinha Marrom",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -111,6 +121,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "599,99",
       cardValue: "38,99",
       textForWhatsApp: "Olá. Gostaria de comprar Painel de TV 46 Polegadas",
+      routeProduct: "product7/"
     },
     {
       productId: uuidv4(),
@@ -120,5 +131,6 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "699,99",
       cardValue: "72,99",
       textForWhatsApp: "Olá. Gostaria de comprar Painel de TV 55 Polegadas",
+      routeProduct: "product7/"
     },
   ]

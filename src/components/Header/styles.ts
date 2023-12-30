@@ -47,7 +47,7 @@ export const Ul = styled.ul`
   height: 20rem;
   overflow-y: auto;
   list-style: none;
-  z-index: 10;
+  cursor: pointer;
 
   @media screen and (max-width: 768px) {
    height: 15rem;
@@ -57,18 +57,21 @@ export const Ul = styled.ul`
 export const Li = styled.li`
   width: 30%;
   margin: 0.5rem;
-  border: 1px solid ${(props) => props.theme["gray-300"]};
+  border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
   padding: 1rem;
   text-align: center;
+  color:  ${(props) => props.theme["black"]};
 
   h1 {
     font-size: 1rem;
+    font-weight: normal;
     margin-bottom: 0.5rem;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
   }
 
   img {
@@ -86,18 +89,20 @@ export const Li = styled.li`
 export const InputContainer = styled.div`
   display: flex;
   input {
+    border: none;
     border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
     padding: 1.5rem;
     width: 100%;
     transition: all 0.3s ease;
 
     &:focus {
+      outline: none;
       box-shadow: none;
     }
   }
   .close-button {
     cursor: pointer;
-    margin-left: -2rem;
-    margin-top: 1rem;
+    margin-left: -4rem;
+    margin-top: 1.5rem;
   }
 `;

@@ -18,6 +18,7 @@ export const utilidadesData = [
       oldPrice: "109,99",
       cardValue: "8,99",
       textForWhatsApp: "Olá. Gostaria de comprar Puff Retrô",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -27,6 +28,7 @@ export const utilidadesData = [
       oldPrice: "189,99",
       cardValue: "14,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -36,6 +38,7 @@ export const utilidadesData = [
       oldPrice: "189,99",
       cardValue: "14,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sapateira",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -46,6 +49,7 @@ export const utilidadesData = [
       oldPrice: "129,99",
       cardValue: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Baú",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -55,6 +59,7 @@ export const utilidadesData = [
       oldPrice: "199,99",
       cardValue: "18,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço de Fio",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -64,6 +69,7 @@ export const utilidadesData = [
       oldPrice: "329,99",
       cardValue: "28,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cantinho de Café",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -74,6 +80,7 @@ export const utilidadesData = [
       oldPrice: "159,99",
       cardValue: "12,99",
       textForWhatsApp: "Olá. Quadro Decorativo Leão Laranja",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -84,6 +91,7 @@ export const utilidadesData = [
       oldPrice: "159,99",
       cardValue: "12,99",
       textForWhatsApp: "Olá. Gostaria de comprar Quadro Decorativo Leão",
+      routeProduct: "product8/"
     },
     {
       productId: uuidv4(),
@@ -94,5 +102,6 @@ export const utilidadesData = [
       oldPrice: "159,99",
       cardValue: "12,99",
       textForWhatsApp: "Olá. Quadro Decorativo Leão e Leoa",
+      routeProduct: "product8/"
     },
   ];

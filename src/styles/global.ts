@@ -35,4 +35,8 @@ export const GlobalStyle = createGlobalStyle`
    body, input, textarea, button {
     font: 400 0.9rem 'Montserrat', sans-serif;
    }
+
+   button {
+    cursor: pointer;
+   }
 `;

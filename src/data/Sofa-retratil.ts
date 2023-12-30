@@ -22,6 +22,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1199,99",
       cardValue: "96,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Bege",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -32,6 +33,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1199,99",
       cardValue: "96,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom Escuro",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -42,6 +44,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1199,99",
       cardValue: "96,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Cinza Chumbo",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -52,6 +55,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1199,99",
       cardValue: "96,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Marrom",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -62,6 +66,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1199,99",
       cardValue: "96,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Off White",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -72,6 +77,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1299,99",
       cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Monaco Branco Gelo Linho",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -82,6 +88,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1299,99",
       cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Paris Cinza Linho",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -92,6 +99,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1299,99",
       cardValue: "111,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -102,6 +110,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1699,99",
       cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Marrom",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -112,6 +121,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1699,99",
       cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -122,6 +132,7 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1699,99",
       cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
+      routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
@@ -132,5 +143,6 @@ import { v4 as uuidv4 } from 'uuid';
       oldPrice: "1699,99",
       cardValue: "144,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Cinza",
+      routeProduct: "product2/"
     },
   ];

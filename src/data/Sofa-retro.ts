@@ -23,6 +23,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Off White",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -32,6 +33,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Cinza Chumbo",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -42,6 +44,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Preto",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -52,6 +55,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Azul Royal",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -62,6 +66,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Vermelho",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -72,6 +77,7 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Terra Cota",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -82,6 +88,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Retrátil Verde",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -92,6 +99,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "96,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Linho Marrom Escuro",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -102,6 +110,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "96,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Azul",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -112,6 +121,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "96,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Marrom Claro c/ Almofada Lisa",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -122,6 +132,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "96,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Linho Verde",
+    routeProduct: "product/"
   },
   {
     productId: uuidv4(),
@@ -132,6 +143,7 @@ export const sofaRetroData = [
     oldPrice: "1299,99",
     cardValue: "115,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Páris Marfim",
+    routeProduct: "product/"
   },
 ];
 

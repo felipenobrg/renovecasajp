@@ -25,6 +25,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -34,6 +35,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Terra Cota",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -43,6 +45,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Marrom",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -52,6 +55,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Preto",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -61,6 +65,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Cinza Escuro",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -70,6 +75,7 @@ export const sofasPopularesData = [
       oldPrice: "799,99",
       cardValue: "67,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Vermelho",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -79,6 +85,7 @@ export const sofasPopularesData = [
       oldPrice: "699,99",
       cardValue: "57,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Sofá Bege Sem Almofada",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -88,6 +95,7 @@ export const sofasPopularesData = [
       oldPrice: "549,99",
       cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Marrom",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -97,6 +105,7 @@ export const sofasPopularesData = [
       oldPrice: "649,99",
       cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Três Lugares Preto com 2 Puffs",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -106,6 +115,7 @@ export const sofasPopularesData = [
       oldPrice: "499,99",
       cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Dois Lugares Bege",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -115,6 +125,7 @@ export const sofasPopularesData = [
       oldPrice: "699,99",
       cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Bege 3 Lugares",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -124,6 +135,7 @@ export const sofasPopularesData = [
       oldPrice: "599,99",
       cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Cinza Três Lugares",
+      routeProduct: "product3/"
     },
     {
       productId: uuidv4(),
@@ -133,6 +145,7 @@ export const sofasPopularesData = [
       oldPrice: "599,99",
       cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Marrom Três Lugares",
+      routeProduct: "product3/"
     },
   ];
   

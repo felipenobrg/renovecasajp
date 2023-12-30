@@ -52,9 +52,16 @@ export const ItemContainer = styled.div`
     border: 0;
     background-color: ${(props => props.theme["gray-300"])};
     display: flex;
+    align-items: center;
     gap: 3px;
     margin-top: 1rem;
     color: ${(props => props.theme["black"])};
+    border-radius: 3px;
+
+    &:hover {
+      transition: 0.3s ease;
+      background-color: ${(props => props.theme["gray-500"])};
+    }
   }
 `;
 

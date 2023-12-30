@@ -14,6 +14,7 @@ export const camaData = [
       oldPrice: "699,99",
       cardValue: "53,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Topázio",
+      routeProduct: "product5/"
     },
     {
       productId: uuidv4(),
@@ -23,6 +24,7 @@ export const camaData = [
       oldPrice: "599,99",
       cardValue: "43,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Solteiro Topázio",
+      routeProduct: "product5/"
     },
     {
       productId: uuidv4(),
@@ -32,6 +34,7 @@ export const camaData = [
       oldPrice: "999,99",
       cardValue: "86,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cama Box de Casal Molas Ensacadas Topázio",
+      routeProduct: "product5/"
     },
     {
       productId: uuidv4(),
@@ -41,6 +44,7 @@ export const camaData = [
       oldPrice: "899,99",
       cardValue: "82,99",
       textForWhatsApp: "Olá. Gostaria de comprar Colchão Molas Ensacadas",
+      routeProduct: "product5/"
     },
     {
       productId: uuidv4(),
@@ -50,5 +54,6 @@ export const camaData = [
       oldPrice: "899,99",
       cardValue: "77,99",
       textForWhatsApp: "Olá. Gostaria de comprar Colchão + Base de Casal Topázio",
+      routeProduct: "product5/"
     }
 ]

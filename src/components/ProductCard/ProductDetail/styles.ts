@@ -80,7 +80,6 @@ export const ShareButton = styled.button`
   }
 `;
 
-
 export const WhatsAppButton = styled.button`
   display: flex;
   align-items: center;

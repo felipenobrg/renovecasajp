@@ -17,6 +17,7 @@ export const produtosEmVimeData = [
       oldPrice: "119,99",
       cardValue: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Preta em Vime",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -26,6 +27,7 @@ export const produtosEmVimeData = [
       oldPrice: "119,99",
       cardValue: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Marrom em Vime",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -35,6 +37,7 @@ export const produtosEmVimeData = [
       oldPrice: "119,99",
       cardValue: "9,99",
       textForWhatsApp: "Olá. Gostaria de comprar Banqueta Bege em Vime",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -44,6 +47,7 @@ export const produtosEmVimeData = [
       oldPrice: "129,99",
       cardValue: "19,99",
       textForWhatsApp: "Olá. Gostaria de comprar Cadeira de Balanço",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -53,6 +57,7 @@ export const produtosEmVimeData = [
       oldPrice: "599,99",
       cardValue: "53,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Terraço Preto",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -62,6 +67,7 @@ export const produtosEmVimeData = [
       oldPrice: "599,99",
       cardValue: "53,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Terraço Marrom",
+      routeProduct: "product6/"
     },
     {
       productId: uuidv4(),
@@ -71,5 +77,6 @@ export const produtosEmVimeData = [
       oldPrice: "599,99",
       cardValue: "53,99",
       textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Terraço Mesclado",
+      routeProduct: "product6/"
     },
   ];

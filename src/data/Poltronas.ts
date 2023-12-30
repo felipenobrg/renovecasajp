@@ -16,6 +16,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Cinza",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -25,6 +26,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Azul",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -34,6 +36,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Marrom",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -43,6 +46,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Capitonê Rosa",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -52,6 +56,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Bege",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -61,6 +66,7 @@ export const poltronasData = [
     oldPrice: "249,99",
     cardValue: "21,99",
     textForWhatsApp: "Olá. Gostaria de comprar Poltrona Bob Terra Cota",
+    routeProduct: "product4/"
   },
   {
     productId: uuidv4(),
@@ -70,5 +76,6 @@ export const poltronasData = [
     oldPrice: "289,99",
     cardValue: "22,99",
     textForWhatsApp: "Olá. Gostaria de comprar Proltrona Bob Cinza Linho",
+    routeProduct: "product4/"
   },
 ];
