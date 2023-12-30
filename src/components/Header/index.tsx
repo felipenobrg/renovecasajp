@@ -66,7 +66,12 @@ export function Header() {
           {filteredAllProducts.map((product) => {
             const route = `${product.routeProduct}${product.productId}`;
             return (
-              <Link key={product.productId} to={`/${route}`} className="product-link">
+              <Link
+                key={product.productId}
+                to={`/${route}`}
+                className="product-link"
+                onClick={() => setSearchBar("")}
+              >
                 <Li>
                   <h1>{product.title}</h1>
                   <p>R$ {product.price}</p>
