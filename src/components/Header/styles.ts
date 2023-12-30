@@ -49,6 +49,10 @@ export const Ul = styled.ul`
   list-style: none;
   cursor: pointer;
 
+  .product-link {
+    text-decoration: none;
+  }
+
   @media screen and (max-width: 768px) {
    height: 15rem;
   }
