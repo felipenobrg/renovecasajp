@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["main-color"]};
   padding: 3rem;
   height: 10rem;
-  width: 100%;
+  max-width: 100%;
   z-index: 100;
   position: sticky;
   top: 0;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   background-color: ${(props) => props.theme["gray-900"]};
   padding: 20px;
+  max-width: 100%;
 
   .horizontal-line {
     margin: 0 auto;
