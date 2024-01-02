@@ -52,6 +52,7 @@ export const Ul = styled.ul`
   position: sticky;
   top: 10rem;
   background-color: ${(props) => props.theme["white"]};
+  z-index: 100;
 
   .product-link {
     text-decoration: none;
@@ -69,6 +70,7 @@ export const Li = styled.li`
   padding: 1rem;
   text-align: center;
   color: ${(props) => props.theme["black"]};
+  z-index: 100;
 
   &:hover {
     border: 1px solid ${(props) => props.theme["gray-300"]};
