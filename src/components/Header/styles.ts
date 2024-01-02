@@ -44,27 +44,36 @@ export const HeaderContent = styled.div`
 export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
+  width: 30%;
   height: 20rem;
   overflow-y: auto;
   list-style: none;
   cursor: pointer;
+  position: sticky;
+  top: 10rem;
+  background-color: ${(props) => props.theme["white"]};
 
   .product-link {
     text-decoration: none;
   }
 
   @media screen and (max-width: 768px) {
-   height: 15rem;
+    height: 12rem;
+    width: 100%;
   }
 `;
 
 export const Li = styled.li`
-  width: 30%;
   margin: 0.5rem;
   border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
   padding: 1rem;
   text-align: center;
-  color:  ${(props) => props.theme["black"]};
+  color: ${(props) => props.theme["black"]};
+
+  &:hover {
+    border: 1px solid ${(props) => props.theme["gray-300"]};
+    border-radius: 8px;
+  }
 
   h1 {
     font-size: 1rem;
@@ -79,19 +88,34 @@ export const Li = styled.li`
   }
 
   img {
-    width:80%;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
     border-radius: 8px;
   }
 
   @media screen and (max-width: 768px) {
-   width: 80%;
-   margin: 0 auto;
-   margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    gap: 10px;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 `;
 
 export const InputContainer = styled.div`
+  position: sticky;
+  top: 10rem;
   display: flex;
+  background: ${(props) => props.theme["main-color"]};
+  z-index: 50;
+  width: 100%;
+
   input {
     border: none;
     border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
@@ -108,5 +132,8 @@ export const InputContainer = styled.div`
     cursor: pointer;
     margin-left: -4rem;
     margin-top: 1.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    top: 8rem;
   }
 `;

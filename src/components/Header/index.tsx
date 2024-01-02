@@ -18,6 +18,7 @@ import { Link } from "react-router-dom";
 export function Header() {
   const [isInputVisible, setIsInputVisible] = useState(false);
   const [searchBar, setSearchBar] = useState("");
+
   const filteredAllProducts = AllProducts.filter((product) =>
     product.title.toLowerCase().includes(searchBar.toLowerCase())
   );
@@ -30,6 +31,7 @@ export function Header() {
   const handleCloseInput = () => {
     setIsInputVisible(false);
     setSearchBar("");
+    document.body.classList.remove("search-active");
   };
 
   return (
@@ -57,7 +59,7 @@ export function Header() {
             onChange={(e) => setSearchBar(e.target.value)}
             value={searchBar}
           />
-          <X onClick={handleCloseInput} size={25} className="close-button" />
+          <X onClick={handleCloseInput}  size={25} className="close-button" />
         </InputContainer>
       )}
 
@@ -73,8 +75,10 @@ export function Header() {
                 onClick={() => setSearchBar("")}
               >
                 <Li>
+                  <div>
                   <h1>{product.title}</h1>
                   <p>R$ {product.price}</p>
+                  </div>
                   <img src={product.imgSrc} alt={product.title} />
                 </Li>
               </Link>
