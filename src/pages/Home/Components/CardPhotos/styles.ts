@@ -13,7 +13,6 @@ export const CardPhotosContainer = styled.div`
 
   img {
     max-width: 100%; 
-
     border-radius: 9px;
     transition: transform 0.3s ease;
 
@@ -25,6 +24,11 @@ export const CardPhotosContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-wrap: wrap; 
+
+    img {
+      width: 20rem;
+    }
+
     a {
       width: 48%; 
       margin-bottom: 1rem;

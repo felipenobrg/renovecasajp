@@ -6,7 +6,7 @@ export function WhoWeAre() {
     <WhoWeAreContainer>
       <h1>Quem Somos?</h1>
       <div>
-        <h3>Loja de Móveis em João Pessoa: Online e Física</h3>
+        <h2>Loja de Móveis em João Pessoa: Online e Física</h2>
         <p>
           Visite nossa loja de móveis em João Pessoa e explore pessoalmente
           nossa ampla seleção de móveis. Se preferir, estamos disponíveis
@@ -16,7 +16,7 @@ export function WhoWeAre() {
       </div>
 
       <div>
-        <h3>Variedade de Estilos e Valores em Móveis</h3>
+        <h2>Variedade de Estilos e Valores em Móveis</h2>
         <p>
           Em nossa loja, você encontrará móveis para todos os estilos de
           decoração e necessidades. Temos opções que se encaixam perfeitamente,
@@ -24,7 +24,7 @@ export function WhoWeAre() {
         </p>
       </div>
       <div>
-        <h3>Móveis de Alta Qualidade a Preços Acessíveis em João Pessoa</h3>
+        <h2>Móveis de Alta Qualidade a Preços Acessíveis em João Pessoa</h2>
         <p>
           Em busca de móveis de alta qualidade a preços acessíveis em João
           Pessoa? Você está no lugar certo! Somos especializados em oferecer uma

@@ -31,7 +31,6 @@ export function Header() {
   const handleCloseInput = () => {
     setIsInputVisible(false);
     setSearchBar("");
-    document.body.classList.remove("search-active");
   };
 
   return (
@@ -58,8 +57,9 @@ export function Header() {
             placeholder="Olá, o que você procura?"
             onChange={(e) => setSearchBar(e.target.value)}
             value={searchBar}
+            aria-label="Botão de procura de produtos da renove casa"
           />
-          <X onClick={handleCloseInput}  size={25} className="close-button" />
+          <X onClick={handleCloseInput} size={25} className="close-button" />
         </InputContainer>
       )}
 
