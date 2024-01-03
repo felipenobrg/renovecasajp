@@ -1,4 +1,4 @@
-import { Trash } from "phosphor-react";
+import { ShoppingCart, Trash } from "phosphor-react";
 import { BuyWhatsAppButton } from "../../components/BuyWhatsAppButton";
 import { Header } from "../../components/Header";
 import { useCart } from "../../context/CartContext";
@@ -7,6 +7,7 @@ import {
   H1,
   ItemContainer,
   ItemInfo,
+  ShoppingCartEmptyContainer,
   WhatsAppButtonContainer,
 } from "./styles";
 import queryString from "query-string";
@@ -32,19 +33,29 @@ export const Checkout = () => {
       <CheckoutContainer>
         {cart.length > 0 ? (
           cart.map((item) => (
-            <ItemContainer >
+            <ItemContainer>
               <img src={item.imgSrc} alt={item.title} />
               <ItemInfo>
                 <p className="title">{item.title}</p>
-                <p>R${item.price}  </p>
+                <p>R${item.price} </p>
                 <button onClick={() => removeCart(item)}>
-                Remover <Trash size={18} color="#000"/>
+                  Remover <Trash size={18} color="#000" />
                 </button>
               </ItemInfo>
             </ItemContainer>
           ))
         ) : (
-          <H1>Carrinho vazio {":("} </H1>
+          <ShoppingCartEmptyContainer>
+            <h2>
+              {" "}
+              <ShoppingCart size={30} /> Seu carrinho está vazio
+            </h2>
+            <p>
+              Vá para a <a href="/">página inicial</a> ou procure no site os
+              produtos que vão te deixar feliz. Quando encontrá-los, clique no
+              botão adicionar à sacola
+            </p>
+          </ShoppingCartEmptyContainer>
         )}
         {cart.length > 0 && (
           <h1>
@@ -61,8 +72,6 @@ export const Checkout = () => {
             </WhatsAppButtonContainer>
           </h1>
         )}
-
-    
       </CheckoutContainer>
     </>
   );
