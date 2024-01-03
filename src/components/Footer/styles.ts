@@ -12,11 +12,11 @@ export const FooterContainer = styled.footer`
     border: 1px solid ${(props) => props.theme["gray-800"]};
   }
 
-  p, h3 {
-    color: ${(props => props.theme["white"])};
+  p,
+  h3 {
+    color: ${(props) => props.theme["white"]};
     font-weight: normal;
   }
-
 `;
 
 export const GridContainer = styled.div`
@@ -41,25 +41,21 @@ export const AboutRenoveContainer = styled.div`
   p {
     width: 70%;
     margin-top: -1rem;
-    color: ${(props => props.theme["white"])};
+    color: ${(props) => props.theme["white"]};
   }
 
   img {
     width: 15rem;
   }
-  
 
   @media screen and (max-width: 1024px) {
     align-items: center;
-     p {
+    p {
       width: 80%;
       text-align: center;
       margin-bottom: 1rem;
-     }
-
-     
+    }
   }
-
 `;
 
 export const ServiceContainer = styled.div`
@@ -76,16 +72,14 @@ export const ServiceContainer = styled.div`
   }
 `;
 
-
 export const PaymentMethodsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  
   @media screen and (max-width: 1024px) {
-   margin-top: 2rem;
+    margin-top: 2rem;
   }
 `;
 
@@ -93,7 +87,7 @@ export const ImagesContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
-  align-items: center; 
+  align-items: center;
 
   img {
     height: auto;
@@ -114,6 +108,6 @@ export const DevelopedBy = styled.div`
   text-align: center;
 
   a {
-    color: ${(props) => props.theme["gray-500"]};
+    color: ${(props) => props.theme["gray-100"]};
   }
 `;
