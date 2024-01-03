@@ -44,6 +44,10 @@ export const ShoppingCartEmptyContainer = styled.div`
   
   @media screen and (max-width: 768px) {
     width: 90%;
+
+    h2 {
+    font-size: 1rem;
+  }
   }
 `
 
