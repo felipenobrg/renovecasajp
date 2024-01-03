@@ -53,7 +53,7 @@ export const Checkout = () => {
             <p>
               Vá para a <a href="/">página inicial</a> ou procure no site os
               produtos que vão te deixar feliz. Quando encontrá-los, clique no
-              botão adicionar à sacola
+              botão adicionar ao carrimho
             </p>
           </ShoppingCartEmptyContainer>
         )}
