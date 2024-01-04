@@ -76,7 +76,7 @@ export function ProductCard({
       title,
       price,
       productId,
-      quantity: quantity || 0,
+      quantity: quantity || 1,
     };
     addToCart(product);
   };

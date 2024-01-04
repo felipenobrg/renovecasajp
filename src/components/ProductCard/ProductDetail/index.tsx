@@ -47,7 +47,7 @@ export function ProductDetail({ products }: Props) {
       title: product?.title ?? "",
       price: product?.price ?? "",
       productId: parsedProductId ?? "",
-      quantity: product?.quantity || 0,
+      quantity: product?.quantity || 1,
     };
     addToCart(productToAdd);
   };
