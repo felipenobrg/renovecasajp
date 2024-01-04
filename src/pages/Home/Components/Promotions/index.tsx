@@ -4,7 +4,6 @@ import ConjuntoDeDubaiPreto from "../../../../assets/Promotions/ConjuntoDeDubaiP
 import SofaDeltaAzul from "../../../../assets/Promotions/SofaDeltaAzul.webp";
 import SofaRetroBegeComDuasPoltronas from "../../../../assets/Promotions/SofaRetroBegeComDuasPoltronas.webp";
 import SofaRetratilComPuffsAzul from "../../../../assets/Promotions/SofaRetratilComPuffsAzul.webp";
-import LyonRack from "../../../../assets/Promotions/LyonRack.webp";
 
 interface Promotion {
   id: number;
@@ -21,7 +20,7 @@ export function Promotions() {
       id: 1,
       imgSrc: SofaRetroBegeComDuasPoltronas,
       productTitle: "Sofá Retrô com Duas Poltronas King",
-      price: "1799,99",
+      price: "1699,99",
       oldPrice: "1899,99",
       textForWhatsApp:
         "Olá, gostaria de comprar Sofá Retrô com Duas Poltronas King",
@@ -50,14 +49,6 @@ export function Promotions() {
       price: "1199,99",
       oldPrice: "1299,99",
       textForWhatsApp: "Olá, gostaria de comprar Sofá Delta com Puff Incluso",
-    },
-    {
-      id: 5,
-      imgSrc: LyonRack,
-      productTitle: "Rack Lyon",
-      price: "349,99",
-      oldPrice: "499,99",
-      textForWhatsApp: "Olá, gostaria de comprar Rack Lyon",
     },
   ];
   return (
