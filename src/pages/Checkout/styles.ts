@@ -102,6 +102,11 @@ export const ItemContainer = styled.div`
   @media screen and (max-width: 768px) {
     height: 15rem;
     padding: 2rem;
+
+    .title {
+      font-size: 1rem;
+      width: 100%;
+    }
   }
 `;
 
