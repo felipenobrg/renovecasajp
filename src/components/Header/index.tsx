@@ -1,16 +1,12 @@
-import {
-  HeaderContainer,
-  HeaderContent,
-  InputContainer,
-} from "./styles";
+import { HeaderContainer, HeaderContent } from "./styles";
 import LogoRenoveCasa from "../../assets/logoRenoveCasa.webp";
 import { DropDownMenu } from "./MenuDropdown";
 import { SearchAllProducts } from "./SearchBarAllProducts";
 import { SectionLink } from "./SectionLink";
 import { useState } from "react";
 import { ShoppingCartButton } from "./ShoppingCartButton";
-import { X } from "phosphor-react";
 import { SearchProducts } from "./SearchProducts";
+import { InputAllProducts } from "./InputAllProduct";
 
 export function Header() {
   const [isInputVisible, setIsInputVisible] = useState(false);
@@ -18,11 +14,6 @@ export function Header() {
 
   const handleButtonClick = () => {
     setIsInputVisible((prevValue) => !prevValue);
-    setSearchBar("");
-  };
-
-  const handleCloseInput = () => {
-    setIsInputVisible(false);
     setSearchBar("");
   };
 
@@ -44,16 +35,11 @@ export function Header() {
       <SectionLink />
 
       {isInputVisible && (
-        <InputContainer>
-          <input
-            type="text"
-            placeholder="Olá, o que você procura?"
-            onChange={(e) => setSearchBar(e.target.value)}
-            value={searchBar}
-            aria-label="Botão de procura de produtos da renove casa"
-          />
-          <X onClick={handleCloseInput} size={25} className="close-button" />
-        </InputContainer>
+        <InputAllProducts
+          searchBar={searchBar}
+          setSearchBar={setSearchBar}
+          setIsInputVisible={setIsInputVisible}
+        />
       )}
 
       {searchBar && (
