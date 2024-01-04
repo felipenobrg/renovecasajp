@@ -59,7 +59,7 @@ export const ItemContainer = styled.div`
   display: flex;
   gap: 2rem;
   align-items: center;
-  background-color:  ${(props) => props.theme["gray-100"]};
+  background-color: ${(props) => props.theme["gray-100"]};
   width: 95%;
   margin-bottom: 2rem;
   padding: 4rem;
@@ -125,6 +125,10 @@ export const ButtonsContainer = styled.div`
     width: 2rem;
   }
 `;
+
+export const TotalAmountContainer = styled.div`
+   margin-left: 1rem;
+`
 
 export const WhatsAppButtonContainer = styled.div`
   display: flex;

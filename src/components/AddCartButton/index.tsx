@@ -1,3 +1,4 @@
+import { ShoppingCart } from "phosphor-react";
 import { AddCartButtonContainer, AddCartButtonStyle } from "./styles";
 
 interface AddCartButtonProps {
@@ -15,7 +16,7 @@ export function AddCartButton({
 
   return (
     <AddCartButtonContainer onClick={handleClick}>
-      <AddCartButtonStyle>{TextButton}</AddCartButtonStyle>
+      <AddCartButtonStyle><ShoppingCart size={22} />{TextButton}</AddCartButtonStyle>
     </AddCartButtonContainer>
   );
 }

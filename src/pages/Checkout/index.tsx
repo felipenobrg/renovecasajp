@@ -9,6 +9,7 @@ import {
   ItemContainer,
   ItemInfo,
   ShoppingCartEmptyContainer,
+  TotalAmountContainer,
   WhatsAppButtonContainer,
 } from "./styles";
 import queryString from "query-string";
@@ -23,26 +24,32 @@ export const Checkout = () => {
   } = useCart();
   const handleWhatsAppClick = () => {
     const cartItemsText = cart
-      .map((item) => `*${item.quantity}x ${item.title}*\nPreço unitário: R$ ${item.price}\n`)
+      .map(
+        (item) =>
+          `*${item.quantity}x ${item.title}*\nPreço unitário: R$ ${item.price}\n`
+      )
       .join("\n");
-  
+
     const totalQuantity = cart.reduce((acc, item) => acc + item.quantity, 0);
-    const totalPrice = cart.reduce((acc, item) => acc + parseFloat(item.price) * item.quantity, 0);
-  
+    const totalPrice = cart.reduce(
+      (acc, item) => acc + parseFloat(item.price) * item.quantity,
+      0
+    );
+
     const formattedTotalPrice = new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BRL",
     }).format(totalPrice);
-  
+
     const message = `Olá! Gostaria de comprar ${totalQuantity} ${
       totalQuantity !== 1 ? "itens" : "item"
     }:\n${cartItemsText}\n*Total:* ${formattedTotalPrice}\n`;
-  
+
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
       text: message,
     })}`;
-  
+
     window.open(url, "_blank");
   };
   return (
@@ -86,19 +93,23 @@ export const Checkout = () => {
           </ShoppingCartEmptyContainer>
         )}
         {totalQuantity > 0 && (
-          <h1>
-            Subtotal{" "}
-            <span>
-              ({totalQuantity} {totalQuantity > 1 ? "itens" : "item"})
-            </span>
-            : {formattedTotalPrice} à vista
+          <>
+          <TotalAmountContainer>
+            <h1>
+              Subtotal{" "}
+              <span>
+                ({totalQuantity} {totalQuantity > 1 ? "itens" : "item"})
+              </span>
+              : {formattedTotalPrice} à vista
+            </h1>
+            </TotalAmountContainer>
             <WhatsAppButtonContainer>
               <BuyWhatsAppButton
                 handleButtonClick={handleWhatsAppClick}
                 TextButton="FECHAR NO WHATSAPP"
               />
             </WhatsAppButtonContainer>
-          </h1>
+          </>
         )}
       </CheckoutContainer>
     </>

@@ -12,6 +12,11 @@ export const AddCartButtonContainer = styled.div`
   width: 70%;
   cursor: pointer;
   font-weight: bold;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: brightness(90%);
+  }
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -22,4 +27,8 @@ export const AddCartButtonStyle = styled.button`
   background: none;
   font-weight: bold;
   color: ${(props) => props.theme["white"]};
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
 `
