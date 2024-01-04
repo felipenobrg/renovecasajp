@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const SectionContainer = styled.section`
-  background: ${(props) => props.theme["gray-900"]};
+  background: ${(props) => props.theme["main-color"]};
   padding: 1.2rem;
   max-width: 100%;
   overflow: auto;

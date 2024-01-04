@@ -8,14 +8,18 @@ export const H1 = styled.h1`
 `;
 
 export const CheckoutContainer = styled.div`
-  width: 98%;
-  margin-left: 1rem;
+  width: 50%;
+  margin: 0 auto;
   span {
     font-weight: normal;
   }
 
   @media screen and (max-width: 768px) {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -24,7 +28,7 @@ export const ShoppingCartEmptyContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: ${(props => props.theme["gray-100"])};
+  background-color: ${(props) => props.theme["gray-100"]};
   padding: 2rem;
   gap: 2rem;
   width: 50%;
@@ -39,26 +43,27 @@ export const ShoppingCartEmptyContainer = styled.div`
   }
 
   a {
-    color: ${(props => props.theme["gray-500"])};
+    color: ${(props) => props.theme["gray-500"]};
   }
-  
+
   @media screen and (max-width: 768px) {
     width: 90%;
 
     h2 {
-    font-size: 1rem;
+      font-size: 1rem;
+    }
   }
-  }
-`
+`;
 
 export const ItemContainer = styled.div`
   display: flex;
   gap: 2rem;
   align-items: center;
-  border: 1px solid #ccc;
+  background-color:  ${(props) => props.theme["gray-100"]};
+  width: 95%;
   margin-bottom: 2rem;
-  padding: 1rem;
-  height: 12rem;
+  padding: 4rem;
+  height: 15rem;
 
   img {
     width: 8rem;
@@ -82,18 +87,21 @@ export const ItemContainer = styled.div`
     padding: 0.4rem;
     width: 6.5rem;
     border: 0;
-    background-color: ${(props => props.theme["gray-300"])};
     display: flex;
     align-items: center;
     gap: 3px;
     margin-top: 1rem;
-    color: ${(props => props.theme["black"])};
+    color: ${(props) => props.theme["black"]};
     border-radius: 3px;
 
     &:hover {
       transition: 0.3s ease;
-      background-color: ${(props => props.theme["gray-500"])};
+      background-color: ${(props) => props.theme["gray-300"]};
     }
+  }
+  @media screen and (max-width: 768px) {
+    height: 15rem;
+    padding: 2rem;
   }
 `;
 
@@ -101,6 +109,21 @@ export const ItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+`;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ${(props) => props.theme["black"]};
+    border-radius: 3px;
+    width: 2rem;
+  }
 `;
 
 export const WhatsAppButtonContainer = styled.div`

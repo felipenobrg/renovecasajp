@@ -11,6 +11,8 @@ import { Price } from "../styles";
 import { Export } from "phosphor-react";
 import queryString from "query-string";
 import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
+import { AddCartButton } from "../../AddCartButton";
+import { useCart } from "../../../context/CartContext";
 
 type ProductType = {
   id: number;
@@ -23,6 +25,7 @@ type ProductType = {
   description?: string;
   cardValue: string;
   routeProduct: string;
+  quantity?: number;
 };
 
 type PartialProductType = Omit<ProductType, "id"> &
@@ -34,8 +37,20 @@ interface Props {
 
 export function ProductDetail({ products }: Props) {
   const { productId } = useParams<{ productId: string }>();
-  const parsedProductId = productId ? (productId) : undefined;
+  const { addToCart } = useCart();
+  const parsedProductId = productId ? productId : undefined;
   const product = products.find((p) => p.productId === parsedProductId);
+
+  const handleAddToCart = () => {
+    const productToAdd = {
+      imgSrc: product?.imgSrc ?? "",
+      title: product?.title ?? "",
+      price: product?.price ?? "",
+      productId: parsedProductId ?? "",
+      quantity: product?.quantity || 0,
+    };
+    addToCart(productToAdd);
+  };
 
   if (!product) {
     return <div>Produto não encontrado.</div>;
@@ -93,7 +108,14 @@ export function ProductDetail({ products }: Props) {
           </strong>
         </p>
         <Description>{product.description}</Description>
-         <BuyWhatsAppButton TextButton="COMPRAR NO WHATSAPP" handleButtonClick={handleWhatsAppClick} />
+        <AddCartButton
+          TextButton="ADICIONAR AO CARRINHO"
+          handleAddToCart={handleAddToCart}
+        />
+        <BuyWhatsAppButton
+          TextButton="COMPRAR NO WHATSAPP"
+          handleButtonClick={handleWhatsAppClick}
+        />
         <AboutGuarantee>
           <h1>Sobre a Garantia:</h1>
           <p>

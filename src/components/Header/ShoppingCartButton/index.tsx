@@ -4,7 +4,7 @@ import { useCart } from "../../../context/CartContext";
 import { ShoppingCartContainer } from "./styles";
 
 export function ShoppingCartButton() {
-  const { cartQuantity } = useCart();
+  const { totalQuantity } = useCart();
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -13,7 +13,7 @@ export function ShoppingCartButton() {
   return (
     <ShoppingCartContainer onClick={handleClick}>
       <ShoppingCart size={30} color="#ffff" />
-      <span className="cart-count">{cartQuantity}</span>
+      <span className="cart-count">{totalQuantity}</span>
     </ShoppingCartContainer>
   );
 }

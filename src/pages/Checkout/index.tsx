@@ -1,8 +1,9 @@
-import { ShoppingCart, Trash } from "phosphor-react";
+import { Minus, Plus, ShoppingCart, Trash } from "phosphor-react";
 import { BuyWhatsAppButton } from "../../components/BuyWhatsAppButton";
 import { Header } from "../../components/Header";
 import { useCart } from "../../context/CartContext";
 import {
+  ButtonsContainer,
   CheckoutContainer,
   H1,
   ItemContainer,
@@ -13,19 +14,37 @@ import {
 import queryString from "query-string";
 
 export const Checkout = () => {
-  const { cart, formattedTotalPrice, removeCart } = useCart();
+  const {
+    cart,
+    formattedTotalPrice,
+    removeCart,
+    totalQuantity,
+    changeCartQuantity,
+  } = useCart();
   const handleWhatsAppClick = () => {
     const cartItemsText = cart
-      .map((item) => `*${item.title}*\nPreço: R$ ${item.price}\n---`)
+      .map((item) => `*${item.quantity}x ${item.title}*\nPreço unitário: R$ ${item.price}\n`)
       .join("\n");
-    const message = `Olá! Gostaria de comprar os seguintes itens:\n${cartItemsText}\n`;
+  
+    const totalQuantity = cart.reduce((acc, item) => acc + item.quantity, 0);
+    const totalPrice = cart.reduce((acc, item) => acc + parseFloat(item.price) * item.quantity, 0);
+  
+    const formattedTotalPrice = new Intl.NumberFormat("pt-BR", {
+      style: "currency",
+      currency: "BRL",
+    }).format(totalPrice);
+  
+    const message = `Olá! Gostaria de comprar ${totalQuantity} ${
+      totalQuantity !== 1 ? "itens" : "item"
+    }:\n${cartItemsText}\n*Total:* ${formattedTotalPrice}\n`;
+  
     const url = `https://api.whatsapp.com/send?${queryString.stringify({
       phone: "5583987663399",
       text: message,
     })}`;
+  
     window.open(url, "_blank");
   };
-
   return (
     <>
       <Header />
@@ -37,7 +56,16 @@ export const Checkout = () => {
               <img src={item.imgSrc} alt={item.title} />
               <ItemInfo>
                 <p className="title">{item.title}</p>
-                <p>R${item.price} </p>
+                <p>R${item.price}</p>
+                <ButtonsContainer>
+                  <button onClick={() => changeCartQuantity(item, "plus")}>
+                    <Plus />
+                  </button>
+                  <p>{item.quantity}</p>
+                  <button onClick={() => changeCartQuantity(item, "minus")}>
+                    <Minus />
+                  </button>
+                </ButtonsContainer>
                 <button onClick={() => removeCart(item)}>
                   Remover <Trash size={18} color="#000" />
                 </button>
@@ -57,11 +85,11 @@ export const Checkout = () => {
             </p>
           </ShoppingCartEmptyContainer>
         )}
-        {cart.length > 0 && (
+        {totalQuantity > 0 && (
           <h1>
             Subtotal{" "}
             <span>
-              ({cart.length} {cart.length !== 1 ? "itens" : "item"})
+              ({totalQuantity} {totalQuantity > 1 ? "itens" : "item"})
             </span>
             : {formattedTotalPrice} à vista
             <WhatsAppButtonContainer>

@@ -23,6 +23,7 @@ interface ProductCardProps {
   productId: string;
   description?: string;
   routeProduct: string;
+  quantity?: number;
 }
 
 export function ProductCard({
@@ -33,6 +34,7 @@ export function ProductCard({
   textForWhatsApp,
   wornOut,
   productId,
+  quantity,
 }: ProductCardProps) {
   const location = useLocation();
   const { addToCart } = useCart();
@@ -74,6 +76,7 @@ export function ProductCard({
       title,
       price,
       productId,
+      quantity: quantity || 0,
     };
     addToCart(product);
   };
