@@ -1,12 +1,12 @@
-import { HeaderContainer, HeaderContent } from "./styles";
+import { useState } from "react";
+import { HeaderContainer, HeaderContent, OverlayContainer } from "./styles";
 import LogoRenoveCasa from "../../assets/logoRenoveCasa.webp";
 import { DropDownMenu } from "./MenuDropdown";
 import { SearchAllProducts } from "./SearchBarAllProducts";
 import { SectionLink } from "./SectionLink";
-import { useState } from "react";
 import { ShoppingCartButton } from "./ShoppingCartButton";
-import { SearchProducts } from "./SearchProducts";
 import { InputAllProducts } from "./InputAllProduct";
+import { ResearchedProducts } from "./ResearchedProducts";
 
 export function Header() {
   const [isInputVisible, setIsInputVisible] = useState(false);
@@ -33,18 +33,23 @@ export function Header() {
         </HeaderContent>
       </HeaderContainer>
       <SectionLink />
+      <>
+        {isInputVisible && (
+          <InputAllProducts
+            searchBar={searchBar}
+            setSearchBar={setSearchBar}
+            setIsInputVisible={setIsInputVisible}
+          />
+        )}
+        {searchBar && (
+          <ResearchedProducts
+            searchBar={searchBar}
+            setSearchBar={setSearchBar}
+          />
+        )}
+      </>
 
-      {isInputVisible && (
-        <InputAllProducts
-          searchBar={searchBar}
-          setSearchBar={setSearchBar}
-          setIsInputVisible={setIsInputVisible}
-        />
-      )}
-
-      {searchBar && (
-        <SearchProducts searchBar={searchBar} setSearchBar={setSearchBar} />
-      )}
+      {isInputVisible && <OverlayContainer />}
     </>
   );
 }

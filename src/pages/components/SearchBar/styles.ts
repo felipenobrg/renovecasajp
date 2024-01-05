@@ -10,8 +10,8 @@ export const SearchBarContainer = styled.div`
   input {
     padding: 0.6rem;
     height: 2.8rem;
-    border-radius: 10px;
-    border: 1px solid ${(props) => props.theme["gray-300"]};
+    border-radius: 8px;
+    border: 0;
     padding-left: 3.5rem;
     background: ${(props) => props.theme["gray-100"]};
 

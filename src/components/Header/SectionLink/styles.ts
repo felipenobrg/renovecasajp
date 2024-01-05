@@ -5,6 +5,7 @@ export const SectionContainer = styled.section`
   padding: 1.2rem;
   max-width: 100%;
   overflow: auto;
+  z-index: 100;
 
   @media screen and (max-width: 1024px) {
     display: none;
@@ -17,6 +18,7 @@ export const SectionContent = styled.div`
   align-items: center;
   text-align: center;
   margin: 0 3rem 0 3rem;
+  z-index: 100;
 
   a {
     text-decoration: none;

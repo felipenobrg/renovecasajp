@@ -16,8 +16,6 @@ export function Moveis() {
   return (
     <>
       <Header />
-
-
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (
         <ProductCard {...product} />
