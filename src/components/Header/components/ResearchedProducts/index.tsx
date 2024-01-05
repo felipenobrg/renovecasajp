@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Li, Ul } from "./styles";
-import { AllProducts } from "../../../data/AllProducts";
+import { AllProducts } from "../../../../data/AllProducts";
 
 
 interface ResearchedProductsProps {

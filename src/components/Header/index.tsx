@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { HeaderContainer, HeaderContent, OverlayContainer } from "./styles";
 import LogoRenoveCasa from "../../assets/logoRenoveCasa.webp";
-import { DropDownMenu } from "./MenuDropdown";
-import { SearchAllProducts } from "./SearchBarAllProducts";
-import { SectionLink } from "./SectionLink";
-import { ShoppingCartButton } from "./ShoppingCartButton";
-import { InputAllProducts } from "./InputAllProduct";
-import { ResearchedProducts } from "./ResearchedProducts";
+import { DropDownMenu } from "./components/MenuDropdown";
+import { SearchAllProducts } from "./components/SearchBarAllProducts";
+import { SectionLink } from "./components/SectionLink";
+import { ShoppingCartButton } from "./components/ShoppingCartButton";
+import { InputAllProducts } from "./components/InputAllProduct";
+import { ResearchedProducts } from "./components/ResearchedProducts";
 
 export function Header() {
   const [isInputVisible, setIsInputVisible] = useState(false);

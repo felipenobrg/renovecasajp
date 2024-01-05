@@ -9,7 +9,7 @@ import {
 } from "./styles";
 import queryString from "query-string";
 import { useState } from "react";
-import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
+import { BuyWhatsAppButton } from "../../../BuyWhatsAppButton";
 
 export function DropDownMenu() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);

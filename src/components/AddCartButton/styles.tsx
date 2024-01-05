@@ -15,6 +15,7 @@ export const AddCartButtonContainer = styled.div`
   transition: 0.3s ease;
 
   &:hover {
+    transition: 0.3s ease;
     background: ${(props) => props.theme["darker-main-color"]};
   }
 
