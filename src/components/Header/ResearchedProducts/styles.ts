@@ -20,7 +20,7 @@ export const Ul = styled.ul`
   @media screen and (max-width: 768px) {
     height: 12rem;
     width: 100%;
-    top: 0;
+    top: 12rem;
   }
 `;
 
