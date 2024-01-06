@@ -1,4 +1,13 @@
-import { styled } from "styled-components";
+import { styled, keyframes } from "styled-components";
+
+const borderBottomAnimation = keyframes`
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+`;
 
 export const SectionContainer = styled.section`
   background: ${(props) => props.theme["main-color"]};
@@ -24,13 +33,19 @@ export const SectionContent = styled.div`
     text-decoration: none;
     color: ${(props) => props.theme["white"]};
     position: relative;
-    border-bottom: 1px solid transparent;
     font-size: 0.9rem;
     cursor: pointer;
+    transition: color 0.3s ease;
 
-    &:hover {
-      transition: color 0.3s ease;
-      color: ${(props) => props.theme["gray-300"]};
+    &:hover::after {
+      content: "";
+      position: absolute;
+      bottom: -5px; 
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background: ${(props) => props.theme["white"]};
+      animation: ${borderBottomAnimation} 0.3s ease;
     }
   }
 
@@ -42,5 +57,6 @@ export const SectionContent = styled.div`
     height: 2px;
     width: 100%;
     background: ${(props) => props.theme["white"]};
+    animation: ${borderBottomAnimation} 0.3s ease;
   }
-`;
+`
