@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Header } from "../../Header";
 import {
-  AboutGuarantee,
   Description,
   MoneySign,
   ProductDetailContainer,
@@ -13,6 +12,7 @@ import queryString from "query-string";
 import { BuyWhatsAppButton } from "../../BuyWhatsAppButton";
 import { AddCartButton } from "../../AddCartButton";
 import { useCart } from "../../../context/CartContext";
+import { AboutGuarantee } from "./components/AboutGuarantee";
 
 type ProductType = {
   id: number;
@@ -116,18 +116,7 @@ export function ProductDetail({ products }: Props) {
           TextButton="COMPRAR NO WHATSAPP"
           handleButtonClick={handleWhatsAppClick}
         />
-        <AboutGuarantee>
-          <h1>Sobre a Garantia:</h1>
-          <p>
-            • Troca de peças pequenas são feitas na nossa loja física em João
-            Pessoa, no João Paulo ll.
-          </p>
-          <p>• Não realizamos trocas de estofados sem defeito de fábrica</p>
-          <p>
-            • Se o sofá apresentar defeito de fábrica será analisado e levada
-            para conserto ou troca na fábrica
-          </p>
-        </AboutGuarantee>
+        <AboutGuarantee />
       </ProductDetailContainer>
     </>
   );
