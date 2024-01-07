@@ -5,7 +5,6 @@ export const CardContainer = styled.div`
   width: calc(50% - 2rem);
   max-height: 100%;
   margin: 2rem 1rem 1rem 1rem;
-  flex: 1;
   text-decoration: none;
   position: relative;
   flex-wrap: wrap;

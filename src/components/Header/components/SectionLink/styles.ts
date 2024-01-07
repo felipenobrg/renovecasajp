@@ -15,6 +15,8 @@ export const SectionContainer = styled.section`
   max-width: 100%;
   overflow: auto;
   z-index: 100;
+  position: sticky;
+  top: 10rem;
 
   @media screen and (max-width: 1024px) {
     display: none;
@@ -27,7 +29,6 @@ export const SectionContent = styled.div`
   align-items: center;
   text-align: center;
   margin: 0 3rem 0 3rem;
-  z-index: 100;
 
   a {
     text-decoration: none;

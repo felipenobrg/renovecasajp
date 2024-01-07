@@ -12,7 +12,10 @@ export const Ul = styled.ul`
   top: 14rem;
   background-color: ${(props) => props.theme["white"]};
   z-index: 100;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2); 
 
+  
   .product-link {
     text-decoration: none;
   }

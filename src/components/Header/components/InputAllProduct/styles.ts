@@ -14,7 +14,6 @@ export const InputContainer = styled.div`
     padding: 1.5rem;
     width: 100%;
     transition: all 0.3s ease;
-
     &:focus {
       outline: none;
       box-shadow: none;
