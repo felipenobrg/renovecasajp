@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { keyframes, styled } from "styled-components";
 
 const slideIn = keyframes`
@@ -43,43 +44,63 @@ export const DropdownMenu = styled.div<{ open: boolean }>`
 export const DropdownList = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: auto;
-  align-items: flex-start;
   overflow-y: auto;
   position: relative;
   margin-top: 2rem;
   padding-top: 10px;
 
-  a {
+  .header-container {
     display: flex;
+    flex-direction: column;  }
+
+  .header-content {
+    display: flex;
+    gap: 2rem;
     align-items: center;
-    text-decoration: none;
-    color: ${(props) => props.theme["gray-700"]};
-    padding: 15px 18px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+
+    p {
+      margin-left: 1rem;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: ${(props) => props.theme["black"]};
+    }
   }
 
-  .whatsapp-button {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    padding: 0.7rem;
-    border: 0;
-    border-radius: 9px;
-    margin: 1rem 0 0 1rem;
-    background: ${(props) => props.theme["green-300"]};
-    color: ${(props) => props.theme["white"]};
-    font-weight: bold;
-
-    &:hover {
-      transition: 0.3s ease;
-      background: ${(props) => props.theme["green-400"]};
-    }
+  .line {
+    border: 1px solid ${(props) => props.theme["gray-500"]};
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 100%;
   }
 `;
 
+export const StyledNavLink = styled(NavLink)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: ${(props) => props.theme["black"]};
+  padding: 15px 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+
+`;
+
+export const NavLinkContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+
+  &.start {
+    margin-top: 1rem;
+  }
+`;
 interface DropdownButtonProps {
   open: boolean;
   onClick: () => void;
@@ -122,18 +143,17 @@ export const DropdownButton = styled.button<DropdownButtonProps>`
 
 export const CloseButton = styled.button`
   display: flex;
+  flex-direction: column;
   align-items: center;
 
   border: none;
   cursor: pointer;
-  position: absolute;
-  right: 0px;
-  top: 20px;
+
   border-radius: 9px;
   padding: 5px;
-  background: none;
 `;
 
 export const WhatsAppButtonContainer = styled.div`
   margin-left: 1rem;
+  width: 80%;
 `

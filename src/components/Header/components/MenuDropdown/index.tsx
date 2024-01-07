@@ -1,15 +1,17 @@
-import { X } from "phosphor-react";
-import { NavLink } from "react-router-dom";
+import { CaretRight, XCircle } from "phosphor-react";
 import {
   DropdownButton,
   DropdownMenu,
   DropdownList,
   CloseButton,
   WhatsAppButtonContainer,
+  StyledNavLink,
+  NavLinkContent,
 } from "./styles";
 import queryString from "query-string";
 import { useState } from "react";
 import { BuyWhatsAppButton } from "../../../BuyWhatsAppButton";
+import { OverlayContainer } from "../../styles";
 
 export function DropDownMenu() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -35,40 +37,98 @@ export function DropDownMenu() {
   return (
     <div>
       {isSmallScreen ? (
-        <DropdownButton
-          open={isDropdownOpen}
-          onClick={handleDropdownToggle}
-          className="dropdownButton"
-          aria-label="Clique para ver as páginas"
-        >
-          <div className="icon" />
-        </DropdownButton>
+        <>
+          <DropdownButton
+            open={isDropdownOpen}
+            onClick={handleDropdownToggle}
+            className="dropdownButton"
+            aria-label="Clique para ver as páginas"
+          >
+            <div className="icon" />
+          </DropdownButton>
+        </>
       ) : null}
       {isDropdownOpen && (
-        <DropdownMenu open={isDropdownOpen}>
-          <DropdownList>
-            <CloseButton onClick={handleCloseDropdown}>
-              <X color="#000" size={23} />
-            </CloseButton>
-            <NavLink to={"/"}>Início</NavLink>
-            <NavLink to={"/sofaretro"}>Sofá Retrô</NavLink>
-            <NavLink to={"/sofaretratil"}>Sofá Retrátil</NavLink>
-            <NavLink to={"/sofaspopulares"}>Sofás Populares</NavLink>
-            <NavLink to={"/poltronas"}>Poltronas</NavLink>
-            <NavLink to={"/camas"}>Camas</NavLink>
-            <NavLink to={"/produtosvime"}>Produtos em Vime</NavLink>
-            <NavLink to={"/moveis"}>Móveis</NavLink>
-            <NavLink to={"/utilidades"}>Utilidades</NavLink>
+        <>
+          <OverlayContainer />
+          <DropdownMenu open={isDropdownOpen}>
+            <DropdownList>
+              <div className="header-container">
+                <div className="header-content">
+                  <p>
+                    <a href="/checkout">Ir ao Carrinho de Compras</a>
+                  </p>
+                  <CloseButton onClick={handleCloseDropdown}>
+                    <XCircle color="#000" size={30} />
+                  </CloseButton>
+                </div>
+                <div className="line"></div>
+              </div>
+              <StyledNavLink to={"/"}>
+                <NavLinkContent className="start">
+                  Início
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/sofaretro"}>
+                <NavLinkContent>
+                  Sofá Retrô
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/sofaretratil"}>
+                <NavLinkContent>
+                  Sofá Retrátil
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/sofaspopulares"}>
+                <NavLinkContent>
+                  Sofás Populares
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/poltronas"}>
+                <NavLinkContent>
+                  Poltronas
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/camas"}>
+                <NavLinkContent>
+                  Camas
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/produtosvime"}>
+                <NavLinkContent>
+                  <p>Produtos em Vime</p>
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/moveis"}>
+                <NavLinkContent>
+                  Móveis
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
+              <StyledNavLink to={"/utilidades"}>
+                <NavLinkContent>
+                  Utilidades
+                  <CaretRight size={18} />
+                </NavLinkContent>
+              </StyledNavLink>
 
-            <WhatsAppButtonContainer>
-            <BuyWhatsAppButton
-              TextButton="COMPRE VIA WHATSAPP"
-              handleButtonClick={handleWhatsAppClick}
-              aria-label="Compre Via WhatsApp"
-            />
-            </WhatsAppButtonContainer>
-          </DropdownList>
-        </DropdownMenu>
+              <WhatsAppButtonContainer>
+                <BuyWhatsAppButton
+                  TextButton="COMPRE VIA WHATSAPP"
+                  handleButtonClick={handleWhatsAppClick}
+                  aria-label="Compre Via WhatsApp"
+                />
+              </WhatsAppButtonContainer>
+            </DropdownList>
+          </DropdownMenu>
+        </>
       )}
     </div>
   );
