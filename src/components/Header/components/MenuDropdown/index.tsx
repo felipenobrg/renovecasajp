@@ -50,7 +50,7 @@ export function DropDownMenu() {
       ) : null}
       {isDropdownOpen && (
         <>
-          <OverlayContainer />
+          <OverlayContainer onClick={handleCloseDropdown} />
           <DropdownMenu open={isDropdownOpen}>
             <DropdownList>
               <div className="header-container">
