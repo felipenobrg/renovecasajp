@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Header } from "../../components/Header";
 import { ProductCard } from "../../components/ProductCard";
 import { ScrollUp } from "../../components/ScrollUp";
-
 import { camaData } from "../../data/Cama";
 import { SearchBar } from "../components/SearchBar";
+import { Footer } from "../../components/Footer";
 
 export function Camas() {
   const [searchBar, setSearchBar] = useState("");
@@ -18,8 +18,9 @@ export function Camas() {
 
       <SearchBar value={searchBar} onChange={setSearchBar} />
       {filteredFurnitures.map((product) => (
-        <ProductCard  {...product} />
+        <ProductCard {...product} />
       ))}
+      <Footer />
 
       <ScrollUp />
     </>

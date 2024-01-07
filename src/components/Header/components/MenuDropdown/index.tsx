@@ -4,13 +4,10 @@ import {
   DropdownMenu,
   DropdownList,
   CloseButton,
-  WhatsAppButtonContainer,
   StyledNavLink,
   NavLinkContent,
 } from "./styles";
-import queryString from "query-string";
 import { useState } from "react";
-import { BuyWhatsAppButton } from "../../../BuyWhatsAppButton";
 import { OverlayContainer } from "../../styles";
 
 export function DropDownMenu() {
@@ -21,14 +18,6 @@ export function DropDownMenu() {
   };
 
   const isSmallScreen = window.innerWidth < 768;
-
-  function handleWhatsAppClick() {
-    const url = `https://api.whatsapp.com/send?${queryString.stringify({
-      phone: "5583987663399",
-      text: "Olá. Me interessei pelos produtos",
-    })}`;
-    window.open(url, "_blank");
-  }
 
   function handleCloseDropdown() {
     setDropdownOpen(false);
@@ -102,7 +91,7 @@ export function DropDownMenu() {
               </StyledNavLink>
               <StyledNavLink to={"/produtosvime"}>
                 <NavLinkContent>
-                  <p>Produtos em Vime</p>
+                  Produtos em Vime
                   <CaretRight size={18} />
                 </NavLinkContent>
               </StyledNavLink>
@@ -118,14 +107,6 @@ export function DropDownMenu() {
                   <CaretRight size={18} />
                 </NavLinkContent>
               </StyledNavLink>
-
-              <WhatsAppButtonContainer>
-                <BuyWhatsAppButton
-                  TextButton="COMPRE VIA WHATSAPP"
-                  handleButtonClick={handleWhatsAppClick}
-                  aria-label="Compre Via WhatsApp"
-                />
-              </WhatsAppButtonContainer>
             </DropdownList>
           </DropdownMenu>
         </>
