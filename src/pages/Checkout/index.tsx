@@ -15,7 +15,6 @@ export const Checkout = () => {
   const {
     cart,
     formattedTotalPrice,
-
     totalQuantity,
   } = useCart();
   const handleWhatsAppClick = () => {
@@ -31,7 +30,6 @@ export const Checkout = () => {
       (acc, item) => acc + parseFloat(item.price) * item.quantity,
       0
     );
-
     const formattedTotalPrice = new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BRL",

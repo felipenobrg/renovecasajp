@@ -23,21 +23,6 @@ export const CheckoutContainer = styled.div`
   }
 `;
 
-export const ButtonsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: ${(props) => props.theme["black"]};
-    border-radius: 3px;
-    width: 2rem;
-  }
-`;
-
 export const TotalAmountContainer = styled.div`
   margin-left: 1rem;
 `;
@@ -46,7 +31,7 @@ export const WhatsAppButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 100%;
   margin: 2rem auto;
 
   @media screen and (max-width: 768px) {

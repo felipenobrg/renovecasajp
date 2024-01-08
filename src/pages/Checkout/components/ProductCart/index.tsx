@@ -1,6 +1,5 @@
 import { Plus, Minus, Trash } from "phosphor-react";
-import { ButtonsContainer } from "../../styles";
-import { ItemContainer, ItemInfo } from "./styles";
+import { ButtonsContainer, ItemContainer, ItemInfo } from "./styles";
 import { useCart } from "../../../../context/CartContext";
 
 export function ProductCart() {
@@ -27,7 +26,7 @@ export function ProductCart() {
                   </button>
                 </ButtonsContainer>
                 <button onClick={() => removeCart(item)} className="remove-button">
-                  Remover <Trash size={18} color="#000" />
+                  <Trash size={18} color="#000" />
                 </button>
               </ItemInfo>
             </ItemContainer>

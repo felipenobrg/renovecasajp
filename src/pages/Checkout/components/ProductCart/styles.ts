@@ -30,7 +30,6 @@ export const ItemContainer = styled.div`
 
   .remove-button {
     padding: 0.4rem;
-    width: 6.5rem;
     border: 0;
     display: flex;
     align-items: center;
@@ -52,6 +51,7 @@ export const ItemContainer = styled.div`
     border: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 3px;
     margin-top: 1rem;
     color: ${(props) => props.theme["black"]};
@@ -78,4 +78,10 @@ export const ItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+`;
+
+export const ButtonsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 `;
