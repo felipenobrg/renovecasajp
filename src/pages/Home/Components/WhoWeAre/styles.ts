@@ -8,9 +8,13 @@ export const WhoWeAreContainer = styled.div`
 
    h1 {
     font-family: 'Baloo 2', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
+   }
+
+   h2 {
+    font-size: 1rem;
    }
 
    p {

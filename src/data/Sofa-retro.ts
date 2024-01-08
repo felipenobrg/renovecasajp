@@ -10,6 +10,7 @@ import RetroLinhoMarromClaroAlmofadaLisa from "../assets/SofaRetro/RetroLinhoMar
 import RetroDeltaMarfim from "../assets/SofaRetro/SofaDelta.webp";
 import RetroLinhoVerde from "../assets/SofaRetro/RetroLinhoVerde.webp";
 import RetroRetratilVerde from "../assets/SofaRetro/RetroRetratilVerde.webp";
+import SofaRetroVerdeVelluti from "../assets/SofaRetro/SofaRetroVerdeVelluti.webp";
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -55,6 +56,16 @@ export const sofaRetroData = [
     oldPrice: "949,99",
     cardValue: "85,99",
     textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Azul Royal",
+    routeProduct: "product/"
+  },
+  {
+    productId: uuidv4(),
+    imgSrc: SofaRetroVerdeVelluti,
+    title: "Sofá Retrô Verde Velluti",
+    price: "899,99",
+    oldPrice: "949,99",
+    cardValue: "85,99",
+    textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrô Verde Velluti",
     routeProduct: "product/"
   },
   {

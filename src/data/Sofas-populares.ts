@@ -14,6 +14,8 @@ import DubaiDoisLugaresBege from "../assets/SofasPopulares/SofaDoisLugaresBegeDu
 import DubaiDoisLugaresBege3Lugares from "../assets/SofasPopulares/DubaiBege3Lugares.webp";
 import DubaiCinza from "../assets/SofasPopulares/SofaDubaiCinza.webp";
 import DubaiMarrom from "../assets/SofasPopulares/SofaDubaiMarrom.webp";
+import ConjuntoDeDubaiTerraCota from "../assets/SofasPopulares/ConjuntoDeDubaiTerraCota.webp";
+
 import { v4 as uuidv4 } from 'uuid';
 
 export const sofasPopularesData = [
@@ -145,6 +147,16 @@ export const sofasPopularesData = [
       oldPrice: "599,99",
       cardValue: "52,99",
       textForWhatsApp: "Olá. Gostaria de comprar Sofá Dubai Marrom Três Lugares",
+      routeProduct: "product3/"
+    },
+    {
+      productId: uuidv4(),
+      imgSrc: ConjuntoDeDubaiTerraCota,
+      title: "Conjunto de Dubai Terra Cota",
+      price: "849,99",
+      oldPrice: "899,99",
+      cardValue: "82,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Conjunto de Dubai Terra Cota",
       routeProduct: "product3/"
     },
   ];

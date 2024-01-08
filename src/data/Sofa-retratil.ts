@@ -10,6 +10,11 @@ import SofaLuxoMarrom from "../assets/SofaRetratil/LuxoMarrom.webp";
 import SofaLuxoAzul from "../assets/SofaRetratil/SofaLuxoAzul.webp";
 import SofaLuxoOffWhite from "../assets/SofaRetratil/SofaLuxoBrancoGelo.webp";
 import SofaLuxoCinza from "../assets/SofaRetratil/SofaLuxoCinza.webp";
+import SofaPillowRosa from "../assets/SofaRetratil/SofaPillowRosa.webp";
+import SofaParisCaramelo  from "../assets/SofaRetratil/SofaParisCaramelo.webp";
+import SofaRetratilBolaCinza  from "../assets/SofaRetratil/SofaRetratilBolaCinza.webp";
+import SofaRetratilBolaMarrom  from "../assets/SofaRetratil/SofaRetratilBolaMarrom.webp";
+
 import { v4 as uuidv4 } from 'uuid';
 
  export const sofaRetratilData = [
@@ -81,6 +86,39 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       productId: uuidv4(),
+      imgSrc: SofaRetratilBolaCinza,
+      title: "Sofá Retrátil Bola Cinza",
+      description: "Dimensões: 2.0x90cm",
+      price: "1299,99",
+      oldPrice: "1399,99",
+      cardValue: "125,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrátil Bola Cinza",
+      routeProduct: "product2/"
+    },
+    {
+      productId: uuidv4(),
+      imgSrc: SofaRetratilBolaMarrom,
+      title: "Sofá Retrátil Bola Marrom",
+      description: "Dimensões: 2.0x90cm",
+      price: "1299,99",
+      oldPrice: "1399,99",
+      cardValue: "125,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrátil Bola Marrom",
+      routeProduct: "product2/"
+    },
+    {
+      productId: uuidv4(),
+      imgSrc: SofaParisCaramelo,
+      title: "Sofá Retrátil Paris Caramelo Linho",
+      description: "Dimensões: 2.0x90cm",
+      price: "1299,99",
+      oldPrice: "1399,99",
+      cardValue: "125,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Retrátil Paris Caramelo Linho",
+      routeProduct: "product2/"
+    },
+    {
+      productId: uuidv4(),
       imgSrc: SofaParisCinza,
       title: "Sofá Retrátil Paris Cinza Linho",
       description: "Dimensões: 2.0x90cm",
@@ -104,45 +142,56 @@ import { v4 as uuidv4 } from 'uuid';
     {
       productId: uuidv4(),
       imgSrc: SofaLuxoMarrom,
-      title: "Sofá Retrátil Luxo Marrom",
+      title: "Sofá Retrátil Pillow Marrom",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       cardValue: "144,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Marrom",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Pillow Marrom",
       routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
       imgSrc: SofaLuxoAzul,
-      title: "Sofá Retrátil Luxo Azul Royal",
+      title: "Sofá Retrátil Pillow Azul Royal",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       cardValue: "144,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Azul Royal",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Pillow Azul Royal",
       routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
       imgSrc: SofaLuxoOffWhite,
-      title: "Sofá Retrátil Luxo Off White",
+      title: "Sofá Retrátil Pillow Off White",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       cardValue: "144,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Off White",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Pillow Off White",
       routeProduct: "product2/"
     },
     {
       productId: uuidv4(),
       imgSrc: SofaLuxoCinza,
-      title: "Sofá Retrátil Luxo Cinza",
+      title: "Sofá Retrátil Pillow Cinza",
       description: "Dimensões: 2.0x90cm",
       price: "1499,99",
       oldPrice: "1699,99",
       cardValue: "144,99",
-      textForWhatsApp: "Olá. Gostaria de comprar Sofá Luxo Cinza",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Pillow Cinza",
+      routeProduct: "product2/"
+    },
+    {
+      productId: uuidv4(),
+      imgSrc: SofaPillowRosa,
+      title: "Sofá Retrátil Pillow Rosa",
+      description: "Dimensões: 2.0x90cm",
+      price: "1499,99",
+      oldPrice: "1699,99",
+      cardValue: "144,99",
+      textForWhatsApp: "Olá. Gostaria de comprar Sofá Pillow Rosa",
       routeProduct: "product2/"
     },
   ];

@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
-export const PromotionsContainer = styled.div`
+export const NewProductContainer = styled.div`
   min-width: 100%;
 `;
 export const CardContainer = styled.div`
   width: 100%;
   height: 33rem;
-  max-height: 100%;
   border-radius: 8px;
   overflow: hidden;
 
